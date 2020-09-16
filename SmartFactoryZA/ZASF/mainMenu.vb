@@ -125,4 +125,13 @@ Public Class mainMenu
         Dim a As New frmProdMasterDetail
         a.ShowDialog()
     End Sub
+
+    Private Sub btnBasketInfo_Click(sender As Object, e As EventArgs) Handles btnBasketInfo.Click
+        Dim a As New frmBasketInfo
+        a.ShowDialog()
+    End Sub
+
+    Private Sub GroupControl1_Paint(sender As Object, e As PaintEventArgs) Handles GroupControl1.Paint
+
+    End Sub
 End Class

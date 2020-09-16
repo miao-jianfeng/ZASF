@@ -51,8 +51,8 @@ Partial Class frmGJBassembling
         Me.LabelControl9 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl12 = New DevExpress.XtraEditors.LabelControl()
         Me.TextEdit2 = New DevExpress.XtraEditors.TextEdit()
-        Me.TextEdit5 = New DevExpress.XtraEditors.TextEdit()
         Me.LabelControl5 = New DevExpress.XtraEditors.LabelControl()
+        Me.TextEdit5 = New DevExpress.XtraEditors.TextEdit()
         Me.Panel2.SuspendLayout()
         CType(Me.ToggleSwitch3.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ToggleSwitch2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -250,7 +250,7 @@ Partial Class frmGJBassembling
         Me.GroupControl2.Controls.Add(Me.LabelControl7)
         Me.GroupControl2.Controls.Add(Me.LabelControl10)
         Me.GroupControl2.Controls.Add(Me.TextEdit1)
-        Me.GroupControl2.Location = New System.Drawing.Point(571, 130)
+        Me.GroupControl2.Location = New System.Drawing.Point(567, 130)
         Me.GroupControl2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.GroupControl2.Name = "GroupControl2"
         Me.GroupControl2.Size = New System.Drawing.Size(516, 247)
@@ -355,7 +355,7 @@ Partial Class frmGJBassembling
         Me.GroupControl1.Controls.Add(Me.LabelControl9)
         Me.GroupControl1.Controls.Add(Me.LabelControl12)
         Me.GroupControl1.Controls.Add(Me.TextEdit2)
-        Me.GroupControl1.Location = New System.Drawing.Point(13, 130)
+        Me.GroupControl1.Location = New System.Drawing.Point(17, 130)
         Me.GroupControl1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.GroupControl1.Name = "GroupControl1"
         Me.GroupControl1.Size = New System.Drawing.Size(516, 247)
@@ -451,6 +451,14 @@ Partial Class frmGJBassembling
         Me.TextEdit2.Size = New System.Drawing.Size(194, 30)
         Me.TextEdit2.TabIndex = 0
         '
+        'LabelControl5
+        '
+        Me.LabelControl5.Location = New System.Drawing.Point(25, 83)
+        Me.LabelControl5.Name = "LabelControl5"
+        Me.LabelControl5.Size = New System.Drawing.Size(72, 22)
+        Me.LabelControl5.TabIndex = 82
+        Me.LabelControl5.Text = "派工单号"
+        '
         'TextEdit5
         '
         Me.TextEdit5.Location = New System.Drawing.Point(104, 79)
@@ -460,20 +468,11 @@ Partial Class frmGJBassembling
         Me.TextEdit5.Size = New System.Drawing.Size(227, 30)
         Me.TextEdit5.TabIndex = 0
         '
-        'LabelControl5
-        '
-        Me.LabelControl5.Location = New System.Drawing.Point(25, 83)
-        Me.LabelControl5.Name = "LabelControl5"
-        Me.LabelControl5.Size = New System.Drawing.Size(72, 22)
-        Me.LabelControl5.TabIndex = 82
-        Me.LabelControl5.Text = "派工单号"
-        '
         'frmGJBassembling
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 22.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1105, 415)
-        Me.Controls.Add(Me.TextEdit5)
         Me.Controls.Add(Me.LabelControl5)
         Me.Controls.Add(Me.GroupControl1)
         Me.Controls.Add(Me.GroupControl2)
@@ -483,6 +482,7 @@ Partial Class frmGJBassembling
         Me.Controls.Add(Me.LabelControl1)
         Me.Controls.Add(Me.ComboBoxEdit1)
         Me.Controls.Add(Me.Panel2)
+        Me.Controls.Add(Me.TextEdit5)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "frmGJBassembling"
         Me.Text = "骨架板装配"
@@ -547,6 +547,6 @@ Partial Class frmGJBassembling
     Friend WithEvents TextEdit3 As DevExpress.XtraEditors.TextEdit
     Friend WithEvents TextEdit6 As DevExpress.XtraEditors.TextEdit
     Friend WithEvents TextEdit7 As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents TextEdit5 As DevExpress.XtraEditors.TextEdit
     Friend WithEvents LabelControl5 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents TextEdit5 As DevExpress.XtraEditors.TextEdit
 End Class

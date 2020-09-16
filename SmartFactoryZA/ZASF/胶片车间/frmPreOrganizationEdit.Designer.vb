@@ -138,10 +138,8 @@ Partial Class frmPreOrganizationEdit
         Me.LabelControl36 = New DevExpress.XtraEditors.LabelControl()
         Me.GroupBox1 = New DevExpress.XtraEditors.GroupControl()
         Me.LabelControl7 = New DevExpress.XtraEditors.LabelControl()
-        Me.LabelControl17 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl10 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl11 = New DevExpress.XtraEditors.LabelControl()
-        Me.Label104 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl18 = New DevExpress.XtraEditors.LabelControl()
         Me.Label49 = New DevExpress.XtraEditors.LabelControl()
         Me.Label103 = New DevExpress.XtraEditors.LabelControl()
@@ -155,10 +153,16 @@ Partial Class frmPreOrganizationEdit
         Me.LabelControl28 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl34 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl35 = New DevExpress.XtraEditors.LabelControl()
-        Me.LabelControl37 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl38 = New DevExpress.XtraEditors.LabelControl()
-        Me.LabelControl39 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl40 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl45 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl46 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl47 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl48 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl17 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl39 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl37 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl49 = New DevExpress.XtraEditors.LabelControl()
         CType(Me.GroupBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox3.SuspendLayout()
         CType(Me.GroupBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -1482,7 +1486,7 @@ Partial Class frmPreOrganizationEdit
         Me.GroupControl1.Controls.Add(Me.LabelControl30)
         Me.GroupControl1.Controls.Add(Me.LabelControl33)
         Me.GroupControl1.Controls.Add(Me.LabelControl36)
-        Me.GroupControl1.Location = New System.Drawing.Point(848, 65)
+        Me.GroupControl1.Location = New System.Drawing.Point(871, 65)
         Me.GroupControl1.Name = "GroupControl1"
         Me.GroupControl1.Size = New System.Drawing.Size(200, 206)
         Me.GroupControl1.TabIndex = 221
@@ -1573,31 +1577,35 @@ Partial Class frmPreOrganizationEdit
         '
         'GroupBox1
         '
-        Me.GroupBox1.Controls.Add(Me.LabelControl7)
+        Me.GroupBox1.Controls.Add(Me.LabelControl37)
+        Me.GroupBox1.Controls.Add(Me.LabelControl49)
         Me.GroupBox1.Controls.Add(Me.LabelControl17)
+        Me.GroupBox1.Controls.Add(Me.LabelControl39)
+        Me.GroupBox1.Controls.Add(Me.LabelControl7)
         Me.GroupBox1.Controls.Add(Me.LabelControl10)
         Me.GroupBox1.Controls.Add(Me.LabelControl11)
-        Me.GroupBox1.Controls.Add(Me.Label104)
         Me.GroupBox1.Controls.Add(Me.LabelControl18)
         Me.GroupBox1.Controls.Add(Me.Label49)
         Me.GroupBox1.Controls.Add(Me.Label103)
         Me.GroupBox1.Controls.Add(Me.LabelControl22)
+        Me.GroupBox1.Controls.Add(Me.LabelControl48)
+        Me.GroupBox1.Controls.Add(Me.LabelControl46)
         Me.GroupBox1.Controls.Add(Me.LabelControl12)
         Me.GroupBox1.Controls.Add(Me.LabelControl13)
         Me.GroupBox1.Controls.Add(Me.LabelControl14)
         Me.GroupBox1.Controls.Add(Me.LabelControl15)
         Me.GroupBox1.Controls.Add(Me.LabelControl16)
+        Me.GroupBox1.Controls.Add(Me.LabelControl47)
+        Me.GroupBox1.Controls.Add(Me.LabelControl45)
         Me.GroupBox1.Controls.Add(Me.LabelControl27)
         Me.GroupBox1.Controls.Add(Me.LabelControl28)
         Me.GroupBox1.Controls.Add(Me.LabelControl34)
         Me.GroupBox1.Controls.Add(Me.LabelControl35)
-        Me.GroupBox1.Controls.Add(Me.LabelControl37)
         Me.GroupBox1.Controls.Add(Me.LabelControl38)
-        Me.GroupBox1.Controls.Add(Me.LabelControl39)
         Me.GroupBox1.Controls.Add(Me.LabelControl40)
         Me.GroupBox1.Location = New System.Drawing.Point(32, 65)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(787, 206)
+        Me.GroupBox1.Size = New System.Drawing.Size(833, 206)
         Me.GroupBox1.TabIndex = 220
         Me.GroupBox1.Text = "基本信息"
         '
@@ -1607,23 +1615,11 @@ Partial Class frmPreOrganizationEdit
         Me.LabelControl7.Appearance.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.LabelControl7.Appearance.Options.UseFont = True
         Me.LabelControl7.Appearance.Options.UseForeColor = True
-        Me.LabelControl7.Location = New System.Drawing.Point(120, 86)
+        Me.LabelControl7.Location = New System.Drawing.Point(750, 166)
         Me.LabelControl7.Name = "LabelControl7"
         Me.LabelControl7.Size = New System.Drawing.Size(20, 22)
         Me.LabelControl7.TabIndex = 192
         Me.LabelControl7.Text = "80"
-        '
-        'LabelControl17
-        '
-        Me.LabelControl17.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelControl17.Appearance.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.LabelControl17.Appearance.Options.UseFont = True
-        Me.LabelControl17.Appearance.Options.UseForeColor = True
-        Me.LabelControl17.Location = New System.Drawing.Point(173, 166)
-        Me.LabelControl17.Name = "LabelControl17"
-        Me.LabelControl17.Size = New System.Drawing.Size(20, 22)
-        Me.LabelControl17.TabIndex = 192
-        Me.LabelControl17.Text = "80"
         '
         'LabelControl10
         '
@@ -1631,7 +1627,7 @@ Partial Class frmPreOrganizationEdit
         Me.LabelControl10.Appearance.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.LabelControl10.Appearance.Options.UseFont = True
         Me.LabelControl10.Appearance.Options.UseForeColor = True
-        Me.LabelControl10.Location = New System.Drawing.Point(426, 166)
+        Me.LabelControl10.Location = New System.Drawing.Point(380, 166)
         Me.LabelControl10.Name = "LabelControl10"
         Me.LabelControl10.Size = New System.Drawing.Size(55, 22)
         Me.LabelControl10.TabIndex = 192
@@ -1643,23 +1639,11 @@ Partial Class frmPreOrganizationEdit
         Me.LabelControl11.Appearance.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.LabelControl11.Appearance.Options.UseFont = True
         Me.LabelControl11.Appearance.Options.UseForeColor = True
-        Me.LabelControl11.Location = New System.Drawing.Point(679, 46)
+        Me.LabelControl11.Location = New System.Drawing.Point(724, 46)
         Me.LabelControl11.Name = "LabelControl11"
         Me.LabelControl11.Size = New System.Drawing.Size(20, 22)
         Me.LabelControl11.TabIndex = 192
         Me.LabelControl11.Text = "12"
-        '
-        'Label104
-        '
-        Me.Label104.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label104.Appearance.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label104.Appearance.Options.UseFont = True
-        Me.Label104.Appearance.Options.UseForeColor = True
-        Me.Label104.Location = New System.Drawing.Point(676, 166)
-        Me.Label104.Name = "Label104"
-        Me.Label104.Size = New System.Drawing.Size(20, 22)
-        Me.Label104.TabIndex = 192
-        Me.Label104.Text = "12"
         '
         'LabelControl18
         '
@@ -1679,7 +1663,7 @@ Partial Class frmPreOrganizationEdit
         Me.Label49.Appearance.ForeColor = System.Drawing.Color.Blue
         Me.Label49.Appearance.Options.UseFont = True
         Me.Label49.Appearance.Options.UseForeColor = True
-        Me.Label49.Location = New System.Drawing.Point(272, 166)
+        Me.Label49.Location = New System.Drawing.Point(248, 166)
         Me.Label49.Name = "Label49"
         Me.Label49.Size = New System.Drawing.Size(126, 22)
         Me.Label49.TabIndex = 130
@@ -1691,7 +1675,7 @@ Partial Class frmPreOrganizationEdit
         Me.Label103.Appearance.ForeColor = System.Drawing.Color.Blue
         Me.Label103.Appearance.Options.UseFont = True
         Me.Label103.Appearance.Options.UseForeColor = True
-        Me.Label103.Location = New System.Drawing.Point(570, 166)
+        Me.Label103.Location = New System.Drawing.Point(476, 166)
         Me.Label103.Name = "Label103"
         Me.Label103.Size = New System.Drawing.Size(90, 22)
         Me.Label103.TabIndex = 130
@@ -1701,7 +1685,7 @@ Partial Class frmPreOrganizationEdit
         '
         Me.LabelControl22.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelControl22.Appearance.Options.UseFont = True
-        Me.LabelControl22.Location = New System.Drawing.Point(397, 86)
+        Me.LabelControl22.Location = New System.Drawing.Point(592, 126)
         Me.LabelControl22.Name = "LabelControl22"
         Me.LabelControl22.Size = New System.Drawing.Size(147, 22)
         Me.LabelControl22.TabIndex = 128
@@ -1711,7 +1695,7 @@ Partial Class frmPreOrganizationEdit
         '
         Me.LabelControl12.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelControl12.Appearance.Options.UseFont = True
-        Me.LabelControl12.Location = New System.Drawing.Point(396, 46)
+        Me.LabelControl12.Location = New System.Drawing.Point(411, 46)
         Me.LabelControl12.Name = "LabelControl12"
         Me.LabelControl12.Size = New System.Drawing.Size(147, 22)
         Me.LabelControl12.TabIndex = 128
@@ -1747,7 +1731,7 @@ Partial Class frmPreOrganizationEdit
         Me.LabelControl15.Appearance.ForeColor = System.Drawing.Color.Blue
         Me.LabelControl15.Appearance.Options.UseFont = True
         Me.LabelControl15.Appearance.Options.UseForeColor = True
-        Me.LabelControl15.Location = New System.Drawing.Point(23, 86)
+        Me.LabelControl15.Location = New System.Drawing.Point(672, 166)
         Me.LabelControl15.Name = "LabelControl15"
         Me.LabelControl15.Size = New System.Drawing.Size(72, 22)
         Me.LabelControl15.TabIndex = 128
@@ -1759,7 +1743,7 @@ Partial Class frmPreOrganizationEdit
         Me.LabelControl16.Appearance.ForeColor = System.Drawing.Color.Blue
         Me.LabelControl16.Appearance.Options.UseFont = True
         Me.LabelControl16.Appearance.Options.UseForeColor = True
-        Me.LabelControl16.Location = New System.Drawing.Point(304, 86)
+        Me.LabelControl16.Location = New System.Drawing.Point(513, 126)
         Me.LabelControl16.Name = "LabelControl16"
         Me.LabelControl16.Size = New System.Drawing.Size(72, 22)
         Me.LabelControl16.TabIndex = 128
@@ -1771,7 +1755,7 @@ Partial Class frmPreOrganizationEdit
         Me.LabelControl27.Appearance.ForeColor = System.Drawing.Color.Blue
         Me.LabelControl27.Appearance.Options.UseFont = True
         Me.LabelControl27.Appearance.Options.UseForeColor = True
-        Me.LabelControl27.Location = New System.Drawing.Point(303, 46)
+        Me.LabelControl27.Location = New System.Drawing.Point(318, 46)
         Me.LabelControl27.Name = "LabelControl27"
         Me.LabelControl27.Size = New System.Drawing.Size(72, 22)
         Me.LabelControl27.TabIndex = 128
@@ -1781,7 +1765,7 @@ Partial Class frmPreOrganizationEdit
         '
         Me.LabelControl28.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelControl28.Appearance.Options.UseFont = True
-        Me.LabelControl28.Location = New System.Drawing.Point(120, 126)
+        Me.LabelControl28.Location = New System.Drawing.Point(108, 126)
         Me.LabelControl28.Name = "LabelControl28"
         Me.LabelControl28.Size = New System.Drawing.Size(381, 22)
         Me.LabelControl28.TabIndex = 128
@@ -1805,51 +1789,119 @@ Partial Class frmPreOrganizationEdit
         Me.LabelControl35.Appearance.ForeColor = System.Drawing.Color.Blue
         Me.LabelControl35.Appearance.Options.UseFont = True
         Me.LabelControl35.Appearance.Options.UseForeColor = True
-        Me.LabelControl35.Location = New System.Drawing.Point(584, 46)
+        Me.LabelControl35.Location = New System.Drawing.Point(629, 46)
         Me.LabelControl35.Name = "LabelControl35"
         Me.LabelControl35.Size = New System.Drawing.Size(72, 22)
         Me.LabelControl35.TabIndex = 128
         Me.LabelControl35.Text = "胶片层数"
         '
-        'LabelControl37
-        '
-        Me.LabelControl37.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelControl37.Appearance.Options.UseFont = True
-        Me.LabelControl37.Location = New System.Drawing.Point(715, 166)
-        Me.LabelControl37.Name = "LabelControl37"
-        Me.LabelControl37.Size = New System.Drawing.Size(19, 22)
-        Me.LabelControl37.TabIndex = 202
-        Me.LabelControl37.Text = "kg"
-        '
         'LabelControl38
         '
         Me.LabelControl38.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelControl38.Appearance.Options.UseFont = True
-        Me.LabelControl38.Location = New System.Drawing.Point(487, 166)
+        Me.LabelControl38.Location = New System.Drawing.Point(441, 166)
         Me.LabelControl38.Name = "LabelControl38"
         Me.LabelControl38.Size = New System.Drawing.Size(19, 22)
         Me.LabelControl38.TabIndex = 202
         Me.LabelControl38.Text = "kg"
         '
-        'LabelControl39
-        '
-        Me.LabelControl39.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelControl39.Appearance.Options.UseFont = True
-        Me.LabelControl39.Location = New System.Drawing.Point(206, 166)
-        Me.LabelControl39.Name = "LabelControl39"
-        Me.LabelControl39.Size = New System.Drawing.Size(19, 22)
-        Me.LabelControl39.TabIndex = 202
-        Me.LabelControl39.Text = "kg"
-        '
         'LabelControl40
         '
         Me.LabelControl40.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelControl40.Appearance.Options.UseFont = True
-        Me.LabelControl40.Location = New System.Drawing.Point(170, 86)
+        Me.LabelControl40.Location = New System.Drawing.Point(783, 166)
         Me.LabelControl40.Name = "LabelControl40"
         Me.LabelControl40.Size = New System.Drawing.Size(23, 22)
         Me.LabelControl40.TabIndex = 202
         Me.LabelControl40.Text = "cm"
+        '
+        'LabelControl45
+        '
+        Me.LabelControl45.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelControl45.Appearance.ForeColor = System.Drawing.Color.Blue
+        Me.LabelControl45.Appearance.Options.UseFont = True
+        Me.LabelControl45.Appearance.Options.UseForeColor = True
+        Me.LabelControl45.Location = New System.Drawing.Point(23, 86)
+        Me.LabelControl45.Name = "LabelControl45"
+        Me.LabelControl45.Size = New System.Drawing.Size(90, 22)
+        Me.LabelControl45.TabIndex = 128
+        Me.LabelControl45.Text = "法兰板型号"
+        '
+        'LabelControl46
+        '
+        Me.LabelControl46.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelControl46.Appearance.Options.UseFont = True
+        Me.LabelControl46.Location = New System.Drawing.Point(119, 86)
+        Me.LabelControl46.Name = "LabelControl46"
+        Me.LabelControl46.Size = New System.Drawing.Size(147, 22)
+        Me.LabelControl46.TabIndex = 128
+        Me.LabelControl46.Text = "DDD-ddd-333-001"
+        '
+        'LabelControl47
+        '
+        Me.LabelControl47.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelControl47.Appearance.ForeColor = System.Drawing.Color.Blue
+        Me.LabelControl47.Appearance.Options.UseFont = True
+        Me.LabelControl47.Appearance.Options.UseForeColor = True
+        Me.LabelControl47.Location = New System.Drawing.Point(318, 86)
+        Me.LabelControl47.Name = "LabelControl47"
+        Me.LabelControl47.Size = New System.Drawing.Size(90, 22)
+        Me.LabelControl47.TabIndex = 128
+        Me.LabelControl47.Text = "骨架板型号"
+        '
+        'LabelControl48
+        '
+        Me.LabelControl48.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelControl48.Appearance.Options.UseFont = True
+        Me.LabelControl48.Location = New System.Drawing.Point(414, 86)
+        Me.LabelControl48.Name = "LabelControl48"
+        Me.LabelControl48.Size = New System.Drawing.Size(147, 22)
+        Me.LabelControl48.TabIndex = 128
+        Me.LabelControl48.Text = "DDD-ddd-333-001"
+        '
+        'LabelControl17
+        '
+        Me.LabelControl17.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelControl17.Appearance.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.LabelControl17.Appearance.Options.UseFont = True
+        Me.LabelControl17.Appearance.Options.UseForeColor = True
+        Me.LabelControl17.Location = New System.Drawing.Point(155, 166)
+        Me.LabelControl17.Name = "LabelControl17"
+        Me.LabelControl17.Size = New System.Drawing.Size(55, 22)
+        Me.LabelControl17.TabIndex = 203
+        Me.LabelControl17.Text = "120.75"
+        '
+        'LabelControl39
+        '
+        Me.LabelControl39.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelControl39.Appearance.Options.UseFont = True
+        Me.LabelControl39.Location = New System.Drawing.Point(216, 166)
+        Me.LabelControl39.Name = "LabelControl39"
+        Me.LabelControl39.Size = New System.Drawing.Size(19, 22)
+        Me.LabelControl39.TabIndex = 204
+        Me.LabelControl39.Text = "kg"
+        '
+        'LabelControl37
+        '
+        Me.LabelControl37.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelControl37.Appearance.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.LabelControl37.Appearance.Options.UseFont = True
+        Me.LabelControl37.Appearance.Options.UseForeColor = True
+        Me.LabelControl37.Location = New System.Drawing.Point(572, 166)
+        Me.LabelControl37.Name = "LabelControl37"
+        Me.LabelControl37.Size = New System.Drawing.Size(55, 22)
+        Me.LabelControl37.TabIndex = 205
+        Me.LabelControl37.Text = "120.75"
+        '
+        'LabelControl49
+        '
+        Me.LabelControl49.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelControl49.Appearance.Options.UseFont = True
+        Me.LabelControl49.Location = New System.Drawing.Point(633, 166)
+        Me.LabelControl49.Name = "LabelControl49"
+        Me.LabelControl49.Size = New System.Drawing.Size(19, 22)
+        Me.LabelControl49.TabIndex = 206
+        Me.LabelControl49.Text = "kg"
         '
         'frmPreOrganizationEdit
         '
@@ -2038,10 +2090,8 @@ Partial Class frmPreOrganizationEdit
     Friend WithEvents LabelControl36 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents GroupBox1 As DevExpress.XtraEditors.GroupControl
     Friend WithEvents LabelControl7 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents LabelControl17 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents LabelControl10 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents LabelControl11 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents Label104 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents LabelControl18 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents Label49 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents Label103 As DevExpress.XtraEditors.LabelControl
@@ -2055,10 +2105,16 @@ Partial Class frmPreOrganizationEdit
     Friend WithEvents LabelControl28 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents LabelControl34 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents LabelControl35 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents LabelControl37 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents LabelControl38 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents LabelControl39 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents LabelControl40 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents TextBox3 As DevExpress.XtraEditors.TextEdit
     Friend WithEvents Label6 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents LabelControl37 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents LabelControl49 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents LabelControl17 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents LabelControl39 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents LabelControl48 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents LabelControl46 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents LabelControl47 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents LabelControl45 As DevExpress.XtraEditors.LabelControl
 End Class

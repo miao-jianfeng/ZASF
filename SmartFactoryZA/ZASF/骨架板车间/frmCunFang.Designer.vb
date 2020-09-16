@@ -23,7 +23,6 @@ Partial Class frmCunFang
         Me.LabelControl2 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl3 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl4 = New DevExpress.XtraEditors.LabelControl()
-        Me.TextEdit1 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit2 = New DevExpress.XtraEditors.DateEdit()
         Me.TextEdit3 = New DevExpress.XtraEditors.TextEdit()
         Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
@@ -31,11 +30,12 @@ Partial Class frmCunFang
         Me.TextEdit4 = New DevExpress.XtraEditors.TextEdit()
         Me.RadioButton1 = New System.Windows.Forms.RadioButton()
         Me.RadioButton2 = New System.Windows.Forms.RadioButton()
-        CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TextEdit1 = New DevExpress.XtraEditors.ComboBoxEdit()
         CType(Me.TextEdit2.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit3.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit4.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'LabelControl1
@@ -69,13 +69,6 @@ Partial Class frmCunFang
         Me.LabelControl4.Size = New System.Drawing.Size(36, 22)
         Me.LabelControl4.TabIndex = 2
         Me.LabelControl4.Text = "类别"
-        '
-        'TextEdit1
-        '
-        Me.TextEdit1.Location = New System.Drawing.Point(151, 71)
-        Me.TextEdit1.Name = "TextEdit1"
-        Me.TextEdit1.Size = New System.Drawing.Size(187, 30)
-        Me.TextEdit1.TabIndex = 1
         '
         'TextEdit2
         '
@@ -145,6 +138,14 @@ Partial Class frmCunFang
         Me.RadioButton2.Text = "喷胶后"
         Me.RadioButton2.UseVisualStyleBackColor = True
         '
+        'TextEdit1
+        '
+        Me.TextEdit1.Location = New System.Drawing.Point(151, 71)
+        Me.TextEdit1.Name = "TextEdit1"
+        Me.TextEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.TextEdit1.Size = New System.Drawing.Size(187, 30)
+        Me.TextEdit1.TabIndex = 1
+        '
         'frmCunFang
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 22.0!)
@@ -155,21 +156,21 @@ Partial Class frmCunFang
         Me.Controls.Add(Me.SimpleButton1)
         Me.Controls.Add(Me.TextEdit3)
         Me.Controls.Add(Me.TextEdit4)
-        Me.Controls.Add(Me.TextEdit1)
         Me.Controls.Add(Me.LabelControl4)
         Me.Controls.Add(Me.LabelControl3)
         Me.Controls.Add(Me.LabelControl5)
         Me.Controls.Add(Me.LabelControl2)
         Me.Controls.Add(Me.LabelControl1)
         Me.Controls.Add(Me.TextEdit2)
+        Me.Controls.Add(Me.TextEdit1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "frmCunFang"
         Me.Text = "骨架板存放"
-        CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit2.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit3.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit4.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -179,7 +180,6 @@ Partial Class frmCunFang
     Friend WithEvents LabelControl2 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents LabelControl3 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents LabelControl4 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents TextEdit1 As DevExpress.XtraEditors.TextEdit
     Friend WithEvents TextEdit2 As DevExpress.XtraEditors.DateEdit
     Friend WithEvents TextEdit3 As DevExpress.XtraEditors.TextEdit
     Friend WithEvents SimpleButton1 As DevExpress.XtraEditors.SimpleButton
@@ -187,4 +187,5 @@ Partial Class frmCunFang
     Friend WithEvents TextEdit4 As DevExpress.XtraEditors.TextEdit
     Friend WithEvents RadioButton1 As RadioButton
     Friend WithEvents RadioButton2 As RadioButton
+    Friend WithEvents TextEdit1 As DevExpress.XtraEditors.ComboBoxEdit
 End Class

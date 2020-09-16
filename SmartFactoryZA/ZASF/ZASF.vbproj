@@ -261,6 +261,12 @@
     <Compile Include="胶片车间\frmSetBaoHuJiao.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="骨架板车间\frmBasketInfo.Designer.vb">
+      <DependentUpon>frmBasketInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="骨架板车间\frmBasketInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="骨架板车间\frmCunFang.Designer.vb">
       <DependentUpon>frmCunFang.vb</DependentUpon>
     </Compile>
@@ -395,6 +401,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="胶片车间\frmSetBaoHuJiao.resx">
       <DependentUpon>frmSetBaoHuJiao.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="骨架板车间\frmBasketInfo.resx">
+      <DependentUpon>frmBasketInfo.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="骨架板车间\frmCunFang.resx">
       <DependentUpon>frmCunFang.vb</DependentUpon>

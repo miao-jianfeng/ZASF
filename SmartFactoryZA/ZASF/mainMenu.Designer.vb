@@ -24,6 +24,7 @@ Partial Class mainMenu
         Me.btnCunFang = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton3 = New DevExpress.XtraEditors.SimpleButton()
         Me.btnQxgl = New DevExpress.XtraEditors.SimpleButton()
+        Me.btnBasketInfo = New DevExpress.XtraEditors.SimpleButton()
         Me.btnflb = New DevExpress.XtraEditors.SimpleButton()
         Me.胶片车间 = New DevExpress.XtraEditors.GroupControl()
         Me.SimpleButton7 = New DevExpress.XtraEditors.SimpleButton()
@@ -36,9 +37,9 @@ Partial Class mainMenu
         Me.SimpleButton14 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton15 = New DevExpress.XtraEditors.SimpleButton()
         Me.GroupControl3 = New DevExpress.XtraEditors.GroupControl()
+        Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton12 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton16 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
         CType(Me.GroupControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupControl1.SuspendLayout()
         CType(Me.胶片车间, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -55,6 +56,7 @@ Partial Class mainMenu
         Me.GroupControl1.Controls.Add(Me.btnCunFang)
         Me.GroupControl1.Controls.Add(Me.SimpleButton3)
         Me.GroupControl1.Controls.Add(Me.btnQxgl)
+        Me.GroupControl1.Controls.Add(Me.btnBasketInfo)
         Me.GroupControl1.Controls.Add(Me.btnflb)
         Me.GroupControl1.Location = New System.Drawing.Point(32, 12)
         Me.GroupControl1.Name = "GroupControl1"
@@ -64,7 +66,7 @@ Partial Class mainMenu
         '
         'SimpleButton5
         '
-        Me.SimpleButton5.Location = New System.Drawing.Point(612, 67)
+        Me.SimpleButton5.Location = New System.Drawing.Point(612, 45)
         Me.SimpleButton5.Name = "SimpleButton5"
         Me.SimpleButton5.Size = New System.Drawing.Size(169, 34)
         Me.SimpleButton5.TabIndex = 1
@@ -72,7 +74,7 @@ Partial Class mainMenu
         '
         'btnCunFang
         '
-        Me.btnCunFang.Location = New System.Drawing.Point(421, 67)
+        Me.btnCunFang.Location = New System.Drawing.Point(421, 45)
         Me.btnCunFang.Name = "btnCunFang"
         Me.btnCunFang.Size = New System.Drawing.Size(169, 34)
         Me.btnCunFang.TabIndex = 1
@@ -80,7 +82,7 @@ Partial Class mainMenu
         '
         'SimpleButton3
         '
-        Me.SimpleButton3.Location = New System.Drawing.Point(803, 68)
+        Me.SimpleButton3.Location = New System.Drawing.Point(803, 46)
         Me.SimpleButton3.Name = "SimpleButton3"
         Me.SimpleButton3.Size = New System.Drawing.Size(169, 34)
         Me.SimpleButton3.TabIndex = 1
@@ -88,15 +90,23 @@ Partial Class mainMenu
         '
         'btnQxgl
         '
-        Me.btnQxgl.Location = New System.Drawing.Point(230, 67)
+        Me.btnQxgl.Location = New System.Drawing.Point(230, 45)
         Me.btnQxgl.Name = "btnQxgl"
         Me.btnQxgl.Size = New System.Drawing.Size(169, 34)
         Me.btnQxgl.TabIndex = 1
         Me.btnQxgl.Text = "期限管理"
         '
+        'btnBasketInfo
+        '
+        Me.btnBasketInfo.Location = New System.Drawing.Point(39, 92)
+        Me.btnBasketInfo.Name = "btnBasketInfo"
+        Me.btnBasketInfo.Size = New System.Drawing.Size(169, 34)
+        Me.btnBasketInfo.TabIndex = 0
+        Me.btnBasketInfo.Text = "吊篮信息"
+        '
         'btnflb
         '
-        Me.btnflb.Location = New System.Drawing.Point(39, 68)
+        Me.btnflb.Location = New System.Drawing.Point(39, 46)
         Me.btnflb.Name = "btnflb"
         Me.btnflb.Size = New System.Drawing.Size(169, 34)
         Me.btnflb.TabIndex = 0
@@ -201,6 +211,15 @@ Partial Class mainMenu
         Me.GroupControl3.TabIndex = 10
         Me.GroupControl3.Text = "主档"
         '
+        'SimpleButton1
+        '
+        Me.SimpleButton1.Location = New System.Drawing.Point(421, 63)
+        Me.SimpleButton1.Margin = New System.Windows.Forms.Padding(4)
+        Me.SimpleButton1.Name = "SimpleButton1"
+        Me.SimpleButton1.Size = New System.Drawing.Size(169, 34)
+        Me.SimpleButton1.TabIndex = 1
+        Me.SimpleButton1.Text = "制品规格明细"
+        '
         'SimpleButton12
         '
         Me.SimpleButton12.Location = New System.Drawing.Point(230, 63)
@@ -216,15 +235,6 @@ Partial Class mainMenu
         Me.SimpleButton16.Size = New System.Drawing.Size(169, 34)
         Me.SimpleButton16.TabIndex = 0
         Me.SimpleButton16.Text = "硬件设置"
-        '
-        'SimpleButton1
-        '
-        Me.SimpleButton1.Location = New System.Drawing.Point(421, 63)
-        Me.SimpleButton1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(169, 34)
-        Me.SimpleButton1.TabIndex = 1
-        Me.SimpleButton1.Text = "制品规格明细"
         '
         'mainMenu
         '
@@ -268,4 +278,5 @@ Partial Class mainMenu
     Friend WithEvents SimpleButton12 As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents SimpleButton16 As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents SimpleButton1 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents btnBasketInfo As DevExpress.XtraEditors.SimpleButton
 End Class

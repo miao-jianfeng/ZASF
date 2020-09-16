@@ -113,7 +113,7 @@ Partial Class TSL
         Me.SimpleButton2.Name = "SimpleButton2"
         Me.SimpleButton2.Size = New System.Drawing.Size(144, 69)
         Me.SimpleButton2.TabIndex = 6
-        Me.SimpleButton2.Text = "出库"
+        Me.SimpleButton2.Text = "出炉"
         '
         'TSL
         '
