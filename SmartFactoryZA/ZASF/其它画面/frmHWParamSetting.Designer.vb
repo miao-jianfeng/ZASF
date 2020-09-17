@@ -70,14 +70,11 @@ Partial Class frmHWParamSetting
         Me.LabelControl4 = New DevExpress.XtraEditors.LabelControl()
         Me.btnSave_gjb = New DevExpress.XtraEditors.SimpleButton()
         Me.tp_lh = New DevExpress.XtraTab.XtraTabPage()
-        Me.GroupControl8 = New DevExpress.XtraEditors.GroupControl()
+        Me.PanelControl2 = New DevExpress.XtraEditors.PanelControl()
         Me.lhj_Muju = New DevExpress.XtraEditors.TextEdit()
         Me.LabelControl26 = New DevExpress.XtraEditors.LabelControl()
         Me.lhj_deleted = New DevExpress.XtraEditors.CheckEdit()
-        Me.btnSearch_lhj = New DevExpress.XtraEditors.SimpleButton()
         Me.lhj_Status = New DevExpress.XtraEditors.ComboBoxEdit()
-        Me.lh_search_id = New DevExpress.XtraEditors.TextEdit()
-        Me.LabelControl20 = New DevExpress.XtraEditors.LabelControl()
         Me.lhj_ip = New DevExpress.XtraEditors.TextEdit()
         Me.lhj_port = New DevExpress.XtraEditors.TextEdit()
         Me.btnDEL_lhj = New DevExpress.XtraEditors.SimpleButton()
@@ -86,12 +83,11 @@ Partial Class frmHWParamSetting
         Me.btnClear_lhj = New DevExpress.XtraEditors.SimpleButton()
         Me.LabelControl16 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl17 = New DevExpress.XtraEditors.LabelControl()
-        Me.lhj_scbh = New DevExpress.XtraEditors.TextEdit()
         Me.lhj_ID = New DevExpress.XtraEditors.TextEdit()
         Me.LabelControl19 = New DevExpress.XtraEditors.LabelControl()
-        Me.LabelControl21 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl18 = New DevExpress.XtraEditors.LabelControl()
-        Me.GroupControl9 = New DevExpress.XtraEditors.GroupControl()
+        Me.btnSearch_lhj = New DevExpress.XtraEditors.SimpleButton()
+        Me.PanelControl1 = New DevExpress.XtraEditors.PanelControl()
         Me.dgvList_lhj = New System.Windows.Forms.DataGridView()
         Me.collh_id = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.collh_ip = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -105,8 +101,10 @@ Partial Class frmHWParamSetting
         Me.collh_com = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.collh_status = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.collh_update_time = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.lh_search_id = New DevExpress.XtraEditors.TextEdit()
+        Me.LabelControl20 = New DevExpress.XtraEditors.LabelControl()
         Me.tp_agv = New DevExpress.XtraTab.XtraTabPage()
-        Me.GroupControl13 = New DevExpress.XtraEditors.GroupControl()
+        Me.PanelControl4 = New DevExpress.XtraEditors.PanelControl()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DataGridViewTextBoxColumn2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -120,20 +118,19 @@ Partial Class frmHWParamSetting
         Me.DataGridViewTextBoxColumn9 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DataGridViewTextBoxColumn10 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DataGridViewTextBoxColumn11 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.GroupControl12 = New DevExpress.XtraEditors.GroupControl()
+        Me.PanelControl3 = New DevExpress.XtraEditors.PanelControl()
         Me.CheckEdit1 = New DevExpress.XtraEditors.CheckEdit()
         Me.ComboBoxEdit1 = New DevExpress.XtraEditors.ComboBoxEdit()
+        Me.TextEdit3 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit4 = New DevExpress.XtraEditors.TextEdit()
-        Me.TextEdit5 = New DevExpress.XtraEditors.TextEdit()
+        Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton3 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton4 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton5 = New DevExpress.XtraEditors.SimpleButton()
+        Me.LabelControl27 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl28 = New DevExpress.XtraEditors.LabelControl()
+        Me.TextEdit5 = New DevExpress.XtraEditors.TextEdit()
         Me.LabelControl29 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl30 = New DevExpress.XtraEditors.LabelControl()
-        Me.TextEdit7 = New DevExpress.XtraEditors.TextEdit()
-        Me.LabelControl31 = New DevExpress.XtraEditors.LabelControl()
-        Me.LabelControl33 = New DevExpress.XtraEditors.LabelControl()
         CType(Me.tabWorkshop, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.tabWorkshop.SuspendLayout()
         Me.tp_jp.SuspendLayout()
@@ -174,30 +171,29 @@ Partial Class frmHWParamSetting
         CType(Me.gjb_jxb_ip.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.gjb_jxb_ID.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.tp_lh.SuspendLayout()
-        CType(Me.GroupControl8, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupControl8.SuspendLayout()
+        CType(Me.PanelControl2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.PanelControl2.SuspendLayout()
         CType(Me.lhj_Muju.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.lhj_deleted.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.lhj_Status.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.lh_search_id.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.lhj_ip.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.lhj_port.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.lhj_scbh.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.lhj_ID.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.GroupControl9, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupControl9.SuspendLayout()
+        CType(Me.PanelControl1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.PanelControl1.SuspendLayout()
         CType(Me.dgvList_lhj, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.lh_search_id.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.tp_agv.SuspendLayout()
-        CType(Me.GroupControl13, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupControl13.SuspendLayout()
+        CType(Me.PanelControl4, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.PanelControl4.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.GroupControl12, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupControl12.SuspendLayout()
+        CType(Me.PanelControl3, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.PanelControl3.SuspendLayout()
         CType(Me.CheckEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ComboBoxEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit3.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit4.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit5.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit7.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'tabWorkshop
@@ -295,7 +291,7 @@ Partial Class frmHWParamSetting
         Me.GroupControl6.Name = "GroupControl6"
         Me.GroupControl6.Size = New System.Drawing.Size(719, 248)
         Me.GroupControl6.TabIndex = 1
-        Me.GroupControl6.Text = "预组装"
+        Me.GroupControl6.Text = "机械臂"
         '
         'LabelControl23
         '
@@ -689,219 +685,184 @@ Partial Class frmHWParamSetting
         '
         'tp_lh
         '
-        Me.tp_lh.Controls.Add(Me.GroupControl8)
-        Me.tp_lh.Controls.Add(Me.GroupControl9)
+        Me.tp_lh.Controls.Add(Me.PanelControl2)
+        Me.tp_lh.Controls.Add(Me.btnSearch_lhj)
+        Me.tp_lh.Controls.Add(Me.PanelControl1)
+        Me.tp_lh.Controls.Add(Me.lh_search_id)
+        Me.tp_lh.Controls.Add(Me.LabelControl20)
         Me.tp_lh.Name = "tp_lh"
         Me.tp_lh.Size = New System.Drawing.Size(1075, 619)
         Me.tp_lh.Text = "硫化车间"
         '
-        'GroupControl8
+        'PanelControl2
         '
-        Me.GroupControl8.Controls.Add(Me.lhj_Muju)
-        Me.GroupControl8.Controls.Add(Me.LabelControl26)
-        Me.GroupControl8.Controls.Add(Me.lhj_deleted)
-        Me.GroupControl8.Controls.Add(Me.btnSearch_lhj)
-        Me.GroupControl8.Controls.Add(Me.lhj_Status)
-        Me.GroupControl8.Controls.Add(Me.lh_search_id)
-        Me.GroupControl8.Controls.Add(Me.LabelControl20)
-        Me.GroupControl8.Controls.Add(Me.lhj_ip)
-        Me.GroupControl8.Controls.Add(Me.lhj_port)
-        Me.GroupControl8.Controls.Add(Me.btnDEL_lhj)
-        Me.GroupControl8.Controls.Add(Me.btnUpdate_lhj)
-        Me.GroupControl8.Controls.Add(Me.btnAdd_lhj)
-        Me.GroupControl8.Controls.Add(Me.btnClear_lhj)
-        Me.GroupControl8.Controls.Add(Me.LabelControl16)
-        Me.GroupControl8.Controls.Add(Me.LabelControl17)
-        Me.GroupControl8.Controls.Add(Me.lhj_scbh)
-        Me.GroupControl8.Controls.Add(Me.lhj_ID)
-        Me.GroupControl8.Controls.Add(Me.LabelControl19)
-        Me.GroupControl8.Controls.Add(Me.LabelControl21)
-        Me.GroupControl8.Controls.Add(Me.LabelControl18)
-        Me.GroupControl8.Dock = System.Windows.Forms.DockStyle.Top
-        Me.GroupControl8.Location = New System.Drawing.Point(0, 0)
-        Me.GroupControl8.Name = "GroupControl8"
-        Me.GroupControl8.Size = New System.Drawing.Size(1075, 171)
-        Me.GroupControl8.TabIndex = 0
-        Me.GroupControl8.Text = "明细"
+        Me.PanelControl2.Controls.Add(Me.lhj_Muju)
+        Me.PanelControl2.Controls.Add(Me.LabelControl26)
+        Me.PanelControl2.Controls.Add(Me.lhj_deleted)
+        Me.PanelControl2.Controls.Add(Me.lhj_Status)
+        Me.PanelControl2.Controls.Add(Me.lhj_ip)
+        Me.PanelControl2.Controls.Add(Me.lhj_port)
+        Me.PanelControl2.Controls.Add(Me.btnDEL_lhj)
+        Me.PanelControl2.Controls.Add(Me.btnUpdate_lhj)
+        Me.PanelControl2.Controls.Add(Me.btnAdd_lhj)
+        Me.PanelControl2.Controls.Add(Me.btnClear_lhj)
+        Me.PanelControl2.Controls.Add(Me.LabelControl16)
+        Me.PanelControl2.Controls.Add(Me.LabelControl17)
+        Me.PanelControl2.Controls.Add(Me.lhj_ID)
+        Me.PanelControl2.Controls.Add(Me.LabelControl19)
+        Me.PanelControl2.Controls.Add(Me.LabelControl18)
+        Me.PanelControl2.Location = New System.Drawing.Point(5, 43)
+        Me.PanelControl2.Name = "PanelControl2"
+        Me.PanelControl2.Size = New System.Drawing.Size(1065, 97)
+        Me.PanelControl2.TabIndex = 2
         '
         'lhj_Muju
         '
-        Me.lhj_Muju.Location = New System.Drawing.Point(397, 86)
+        Me.lhj_Muju.Location = New System.Drawing.Point(851, 12)
         Me.lhj_Muju.Name = "lhj_Muju"
-        Me.lhj_Muju.Size = New System.Drawing.Size(242, 30)
-        Me.lhj_Muju.TabIndex = 13
+        Me.lhj_Muju.Size = New System.Drawing.Size(194, 30)
+        Me.lhj_Muju.TabIndex = 28
         '
         'LabelControl26
         '
-        Me.LabelControl26.Location = New System.Drawing.Point(348, 90)
+        Me.LabelControl26.Location = New System.Drawing.Point(806, 16)
         Me.LabelControl26.Name = "LabelControl26"
         Me.LabelControl26.Size = New System.Drawing.Size(36, 22)
-        Me.LabelControl26.TabIndex = 12
+        Me.LabelControl26.TabIndex = 27
         Me.LabelControl26.Text = "模具"
         '
         'lhj_deleted
         '
-        Me.lhj_deleted.Location = New System.Drawing.Point(771, 45)
+        Me.lhj_deleted.Location = New System.Drawing.Point(718, 13)
         Me.lhj_deleted.Name = "lhj_deleted"
-        Me.lhj_deleted.Properties.Caption = "作废"
-        Me.lhj_deleted.Size = New System.Drawing.Size(98, 28)
-        Me.lhj_deleted.TabIndex = 6
-        '
-        'btnSearch_lhj
-        '
-        Me.btnSearch_lhj.Location = New System.Drawing.Point(368, 1)
-        Me.btnSearch_lhj.Name = "btnSearch_lhj"
-        Me.btnSearch_lhj.Size = New System.Drawing.Size(112, 30)
-        Me.btnSearch_lhj.TabIndex = 1
-        Me.btnSearch_lhj.Text = "查询"
+        Me.lhj_deleted.Properties.Caption = "报废"
+        Me.lhj_deleted.Size = New System.Drawing.Size(82, 28)
+        Me.lhj_deleted.TabIndex = 22
         '
         'lhj_Status
         '
-        Me.lhj_Status.Location = New System.Drawing.Point(646, 44)
+        Me.lhj_Status.Location = New System.Drawing.Point(593, 12)
         Me.lhj_Status.Name = "lhj_Status"
         Me.lhj_Status.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.lhj_Status.Properties.Items.AddRange(New Object() {"闲", "忙", "维修中"})
         Me.lhj_Status.Size = New System.Drawing.Size(97, 30)
-        Me.lhj_Status.TabIndex = 5
+        Me.lhj_Status.TabIndex = 21
         Me.lhj_Status.Tag = "状态"
-        '
-        'lh_search_id
-        '
-        Me.lh_search_id.Location = New System.Drawing.Point(191, 1)
-        Me.lh_search_id.Name = "lh_search_id"
-        Me.lh_search_id.Size = New System.Drawing.Size(150, 30)
-        Me.lh_search_id.TabIndex = 0
-        '
-        'LabelControl20
-        '
-        Me.LabelControl20.Location = New System.Drawing.Point(155, 5)
-        Me.LabelControl20.Name = "LabelControl20"
-        Me.LabelControl20.Size = New System.Drawing.Size(19, 22)
-        Me.LabelControl20.TabIndex = 0
-        Me.LabelControl20.Text = "ID"
         '
         'lhj_ip
         '
         Me.lhj_ip.ImeMode = System.Windows.Forms.ImeMode.Disable
-        Me.lhj_ip.Location = New System.Drawing.Point(279, 44)
+        Me.lhj_ip.Location = New System.Drawing.Point(230, 12)
         Me.lhj_ip.Name = "lhj_ip"
         Me.lhj_ip.Properties.Mask.BeepOnError = True
         Me.lhj_ip.Properties.Mask.EditMask = "999.999.999.999"
         Me.lhj_ip.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Simple
         Me.lhj_ip.Properties.XlsxFormatString = "000.000.000.000"
         Me.lhj_ip.Size = New System.Drawing.Size(150, 30)
-        Me.lhj_ip.TabIndex = 3
+        Me.lhj_ip.TabIndex = 19
         Me.lhj_ip.Tag = "IP地址"
         '
         'lhj_port
         '
         Me.lhj_port.ImeMode = System.Windows.Forms.ImeMode.Disable
-        Me.lhj_port.Location = New System.Drawing.Point(504, 44)
+        Me.lhj_port.Location = New System.Drawing.Point(451, 12)
         Me.lhj_port.Name = "lhj_port"
         Me.lhj_port.Properties.Mask.EditMask = "d"
         Me.lhj_port.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric
         Me.lhj_port.Properties.MaxLength = 5
         Me.lhj_port.Size = New System.Drawing.Size(71, 30)
-        Me.lhj_port.TabIndex = 4
+        Me.lhj_port.TabIndex = 20
         Me.lhj_port.Tag = "端口"
         '
         'btnDEL_lhj
         '
-        Me.btnDEL_lhj.Location = New System.Drawing.Point(946, 129)
+        Me.btnDEL_lhj.Location = New System.Drawing.Point(933, 56)
         Me.btnDEL_lhj.Name = "btnDEL_lhj"
         Me.btnDEL_lhj.Size = New System.Drawing.Size(112, 30)
-        Me.btnDEL_lhj.TabIndex = 11
+        Me.btnDEL_lhj.TabIndex = 26
         Me.btnDEL_lhj.Text = "删除"
         '
         'btnUpdate_lhj
         '
-        Me.btnUpdate_lhj.Location = New System.Drawing.Point(816, 129)
+        Me.btnUpdate_lhj.Location = New System.Drawing.Point(803, 56)
         Me.btnUpdate_lhj.Name = "btnUpdate_lhj"
         Me.btnUpdate_lhj.Size = New System.Drawing.Size(112, 30)
-        Me.btnUpdate_lhj.TabIndex = 10
+        Me.btnUpdate_lhj.TabIndex = 25
         Me.btnUpdate_lhj.Text = "修改"
         '
         'btnAdd_lhj
         '
-        Me.btnAdd_lhj.Location = New System.Drawing.Point(686, 129)
+        Me.btnAdd_lhj.Location = New System.Drawing.Point(673, 56)
         Me.btnAdd_lhj.Name = "btnAdd_lhj"
         Me.btnAdd_lhj.Size = New System.Drawing.Size(112, 30)
-        Me.btnAdd_lhj.TabIndex = 9
+        Me.btnAdd_lhj.TabIndex = 24
         Me.btnAdd_lhj.Text = "新建"
         '
         'btnClear_lhj
         '
-        Me.btnClear_lhj.Location = New System.Drawing.Point(556, 129)
+        Me.btnClear_lhj.Location = New System.Drawing.Point(543, 56)
         Me.btnClear_lhj.Name = "btnClear_lhj"
         Me.btnClear_lhj.Size = New System.Drawing.Size(112, 30)
-        Me.btnClear_lhj.TabIndex = 8
+        Me.btnClear_lhj.TabIndex = 23
         Me.btnClear_lhj.Text = "清空"
         '
         'LabelControl16
         '
-        Me.LabelControl16.Location = New System.Drawing.Point(19, 48)
+        Me.LabelControl16.Location = New System.Drawing.Point(20, 16)
         Me.LabelControl16.Name = "LabelControl16"
         Me.LabelControl16.Size = New System.Drawing.Size(19, 22)
-        Me.LabelControl16.TabIndex = 0
+        Me.LabelControl16.TabIndex = 14
         Me.LabelControl16.Text = "ID"
         '
         'LabelControl17
         '
-        Me.LabelControl17.Location = New System.Drawing.Point(220, 48)
+        Me.LabelControl17.Location = New System.Drawing.Point(171, 16)
         Me.LabelControl17.Name = "LabelControl17"
         Me.LabelControl17.Size = New System.Drawing.Size(53, 22)
-        Me.LabelControl17.TabIndex = 0
+        Me.LabelControl17.TabIndex = 15
         Me.LabelControl17.Text = "IP地址"
-        '
-        'lhj_scbh
-        '
-        Me.lhj_scbh.Location = New System.Drawing.Point(80, 86)
-        Me.lhj_scbh.Name = "lhj_scbh"
-        Me.lhj_scbh.Size = New System.Drawing.Size(242, 30)
-        Me.lhj_scbh.TabIndex = 7
         '
         'lhj_ID
         '
         Me.lhj_ID.ImeMode = System.Windows.Forms.ImeMode.Disable
-        Me.lhj_ID.Location = New System.Drawing.Point(44, 44)
+        Me.lhj_ID.Location = New System.Drawing.Point(45, 12)
         Me.lhj_ID.Name = "lhj_ID"
-        Me.lhj_ID.Size = New System.Drawing.Size(150, 30)
-        Me.lhj_ID.TabIndex = 2
+        Me.lhj_ID.Size = New System.Drawing.Size(102, 30)
+        Me.lhj_ID.TabIndex = 18
         Me.lhj_ID.Tag = "ID"
         '
         'LabelControl19
         '
-        Me.LabelControl19.Location = New System.Drawing.Point(603, 48)
+        Me.LabelControl19.Location = New System.Drawing.Point(550, 16)
         Me.LabelControl19.Name = "LabelControl19"
         Me.LabelControl19.Size = New System.Drawing.Size(36, 22)
-        Me.LabelControl19.TabIndex = 0
+        Me.LabelControl19.TabIndex = 16
         Me.LabelControl19.Text = "状态"
-        '
-        'LabelControl21
-        '
-        Me.LabelControl21.Location = New System.Drawing.Point(19, 90)
-        Me.LabelControl21.Name = "LabelControl21"
-        Me.LabelControl21.Size = New System.Drawing.Size(54, 22)
-        Me.LabelControl21.TabIndex = 0
-        Me.LabelControl21.Text = "加工中"
         '
         'LabelControl18
         '
-        Me.LabelControl18.Location = New System.Drawing.Point(462, 48)
+        Me.LabelControl18.Location = New System.Drawing.Point(409, 16)
         Me.LabelControl18.Name = "LabelControl18"
         Me.LabelControl18.Size = New System.Drawing.Size(36, 22)
-        Me.LabelControl18.TabIndex = 0
+        Me.LabelControl18.TabIndex = 17
         Me.LabelControl18.Text = "端口"
         '
-        'GroupControl9
+        'btnSearch_lhj
         '
-        Me.GroupControl9.Controls.Add(Me.dgvList_lhj)
-        Me.GroupControl9.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.GroupControl9.Location = New System.Drawing.Point(0, 177)
-        Me.GroupControl9.Name = "GroupControl9"
-        Me.GroupControl9.Size = New System.Drawing.Size(1075, 442)
-        Me.GroupControl9.TabIndex = 1
-        Me.GroupControl9.Text = "一览"
+        Me.btnSearch_lhj.Location = New System.Drawing.Point(280, 7)
+        Me.btnSearch_lhj.Name = "btnSearch_lhj"
+        Me.btnSearch_lhj.Size = New System.Drawing.Size(112, 30)
+        Me.btnSearch_lhj.TabIndex = 1
+        Me.btnSearch_lhj.Text = "查询"
+        '
+        'PanelControl1
+        '
+        Me.PanelControl1.Controls.Add(Me.dgvList_lhj)
+        Me.PanelControl1.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.PanelControl1.Location = New System.Drawing.Point(0, 144)
+        Me.PanelControl1.Name = "PanelControl1"
+        Me.PanelControl1.Size = New System.Drawing.Size(1075, 475)
+        Me.PanelControl1.TabIndex = 1
         '
         'dgvList_lhj
         '
@@ -911,13 +872,13 @@ Partial Class frmHWParamSetting
         Me.dgvList_lhj.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dgvList_lhj.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.collh_id, Me.collh_ip, Me.collh_port, Me.collh_status_name, Me.collh_deleted, Me.collh_scbh, Me.collh_factoryid, Me.collh_workshop_id, Me.colequip_type_id, Me.collh_com, Me.collh_status, Me.collh_update_time})
         Me.dgvList_lhj.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.dgvList_lhj.Location = New System.Drawing.Point(2, 34)
+        Me.dgvList_lhj.Location = New System.Drawing.Point(2, 2)
         Me.dgvList_lhj.Name = "dgvList_lhj"
         Me.dgvList_lhj.RowHeadersWidth = 62
         Me.dgvList_lhj.RowTemplate.Height = 30
         Me.dgvList_lhj.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dgvList_lhj.Size = New System.Drawing.Size(1071, 406)
-        Me.dgvList_lhj.TabIndex = 0
+        Me.dgvList_lhj.Size = New System.Drawing.Size(1071, 471)
+        Me.dgvList_lhj.TabIndex = 1
         '
         'collh_id
         '
@@ -975,13 +936,13 @@ Partial Class frmHWParamSetting
         '
         Me.collh_scbh.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells
         Me.collh_scbh.DataPropertyName = "production_no"
-        Me.collh_scbh.HeaderText = "加工中制品"
+        Me.collh_scbh.HeaderText = "模具"
         Me.collh_scbh.MinimumWidth = 8
         Me.collh_scbh.Name = "collh_scbh"
         Me.collh_scbh.ReadOnly = True
         Me.collh_scbh.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
         Me.collh_scbh.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
-        Me.collh_scbh.Width = 106
+        Me.collh_scbh.Width = 52
         '
         'collh_factoryid
         '
@@ -1041,23 +1002,37 @@ Partial Class frmHWParamSetting
         Me.collh_update_time.Visible = False
         Me.collh_update_time.Width = 150
         '
+        'lh_search_id
+        '
+        Me.lh_search_id.Location = New System.Drawing.Point(103, 7)
+        Me.lh_search_id.Name = "lh_search_id"
+        Me.lh_search_id.Size = New System.Drawing.Size(150, 30)
+        Me.lh_search_id.TabIndex = 0
+        '
+        'LabelControl20
+        '
+        Me.LabelControl20.Location = New System.Drawing.Point(24, 11)
+        Me.LabelControl20.Name = "LabelControl20"
+        Me.LabelControl20.Size = New System.Drawing.Size(73, 22)
+        Me.LabelControl20.TabIndex = 0
+        Me.LabelControl20.Text = "硫化机ID"
+        '
         'tp_agv
         '
-        Me.tp_agv.Controls.Add(Me.GroupControl13)
-        Me.tp_agv.Controls.Add(Me.GroupControl12)
+        Me.tp_agv.Controls.Add(Me.PanelControl4)
+        Me.tp_agv.Controls.Add(Me.PanelControl3)
         Me.tp_agv.Name = "tp_agv"
         Me.tp_agv.Size = New System.Drawing.Size(1075, 619)
         Me.tp_agv.Text = "AGV"
         '
-        'GroupControl13
+        'PanelControl4
         '
-        Me.GroupControl13.Controls.Add(Me.DataGridView1)
-        Me.GroupControl13.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.GroupControl13.Location = New System.Drawing.Point(0, 147)
-        Me.GroupControl13.Name = "GroupControl13"
-        Me.GroupControl13.Size = New System.Drawing.Size(1075, 472)
-        Me.GroupControl13.TabIndex = 2
-        Me.GroupControl13.Text = "一览"
+        Me.PanelControl4.Controls.Add(Me.DataGridView1)
+        Me.PanelControl4.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.PanelControl4.Location = New System.Drawing.Point(0, 107)
+        Me.PanelControl4.Name = "PanelControl4"
+        Me.PanelControl4.Size = New System.Drawing.Size(1075, 512)
+        Me.PanelControl4.TabIndex = 4
         '
         'DataGridView1
         '
@@ -1067,13 +1042,13 @@ Partial Class frmHWParamSetting
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn1, Me.DataGridViewTextBoxColumn2, Me.DataGridViewTextBoxColumn3, Me.DataGridViewTextBoxColumn4, Me.DataGridViewCheckBoxColumn1, Me.DataGridViewTextBoxColumn5, Me.DataGridViewTextBoxColumn6, Me.DataGridViewTextBoxColumn7, Me.DataGridViewTextBoxColumn8, Me.DataGridViewTextBoxColumn9, Me.DataGridViewTextBoxColumn10, Me.DataGridViewTextBoxColumn11})
         Me.DataGridView1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.DataGridView1.Location = New System.Drawing.Point(2, 34)
+        Me.DataGridView1.Location = New System.Drawing.Point(2, 2)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowHeadersWidth = 62
         Me.DataGridView1.RowTemplate.Height = 30
         Me.DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.DataGridView1.Size = New System.Drawing.Size(1071, 436)
-        Me.DataGridView1.TabIndex = 0
+        Me.DataGridView1.Size = New System.Drawing.Size(1071, 508)
+        Me.DataGridView1.TabIndex = 1
         '
         'DataGridViewTextBoxColumn1
         '
@@ -1131,7 +1106,7 @@ Partial Class frmHWParamSetting
         '
         Me.DataGridViewTextBoxColumn5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells
         Me.DataGridViewTextBoxColumn5.DataPropertyName = "production_no"
-        Me.DataGridViewTextBoxColumn5.HeaderText = "production_no"
+        Me.DataGridViewTextBoxColumn5.HeaderText = "模具"
         Me.DataGridViewTextBoxColumn5.MinimumWidth = 8
         Me.DataGridViewTextBoxColumn5.Name = "DataGridViewTextBoxColumn5"
         Me.DataGridViewTextBoxColumn5.ReadOnly = True
@@ -1198,143 +1173,133 @@ Partial Class frmHWParamSetting
         Me.DataGridViewTextBoxColumn11.Visible = False
         Me.DataGridViewTextBoxColumn11.Width = 150
         '
-        'GroupControl12
+        'PanelControl3
         '
-        Me.GroupControl12.Controls.Add(Me.CheckEdit1)
-        Me.GroupControl12.Controls.Add(Me.ComboBoxEdit1)
-        Me.GroupControl12.Controls.Add(Me.TextEdit4)
-        Me.GroupControl12.Controls.Add(Me.TextEdit5)
-        Me.GroupControl12.Controls.Add(Me.SimpleButton2)
-        Me.GroupControl12.Controls.Add(Me.SimpleButton3)
-        Me.GroupControl12.Controls.Add(Me.SimpleButton4)
-        Me.GroupControl12.Controls.Add(Me.SimpleButton5)
-        Me.GroupControl12.Controls.Add(Me.LabelControl29)
-        Me.GroupControl12.Controls.Add(Me.LabelControl30)
-        Me.GroupControl12.Controls.Add(Me.TextEdit7)
-        Me.GroupControl12.Controls.Add(Me.LabelControl31)
-        Me.GroupControl12.Controls.Add(Me.LabelControl33)
-        Me.GroupControl12.Dock = System.Windows.Forms.DockStyle.Top
-        Me.GroupControl12.Location = New System.Drawing.Point(0, 0)
-        Me.GroupControl12.Name = "GroupControl12"
-        Me.GroupControl12.Size = New System.Drawing.Size(1075, 141)
-        Me.GroupControl12.TabIndex = 1
-        Me.GroupControl12.Text = "明细"
+        Me.PanelControl3.Controls.Add(Me.CheckEdit1)
+        Me.PanelControl3.Controls.Add(Me.ComboBoxEdit1)
+        Me.PanelControl3.Controls.Add(Me.TextEdit3)
+        Me.PanelControl3.Controls.Add(Me.TextEdit4)
+        Me.PanelControl3.Controls.Add(Me.SimpleButton1)
+        Me.PanelControl3.Controls.Add(Me.SimpleButton2)
+        Me.PanelControl3.Controls.Add(Me.SimpleButton3)
+        Me.PanelControl3.Controls.Add(Me.LabelControl27)
+        Me.PanelControl3.Controls.Add(Me.LabelControl28)
+        Me.PanelControl3.Controls.Add(Me.TextEdit5)
+        Me.PanelControl3.Controls.Add(Me.LabelControl29)
+        Me.PanelControl3.Controls.Add(Me.LabelControl30)
+        Me.PanelControl3.Dock = System.Windows.Forms.DockStyle.Top
+        Me.PanelControl3.Location = New System.Drawing.Point(0, 0)
+        Me.PanelControl3.Name = "PanelControl3"
+        Me.PanelControl3.Size = New System.Drawing.Size(1075, 101)
+        Me.PanelControl3.TabIndex = 3
         '
         'CheckEdit1
         '
-        Me.CheckEdit1.Location = New System.Drawing.Point(771, 45)
+        Me.CheckEdit1.Location = New System.Drawing.Point(718, 13)
         Me.CheckEdit1.Name = "CheckEdit1"
-        Me.CheckEdit1.Properties.Caption = "作废"
-        Me.CheckEdit1.Size = New System.Drawing.Size(98, 28)
-        Me.CheckEdit1.TabIndex = 6
+        Me.CheckEdit1.Properties.Caption = "报废"
+        Me.CheckEdit1.Size = New System.Drawing.Size(82, 28)
+        Me.CheckEdit1.TabIndex = 22
         '
         'ComboBoxEdit1
         '
-        Me.ComboBoxEdit1.Location = New System.Drawing.Point(646, 44)
+        Me.ComboBoxEdit1.Location = New System.Drawing.Point(593, 12)
         Me.ComboBoxEdit1.Name = "ComboBoxEdit1"
         Me.ComboBoxEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit1.Properties.Items.AddRange(New Object() {"闲", "忙", "维修中"})
         Me.ComboBoxEdit1.Size = New System.Drawing.Size(97, 30)
-        Me.ComboBoxEdit1.TabIndex = 5
+        Me.ComboBoxEdit1.TabIndex = 21
         Me.ComboBoxEdit1.Tag = "状态"
+        '
+        'TextEdit3
+        '
+        Me.TextEdit3.ImeMode = System.Windows.Forms.ImeMode.Disable
+        Me.TextEdit3.Location = New System.Drawing.Point(230, 12)
+        Me.TextEdit3.Name = "TextEdit3"
+        Me.TextEdit3.Properties.Mask.BeepOnError = True
+        Me.TextEdit3.Properties.Mask.EditMask = "999.999.999.999"
+        Me.TextEdit3.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Simple
+        Me.TextEdit3.Properties.XlsxFormatString = "000.000.000.000"
+        Me.TextEdit3.Size = New System.Drawing.Size(150, 30)
+        Me.TextEdit3.TabIndex = 19
+        Me.TextEdit3.Tag = "IP地址"
         '
         'TextEdit4
         '
         Me.TextEdit4.ImeMode = System.Windows.Forms.ImeMode.Disable
-        Me.TextEdit4.Location = New System.Drawing.Point(279, 44)
+        Me.TextEdit4.Location = New System.Drawing.Point(451, 12)
         Me.TextEdit4.Name = "TextEdit4"
-        Me.TextEdit4.Properties.Mask.BeepOnError = True
-        Me.TextEdit4.Properties.Mask.EditMask = "999.999.999.999"
-        Me.TextEdit4.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Simple
-        Me.TextEdit4.Properties.XlsxFormatString = "000.000.000.000"
-        Me.TextEdit4.Size = New System.Drawing.Size(150, 30)
-        Me.TextEdit4.TabIndex = 3
-        Me.TextEdit4.Tag = "IP地址"
+        Me.TextEdit4.Properties.Mask.EditMask = "d"
+        Me.TextEdit4.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric
+        Me.TextEdit4.Properties.MaxLength = 5
+        Me.TextEdit4.Size = New System.Drawing.Size(71, 30)
+        Me.TextEdit4.TabIndex = 20
+        Me.TextEdit4.Tag = "端口"
+        '
+        'SimpleButton1
+        '
+        Me.SimpleButton1.Location = New System.Drawing.Point(933, 58)
+        Me.SimpleButton1.Name = "SimpleButton1"
+        Me.SimpleButton1.Size = New System.Drawing.Size(112, 30)
+        Me.SimpleButton1.TabIndex = 26
+        Me.SimpleButton1.Text = "删除"
+        '
+        'SimpleButton2
+        '
+        Me.SimpleButton2.Location = New System.Drawing.Point(803, 58)
+        Me.SimpleButton2.Name = "SimpleButton2"
+        Me.SimpleButton2.Size = New System.Drawing.Size(112, 30)
+        Me.SimpleButton2.TabIndex = 25
+        Me.SimpleButton2.Text = "修改"
+        '
+        'SimpleButton3
+        '
+        Me.SimpleButton3.Location = New System.Drawing.Point(673, 58)
+        Me.SimpleButton3.Name = "SimpleButton3"
+        Me.SimpleButton3.Size = New System.Drawing.Size(112, 30)
+        Me.SimpleButton3.TabIndex = 24
+        Me.SimpleButton3.Text = "新建"
+        '
+        'LabelControl27
+        '
+        Me.LabelControl27.Location = New System.Drawing.Point(20, 16)
+        Me.LabelControl27.Name = "LabelControl27"
+        Me.LabelControl27.Size = New System.Drawing.Size(19, 22)
+        Me.LabelControl27.TabIndex = 14
+        Me.LabelControl27.Text = "ID"
+        '
+        'LabelControl28
+        '
+        Me.LabelControl28.Location = New System.Drawing.Point(171, 16)
+        Me.LabelControl28.Name = "LabelControl28"
+        Me.LabelControl28.Size = New System.Drawing.Size(53, 22)
+        Me.LabelControl28.TabIndex = 15
+        Me.LabelControl28.Text = "IP地址"
         '
         'TextEdit5
         '
         Me.TextEdit5.ImeMode = System.Windows.Forms.ImeMode.Disable
-        Me.TextEdit5.Location = New System.Drawing.Point(504, 44)
+        Me.TextEdit5.Location = New System.Drawing.Point(45, 12)
         Me.TextEdit5.Name = "TextEdit5"
-        Me.TextEdit5.Properties.Mask.EditMask = "d"
-        Me.TextEdit5.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric
-        Me.TextEdit5.Properties.MaxLength = 5
-        Me.TextEdit5.Size = New System.Drawing.Size(71, 30)
-        Me.TextEdit5.TabIndex = 4
-        Me.TextEdit5.Tag = "端口"
-        '
-        'SimpleButton2
-        '
-        Me.SimpleButton2.Location = New System.Drawing.Point(947, 94)
-        Me.SimpleButton2.Name = "SimpleButton2"
-        Me.SimpleButton2.Size = New System.Drawing.Size(112, 30)
-        Me.SimpleButton2.TabIndex = 11
-        Me.SimpleButton2.Text = "删除"
-        '
-        'SimpleButton3
-        '
-        Me.SimpleButton3.Location = New System.Drawing.Point(817, 94)
-        Me.SimpleButton3.Name = "SimpleButton3"
-        Me.SimpleButton3.Size = New System.Drawing.Size(112, 30)
-        Me.SimpleButton3.TabIndex = 10
-        Me.SimpleButton3.Text = "修改"
-        '
-        'SimpleButton4
-        '
-        Me.SimpleButton4.Location = New System.Drawing.Point(687, 94)
-        Me.SimpleButton4.Name = "SimpleButton4"
-        Me.SimpleButton4.Size = New System.Drawing.Size(112, 30)
-        Me.SimpleButton4.TabIndex = 9
-        Me.SimpleButton4.Text = "新建"
-        '
-        'SimpleButton5
-        '
-        Me.SimpleButton5.Location = New System.Drawing.Point(557, 94)
-        Me.SimpleButton5.Name = "SimpleButton5"
-        Me.SimpleButton5.Size = New System.Drawing.Size(112, 30)
-        Me.SimpleButton5.TabIndex = 8
-        Me.SimpleButton5.Text = "清空"
+        Me.TextEdit5.Size = New System.Drawing.Size(102, 30)
+        Me.TextEdit5.TabIndex = 18
+        Me.TextEdit5.Tag = "ID"
         '
         'LabelControl29
         '
-        Me.LabelControl29.Location = New System.Drawing.Point(19, 48)
+        Me.LabelControl29.Location = New System.Drawing.Point(550, 16)
         Me.LabelControl29.Name = "LabelControl29"
-        Me.LabelControl29.Size = New System.Drawing.Size(19, 22)
-        Me.LabelControl29.TabIndex = 0
-        Me.LabelControl29.Text = "ID"
+        Me.LabelControl29.Size = New System.Drawing.Size(36, 22)
+        Me.LabelControl29.TabIndex = 16
+        Me.LabelControl29.Text = "状态"
         '
         'LabelControl30
         '
-        Me.LabelControl30.Location = New System.Drawing.Point(220, 48)
+        Me.LabelControl30.Location = New System.Drawing.Point(409, 16)
         Me.LabelControl30.Name = "LabelControl30"
-        Me.LabelControl30.Size = New System.Drawing.Size(53, 22)
-        Me.LabelControl30.TabIndex = 0
-        Me.LabelControl30.Text = "IP地址"
-        '
-        'TextEdit7
-        '
-        Me.TextEdit7.ImeMode = System.Windows.Forms.ImeMode.Disable
-        Me.TextEdit7.Location = New System.Drawing.Point(44, 44)
-        Me.TextEdit7.Name = "TextEdit7"
-        Me.TextEdit7.Size = New System.Drawing.Size(150, 30)
-        Me.TextEdit7.TabIndex = 2
-        Me.TextEdit7.Tag = "ID"
-        '
-        'LabelControl31
-        '
-        Me.LabelControl31.Location = New System.Drawing.Point(603, 48)
-        Me.LabelControl31.Name = "LabelControl31"
-        Me.LabelControl31.Size = New System.Drawing.Size(36, 22)
-        Me.LabelControl31.TabIndex = 0
-        Me.LabelControl31.Text = "状态"
-        '
-        'LabelControl33
-        '
-        Me.LabelControl33.Location = New System.Drawing.Point(462, 48)
-        Me.LabelControl33.Name = "LabelControl33"
-        Me.LabelControl33.Size = New System.Drawing.Size(36, 22)
-        Me.LabelControl33.TabIndex = 0
-        Me.LabelControl33.Text = "端口"
+        Me.LabelControl30.Size = New System.Drawing.Size(36, 22)
+        Me.LabelControl30.TabIndex = 17
+        Me.LabelControl30.Text = "端口"
         '
         'frmHWParamSetting
         '
@@ -1342,6 +1307,7 @@ Partial Class frmHWParamSetting
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1101, 666)
         Me.Controls.Add(Me.tabWorkshop)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "frmHWParamSetting"
         Me.Text = "硬件参数设定"
         CType(Me.tabWorkshop, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1393,32 +1359,32 @@ Partial Class frmHWParamSetting
         CType(Me.gjb_jxb_ip.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.gjb_jxb_ID.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.tp_lh.ResumeLayout(False)
-        CType(Me.GroupControl8, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupControl8.ResumeLayout(False)
-        Me.GroupControl8.PerformLayout()
+        Me.tp_lh.PerformLayout()
+        CType(Me.PanelControl2, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.PanelControl2.ResumeLayout(False)
+        Me.PanelControl2.PerformLayout()
         CType(Me.lhj_Muju.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.lhj_deleted.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.lhj_Status.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.lh_search_id.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.lhj_ip.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.lhj_port.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.lhj_scbh.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.lhj_ID.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.GroupControl9, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupControl9.ResumeLayout(False)
+        CType(Me.PanelControl1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.PanelControl1.ResumeLayout(False)
         CType(Me.dgvList_lhj, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.lh_search_id.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.tp_agv.ResumeLayout(False)
-        CType(Me.GroupControl13, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupControl13.ResumeLayout(False)
+        CType(Me.PanelControl4, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.PanelControl4.ResumeLayout(False)
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.GroupControl12, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupControl12.ResumeLayout(False)
-        Me.GroupControl12.PerformLayout()
+        CType(Me.PanelControl3, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.PanelControl3.ResumeLayout(False)
+        Me.PanelControl3.PerformLayout()
         CType(Me.CheckEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ComboBoxEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit3.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit4.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit5.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit7.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -1457,26 +1423,10 @@ Partial Class frmHWParamSetting
     Friend WithEvents gjb_scaner2_com As DevExpress.XtraEditors.TextEdit
     Friend WithEvents gjb_scaner1_com As DevExpress.XtraEditors.TextEdit
     Friend WithEvents gjb_jxb_port As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents GroupControl8 As DevExpress.XtraEditors.GroupControl
-    Friend WithEvents lhj_ip As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents lhj_port As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents btnUpdate_lhj As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents btnClear_lhj As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents LabelControl16 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents LabelControl17 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents lhj_ID As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents LabelControl18 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents jp_smq_com As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents lhj_Status As DevExpress.XtraEditors.ComboBoxEdit
-    Friend WithEvents LabelControl19 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents btnSearch_lhj As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents lh_search_id As DevExpress.XtraEditors.TextEdit
     Friend WithEvents LabelControl20 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents lhj_deleted As DevExpress.XtraEditors.CheckEdit
-    Friend WithEvents lhj_scbh As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents LabelControl21 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents GroupControl9 As DevExpress.XtraEditors.GroupControl
-    Friend WithEvents dgvList_lhj As DataGridView
     Friend WithEvents LabelControl22 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents jp_ybb_id As DevExpress.XtraEditors.TextEdit
     Friend WithEvents LabelControl2 As DevExpress.XtraEditors.LabelControl
@@ -1489,8 +1439,28 @@ Partial Class frmHWParamSetting
     Friend WithEvents GroupControl7 As DevExpress.XtraEditors.GroupControl
     Friend WithEvents LabelControl8 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents jp_bhjdzc_id As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents GroupControl11 As DevExpress.XtraEditors.GroupControl
+    Friend WithEvents LabelControl25 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents TextEdit1 As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents tp_agv As DevExpress.XtraTab.XtraTabPage
+    Friend WithEvents PanelControl1 As DevExpress.XtraEditors.PanelControl
+    Friend WithEvents dgvList_lhj As DataGridView
+    Friend WithEvents PanelControl2 As DevExpress.XtraEditors.PanelControl
+    Friend WithEvents lhj_Muju As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents LabelControl26 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents lhj_deleted As DevExpress.XtraEditors.CheckEdit
+    Friend WithEvents lhj_Status As DevExpress.XtraEditors.ComboBoxEdit
+    Friend WithEvents lhj_ip As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents lhj_port As DevExpress.XtraEditors.TextEdit
     Friend WithEvents btnDEL_lhj As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents btnUpdate_lhj As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents btnAdd_lhj As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents btnClear_lhj As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents LabelControl16 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents LabelControl17 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents lhj_ID As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents LabelControl19 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents LabelControl18 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents collh_id As DataGridViewTextBoxColumn
     Friend WithEvents collh_ip As DataGridViewTextBoxColumn
     Friend WithEvents collh_port As DataGridViewTextBoxColumn
@@ -1503,27 +1473,20 @@ Partial Class frmHWParamSetting
     Friend WithEvents collh_com As DataGridViewTextBoxColumn
     Friend WithEvents collh_status As DataGridViewTextBoxColumn
     Friend WithEvents collh_update_time As DataGridViewTextBoxColumn
-    Friend WithEvents GroupControl11 As DevExpress.XtraEditors.GroupControl
-    Friend WithEvents LabelControl25 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents TextEdit1 As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents lhj_Muju As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents LabelControl26 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents tp_agv As DevExpress.XtraTab.XtraTabPage
-    Friend WithEvents GroupControl12 As DevExpress.XtraEditors.GroupControl
+    Friend WithEvents PanelControl3 As DevExpress.XtraEditors.PanelControl
     Friend WithEvents CheckEdit1 As DevExpress.XtraEditors.CheckEdit
     Friend WithEvents ComboBoxEdit1 As DevExpress.XtraEditors.ComboBoxEdit
+    Friend WithEvents TextEdit3 As DevExpress.XtraEditors.TextEdit
     Friend WithEvents TextEdit4 As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents TextEdit5 As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents SimpleButton1 As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents SimpleButton2 As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents SimpleButton3 As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents SimpleButton4 As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents SimpleButton5 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents LabelControl27 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents LabelControl28 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents TextEdit5 As DevExpress.XtraEditors.TextEdit
     Friend WithEvents LabelControl29 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents LabelControl30 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents TextEdit7 As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents LabelControl31 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents LabelControl33 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents GroupControl13 As DevExpress.XtraEditors.GroupControl
+    Friend WithEvents PanelControl4 As DevExpress.XtraEditors.PanelControl
     Friend WithEvents DataGridView1 As DataGridView
     Friend WithEvents DataGridViewTextBoxColumn1 As DataGridViewTextBoxColumn
     Friend WithEvents DataGridViewTextBoxColumn2 As DataGridViewTextBoxColumn

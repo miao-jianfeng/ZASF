@@ -28,8 +28,6 @@ Partial Class frmJPinfo
         Me.LabelControl1 = New DevExpress.XtraEditors.LabelControl()
         Me.TextEdit3 = New DevExpress.XtraEditors.TextEdit()
         Me.LabelControl2 = New DevExpress.XtraEditors.LabelControl()
-        Me.TextEdit5 = New DevExpress.XtraEditors.TextEdit()
-        Me.LabelControl7 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl6 = New DevExpress.XtraEditors.LabelControl()
         Me.RadioButton1 = New System.Windows.Forms.RadioButton()
         Me.RadioButton2 = New System.Windows.Forms.RadioButton()
@@ -41,18 +39,26 @@ Partial Class frmJPinfo
         Me.LabelControl10 = New DevExpress.XtraEditors.LabelControl()
         Me.DateEdit1 = New DevExpress.XtraEditors.DateEdit()
         Me.TextEdit1 = New DevExpress.XtraEditors.ComboBoxEdit()
+        Me.PanelControl1 = New DevExpress.XtraEditors.PanelControl()
+        Me.TextEdit6 = New DevExpress.XtraEditors.TextEdit()
+        Me.LabelControl7 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl11 = New DevExpress.XtraEditors.LabelControl()
+        Me.TextEdit5 = New DevExpress.XtraEditors.TextEdit()
         CType(Me.TextEdit2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit3.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit5.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit4.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DateEdit1.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DateEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PanelControl1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.PanelControl1.SuspendLayout()
+        CType(Me.TextEdit6.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit5.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'SimpleButton2
         '
-        Me.SimpleButton2.Location = New System.Drawing.Point(384, 283)
+        Me.SimpleButton2.Location = New System.Drawing.Point(446, 338)
         Me.SimpleButton2.Name = "SimpleButton2"
         Me.SimpleButton2.Size = New System.Drawing.Size(112, 34)
         Me.SimpleButton2.TabIndex = 10
@@ -60,7 +66,7 @@ Partial Class frmJPinfo
         '
         'SimpleButton1
         '
-        Me.SimpleButton1.Location = New System.Drawing.Point(528, 283)
+        Me.SimpleButton1.Location = New System.Drawing.Point(590, 338)
         Me.SimpleButton1.Name = "SimpleButton1"
         Me.SimpleButton1.Size = New System.Drawing.Size(112, 34)
         Me.SimpleButton1.TabIndex = 11
@@ -68,7 +74,7 @@ Partial Class frmJPinfo
         '
         'TextEdit2
         '
-        Me.TextEdit2.Location = New System.Drawing.Point(444, 124)
+        Me.TextEdit2.Location = New System.Drawing.Point(497, 156)
         Me.TextEdit2.Name = "TextEdit2"
         Me.TextEdit2.Properties.Mask.EditMask = "n"
         Me.TextEdit2.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric
@@ -77,7 +83,7 @@ Partial Class frmJPinfo
         '
         'LabelControl3
         '
-        Me.LabelControl3.Location = New System.Drawing.Point(41, 128)
+        Me.LabelControl3.Location = New System.Drawing.Point(47, 160)
         Me.LabelControl3.Name = "LabelControl3"
         Me.LabelControl3.Size = New System.Drawing.Size(72, 22)
         Me.LabelControl3.TabIndex = 4
@@ -85,7 +91,7 @@ Partial Class frmJPinfo
         '
         'LabelControl4
         '
-        Me.LabelControl4.Location = New System.Drawing.Point(546, 128)
+        Me.LabelControl4.Location = New System.Drawing.Point(599, 160)
         Me.LabelControl4.Name = "LabelControl4"
         Me.LabelControl4.Size = New System.Drawing.Size(21, 22)
         Me.LabelControl4.TabIndex = 5
@@ -93,7 +99,7 @@ Partial Class frmJPinfo
         '
         'LabelControl5
         '
-        Me.LabelControl5.Location = New System.Drawing.Point(349, 128)
+        Me.LabelControl5.Location = New System.Drawing.Point(398, 160)
         Me.LabelControl5.Name = "LabelControl5"
         Me.LabelControl5.Size = New System.Drawing.Size(72, 22)
         Me.LabelControl5.TabIndex = 6
@@ -101,7 +107,7 @@ Partial Class frmJPinfo
         '
         'LabelControl1
         '
-        Me.LabelControl1.Location = New System.Drawing.Point(41, 224)
+        Me.LabelControl1.Location = New System.Drawing.Point(47, 221)
         Me.LabelControl1.Name = "LabelControl1"
         Me.LabelControl1.Size = New System.Drawing.Size(72, 22)
         Me.LabelControl1.TabIndex = 4
@@ -109,7 +115,7 @@ Partial Class frmJPinfo
         '
         'TextEdit3
         '
-        Me.TextEdit3.Location = New System.Drawing.Point(135, 220)
+        Me.TextEdit3.Location = New System.Drawing.Point(141, 217)
         Me.TextEdit3.Name = "TextEdit3"
         Me.TextEdit3.Size = New System.Drawing.Size(182, 30)
         Me.TextEdit3.TabIndex = 6
@@ -118,31 +124,16 @@ Partial Class frmJPinfo
         '
         Me.LabelControl2.Appearance.Font = New System.Drawing.Font("Tahoma", 7.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelControl2.Appearance.Options.UseFont = True
-        Me.LabelControl2.Location = New System.Drawing.Point(44, 260)
+        Me.LabelControl2.Location = New System.Drawing.Point(141, 251)
         Me.LabelControl2.Name = "LabelControl2"
         Me.LabelControl2.ShowToolTips = False
         Me.LabelControl2.Size = New System.Drawing.Size(180, 17)
         Me.LabelControl2.TabIndex = 4
         Me.LabelControl2.Text = "（昆明工厂胶片入库单号）"
         '
-        'TextEdit5
-        '
-        Me.TextEdit5.Location = New System.Drawing.Point(135, 24)
-        Me.TextEdit5.Name = "TextEdit5"
-        Me.TextEdit5.Size = New System.Drawing.Size(187, 30)
-        Me.TextEdit5.TabIndex = 0
-        '
-        'LabelControl7
-        '
-        Me.LabelControl7.Location = New System.Drawing.Point(41, 28)
-        Me.LabelControl7.Name = "LabelControl7"
-        Me.LabelControl7.Size = New System.Drawing.Size(72, 22)
-        Me.LabelControl7.TabIndex = 13
-        Me.LabelControl7.Text = "派工单号"
-        '
         'LabelControl6
         '
-        Me.LabelControl6.Location = New System.Drawing.Point(349, 78)
+        Me.LabelControl6.Location = New System.Drawing.Point(398, 99)
         Me.LabelControl6.Name = "LabelControl6"
         Me.LabelControl6.Size = New System.Drawing.Size(72, 22)
         Me.LabelControl6.TabIndex = 4
@@ -151,7 +142,7 @@ Partial Class frmJPinfo
         'RadioButton1
         '
         Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Location = New System.Drawing.Point(444, 76)
+        Me.RadioButton1.Location = New System.Drawing.Point(497, 97)
         Me.RadioButton1.Name = "RadioButton1"
         Me.RadioButton1.Size = New System.Drawing.Size(107, 26)
         Me.RadioButton1.TabIndex = 2
@@ -162,7 +153,7 @@ Partial Class frmJPinfo
         'RadioButton2
         '
         Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Location = New System.Drawing.Point(562, 76)
+        Me.RadioButton2.Location = New System.Drawing.Point(615, 97)
         Me.RadioButton2.Name = "RadioButton2"
         Me.RadioButton2.Size = New System.Drawing.Size(89, 26)
         Me.RadioButton2.TabIndex = 3
@@ -172,7 +163,7 @@ Partial Class frmJPinfo
         '
         'LabelControl8
         '
-        Me.LabelControl8.Location = New System.Drawing.Point(58, 78)
+        Me.LabelControl8.Location = New System.Drawing.Point(64, 99)
         Me.LabelControl8.Name = "LabelControl8"
         Me.LabelControl8.Size = New System.Drawing.Size(55, 22)
         Me.LabelControl8.TabIndex = 4
@@ -180,14 +171,14 @@ Partial Class frmJPinfo
         '
         'TextEdit4
         '
-        Me.TextEdit4.Location = New System.Drawing.Point(135, 74)
+        Me.TextEdit4.Location = New System.Drawing.Point(141, 95)
         Me.TextEdit4.Name = "TextEdit4"
         Me.TextEdit4.Size = New System.Drawing.Size(187, 30)
         Me.TextEdit4.TabIndex = 1
         '
         'LabelControl9
         '
-        Me.LabelControl9.Location = New System.Drawing.Point(77, 176)
+        Me.LabelControl9.Location = New System.Drawing.Point(83, 280)
         Me.LabelControl9.Name = "LabelControl9"
         Me.LabelControl9.Size = New System.Drawing.Size(36, 22)
         Me.LabelControl9.TabIndex = 6
@@ -196,7 +187,7 @@ Partial Class frmJPinfo
         'RadioButton3
         '
         Me.RadioButton3.AutoSize = True
-        Me.RadioButton3.Location = New System.Drawing.Point(233, 174)
+        Me.RadioButton3.Location = New System.Drawing.Point(236, 278)
         Me.RadioButton3.Name = "RadioButton3"
         Me.RadioButton3.Size = New System.Drawing.Size(89, 26)
         Me.RadioButton3.TabIndex = 8
@@ -207,7 +198,7 @@ Partial Class frmJPinfo
         'RadioButton4
         '
         Me.RadioButton4.AutoSize = True
-        Me.RadioButton4.Location = New System.Drawing.Point(135, 174)
+        Me.RadioButton4.Location = New System.Drawing.Point(138, 278)
         Me.RadioButton4.Name = "RadioButton4"
         Me.RadioButton4.Size = New System.Drawing.Size(89, 26)
         Me.RadioButton4.TabIndex = 7
@@ -217,7 +208,7 @@ Partial Class frmJPinfo
         '
         'LabelControl10
         '
-        Me.LabelControl10.Location = New System.Drawing.Point(349, 176)
+        Me.LabelControl10.Location = New System.Drawing.Point(398, 278)
         Me.LabelControl10.Name = "LabelControl10"
         Me.LabelControl10.Size = New System.Drawing.Size(72, 22)
         Me.LabelControl10.TabIndex = 14
@@ -226,7 +217,7 @@ Partial Class frmJPinfo
         'DateEdit1
         '
         Me.DateEdit1.EditValue = Nothing
-        Me.DateEdit1.Location = New System.Drawing.Point(444, 172)
+        Me.DateEdit1.Location = New System.Drawing.Point(497, 274)
         Me.DateEdit1.Name = "DateEdit1"
         Me.DateEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.DateEdit1.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -241,17 +232,60 @@ Partial Class frmJPinfo
         '
         'TextEdit1
         '
-        Me.TextEdit1.Location = New System.Drawing.Point(135, 124)
+        Me.TextEdit1.Location = New System.Drawing.Point(141, 156)
         Me.TextEdit1.Name = "TextEdit1"
         Me.TextEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.TextEdit1.Size = New System.Drawing.Size(182, 30)
         Me.TextEdit1.TabIndex = 4
         '
+        'PanelControl1
+        '
+        Me.PanelControl1.Controls.Add(Me.TextEdit6)
+        Me.PanelControl1.Controls.Add(Me.LabelControl7)
+        Me.PanelControl1.Controls.Add(Me.LabelControl11)
+        Me.PanelControl1.Controls.Add(Me.TextEdit5)
+        Me.PanelControl1.Dock = System.Windows.Forms.DockStyle.Top
+        Me.PanelControl1.Location = New System.Drawing.Point(0, 0)
+        Me.PanelControl1.Name = "PanelControl1"
+        Me.PanelControl1.Size = New System.Drawing.Size(782, 71)
+        Me.PanelControl1.TabIndex = 15
+        '
+        'TextEdit6
+        '
+        Me.TextEdit6.Location = New System.Drawing.Point(493, 20)
+        Me.TextEdit6.Name = "TextEdit6"
+        Me.TextEdit6.Size = New System.Drawing.Size(172, 30)
+        Me.TextEdit6.TabIndex = 1
+        '
+        'LabelControl7
+        '
+        Me.LabelControl7.Location = New System.Drawing.Point(416, 24)
+        Me.LabelControl7.Name = "LabelControl7"
+        Me.LabelControl7.Size = New System.Drawing.Size(54, 22)
+        Me.LabelControl7.TabIndex = 0
+        Me.LabelControl7.Text = "作业员"
+        '
+        'LabelControl11
+        '
+        Me.LabelControl11.Location = New System.Drawing.Point(44, 24)
+        Me.LabelControl11.Name = "LabelControl11"
+        Me.LabelControl11.Size = New System.Drawing.Size(72, 22)
+        Me.LabelControl11.TabIndex = 5
+        Me.LabelControl11.Text = "派工单号"
+        '
+        'TextEdit5
+        '
+        Me.TextEdit5.Location = New System.Drawing.Point(143, 20)
+        Me.TextEdit5.Name = "TextEdit5"
+        Me.TextEdit5.Size = New System.Drawing.Size(187, 30)
+        Me.TextEdit5.TabIndex = 0
+        '
         'frmJPinfo
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 22.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(706, 359)
+        Me.ClientSize = New System.Drawing.Size(782, 402)
+        Me.Controls.Add(Me.PanelControl1)
         Me.Controls.Add(Me.LabelControl10)
         Me.Controls.Add(Me.DateEdit1)
         Me.Controls.Add(Me.RadioButton3)
@@ -259,8 +293,6 @@ Partial Class frmJPinfo
         Me.Controls.Add(Me.RadioButton2)
         Me.Controls.Add(Me.RadioButton1)
         Me.Controls.Add(Me.TextEdit4)
-        Me.Controls.Add(Me.TextEdit5)
-        Me.Controls.Add(Me.LabelControl7)
         Me.Controls.Add(Me.SimpleButton2)
         Me.Controls.Add(Me.SimpleButton1)
         Me.Controls.Add(Me.TextEdit2)
@@ -279,11 +311,15 @@ Partial Class frmJPinfo
         Me.Text = "胶片管理"
         CType(Me.TextEdit2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit3.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit5.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit4.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DateEdit1.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DateEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PanelControl1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.PanelControl1.ResumeLayout(False)
+        Me.PanelControl1.PerformLayout()
+        CType(Me.TextEdit6.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit5.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -298,8 +334,6 @@ Partial Class frmJPinfo
     Friend WithEvents LabelControl1 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents TextEdit3 As DevExpress.XtraEditors.TextEdit
     Friend WithEvents LabelControl2 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents TextEdit5 As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents LabelControl7 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents LabelControl6 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents RadioButton1 As RadioButton
     Friend WithEvents RadioButton2 As RadioButton
@@ -311,4 +345,9 @@ Partial Class frmJPinfo
     Friend WithEvents LabelControl10 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents DateEdit1 As DevExpress.XtraEditors.DateEdit
     Friend WithEvents TextEdit1 As DevExpress.XtraEditors.ComboBoxEdit
+    Friend WithEvents PanelControl1 As DevExpress.XtraEditors.PanelControl
+    Friend WithEvents TextEdit6 As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents LabelControl7 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents LabelControl11 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents TextEdit5 As DevExpress.XtraEditors.TextEdit
 End Class

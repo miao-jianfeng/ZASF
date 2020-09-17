@@ -134,4 +134,14 @@ Public Class mainMenu
     Private Sub GroupControl1_Paint(sender As Object, e As PaintEventArgs) Handles GroupControl1.Paint
 
     End Sub
+
+    Private Sub SimpleButton2_Click(sender As Object, e As EventArgs) Handles SimpleButton2.Click
+        Dim a As New frmDispatchList
+        a.ShowDialog()
+    End Sub
+
+    Private Sub SimpleButton4_Click(sender As Object, e As EventArgs) Handles SimpleButton4.Click
+        Dim a As New frmDispatchDetail
+        a.ShowDialog()
+    End Sub
 End Class

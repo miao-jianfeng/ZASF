@@ -35,17 +35,23 @@ Partial Class frmFLBinfo
         Me.LabelControl6 = New DevExpress.XtraEditors.LabelControl()
         Me.TextEdit5 = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.TextEdit4 = New DevExpress.XtraEditors.TextEdit()
+        Me.PanelControl1 = New DevExpress.XtraEditors.PanelControl()
+        Me.LabelControl7 = New DevExpress.XtraEditors.LabelControl()
+        Me.TextEdit6 = New DevExpress.XtraEditors.TextEdit()
         CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit3.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit3.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit5.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit4.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PanelControl1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.PanelControl1.SuspendLayout()
+        CType(Me.TextEdit6.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'LabelControl1
         '
-        Me.LabelControl1.Location = New System.Drawing.Point(97, 199)
+        Me.LabelControl1.Location = New System.Drawing.Point(80, 159)
         Me.LabelControl1.Name = "LabelControl1"
         Me.LabelControl1.Size = New System.Drawing.Size(36, 22)
         Me.LabelControl1.TabIndex = 0
@@ -53,7 +59,7 @@ Partial Class frmFLBinfo
         '
         'LabelControl2
         '
-        Me.LabelControl2.Location = New System.Drawing.Point(60, 89)
+        Me.LabelControl2.Location = New System.Drawing.Point(43, 101)
         Me.LabelControl2.Name = "LabelControl2"
         Me.LabelControl2.Size = New System.Drawing.Size(73, 22)
         Me.LabelControl2.TabIndex = 0
@@ -61,14 +67,14 @@ Partial Class frmFLBinfo
         '
         'TextEdit1
         '
-        Me.TextEdit1.Location = New System.Drawing.Point(159, 85)
+        Me.TextEdit1.Location = New System.Drawing.Point(145, 97)
         Me.TextEdit1.Name = "TextEdit1"
         Me.TextEdit1.Size = New System.Drawing.Size(187, 30)
-        Me.TextEdit1.TabIndex = 1
+        Me.TextEdit1.TabIndex = 0
         '
         'TextEdit2
         '
-        Me.TextEdit2.Location = New System.Drawing.Point(159, 195)
+        Me.TextEdit2.Location = New System.Drawing.Point(145, 155)
         Me.TextEdit2.Name = "TextEdit2"
         Me.TextEdit2.Properties.Mask.EditMask = "n"
         Me.TextEdit2.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric
@@ -77,7 +83,7 @@ Partial Class frmFLBinfo
         '
         'LabelControl3
         '
-        Me.LabelControl3.Location = New System.Drawing.Point(253, 199)
+        Me.LabelControl3.Location = New System.Drawing.Point(243, 159)
         Me.LabelControl3.Name = "LabelControl3"
         Me.LabelControl3.Size = New System.Drawing.Size(21, 22)
         Me.LabelControl3.TabIndex = 0
@@ -85,23 +91,23 @@ Partial Class frmFLBinfo
         '
         'SimpleButton1
         '
-        Me.SimpleButton1.Location = New System.Drawing.Point(235, 366)
+        Me.SimpleButton1.Location = New System.Drawing.Point(604, 298)
         Me.SimpleButton1.Name = "SimpleButton1"
         Me.SimpleButton1.Size = New System.Drawing.Size(112, 34)
-        Me.SimpleButton1.TabIndex = 6
+        Me.SimpleButton1.TabIndex = 7
         Me.SimpleButton1.Text = "保存"
         '
         'SimpleButton2
         '
-        Me.SimpleButton2.Location = New System.Drawing.Point(95, 366)
+        Me.SimpleButton2.Location = New System.Drawing.Point(464, 298)
         Me.SimpleButton2.Name = "SimpleButton2"
         Me.SimpleButton2.Size = New System.Drawing.Size(112, 34)
-        Me.SimpleButton2.TabIndex = 5
+        Me.SimpleButton2.TabIndex = 6
         Me.SimpleButton2.Text = "标签打印"
         '
         'LabelControl5
         '
-        Me.LabelControl5.Location = New System.Drawing.Point(61, 34)
+        Me.LabelControl5.Location = New System.Drawing.Point(44, 24)
         Me.LabelControl5.Name = "LabelControl5"
         Me.LabelControl5.Size = New System.Drawing.Size(72, 22)
         Me.LabelControl5.TabIndex = 5
@@ -110,7 +116,7 @@ Partial Class frmFLBinfo
         'RadioButton3
         '
         Me.RadioButton3.AutoSize = True
-        Me.RadioButton3.Location = New System.Drawing.Point(264, 250)
+        Me.RadioButton3.Location = New System.Drawing.Point(247, 213)
         Me.RadioButton3.Name = "RadioButton3"
         Me.RadioButton3.Size = New System.Drawing.Size(89, 26)
         Me.RadioButton3.TabIndex = 4
@@ -121,7 +127,7 @@ Partial Class frmFLBinfo
         'RadioButton4
         '
         Me.RadioButton4.AutoSize = True
-        Me.RadioButton4.Location = New System.Drawing.Point(159, 250)
+        Me.RadioButton4.Location = New System.Drawing.Point(145, 213)
         Me.RadioButton4.Name = "RadioButton4"
         Me.RadioButton4.Size = New System.Drawing.Size(89, 26)
         Me.RadioButton4.TabIndex = 3
@@ -131,7 +137,7 @@ Partial Class frmFLBinfo
         '
         'LabelControl9
         '
-        Me.LabelControl9.Location = New System.Drawing.Point(97, 252)
+        Me.LabelControl9.Location = New System.Drawing.Point(80, 215)
         Me.LabelControl9.Name = "LabelControl9"
         Me.LabelControl9.Size = New System.Drawing.Size(36, 22)
         Me.LabelControl9.TabIndex = 9
@@ -139,7 +145,7 @@ Partial Class frmFLBinfo
         '
         'LabelControl4
         '
-        Me.LabelControl4.Location = New System.Drawing.Point(61, 305)
+        Me.LabelControl4.Location = New System.Drawing.Point(382, 215)
         Me.LabelControl4.Name = "LabelControl4"
         Me.LabelControl4.Size = New System.Drawing.Size(72, 22)
         Me.LabelControl4.TabIndex = 10
@@ -148,7 +154,7 @@ Partial Class frmFLBinfo
         'TextEdit3
         '
         Me.TextEdit3.EditValue = Nothing
-        Me.TextEdit3.Location = New System.Drawing.Point(159, 301)
+        Me.TextEdit3.Location = New System.Drawing.Point(483, 211)
         Me.TextEdit3.Name = "TextEdit3"
         Me.TextEdit3.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.TextEdit3.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -157,11 +163,11 @@ Partial Class frmFLBinfo
         Me.TextEdit3.Properties.Mask.EditMask = ""
         Me.TextEdit3.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.None
         Me.TextEdit3.Size = New System.Drawing.Size(182, 30)
-        Me.TextEdit3.TabIndex = 11
+        Me.TextEdit3.TabIndex = 5
         '
         'LabelControl6
         '
-        Me.LabelControl6.Location = New System.Drawing.Point(43, 144)
+        Me.LabelControl6.Location = New System.Drawing.Point(366, 101)
         Me.LabelControl6.Name = "LabelControl6"
         Me.LabelControl6.Size = New System.Drawing.Size(90, 22)
         Me.LabelControl6.TabIndex = 0
@@ -169,29 +175,56 @@ Partial Class frmFLBinfo
         '
         'TextEdit5
         '
-        Me.TextEdit5.Location = New System.Drawing.Point(160, 140)
+        Me.TextEdit5.Location = New System.Drawing.Point(483, 97)
         Me.TextEdit5.Name = "TextEdit5"
         Me.TextEdit5.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.TextEdit5.Size = New System.Drawing.Size(186, 30)
-        Me.TextEdit5.TabIndex = 2
+        Me.TextEdit5.TabIndex = 1
         '
         'TextEdit4
         '
-        Me.TextEdit4.Location = New System.Drawing.Point(159, 30)
+        Me.TextEdit4.Location = New System.Drawing.Point(143, 20)
         Me.TextEdit4.Name = "TextEdit4"
         Me.TextEdit4.Size = New System.Drawing.Size(187, 30)
         Me.TextEdit4.TabIndex = 0
+        '
+        'PanelControl1
+        '
+        Me.PanelControl1.Controls.Add(Me.TextEdit6)
+        Me.PanelControl1.Controls.Add(Me.LabelControl7)
+        Me.PanelControl1.Controls.Add(Me.LabelControl5)
+        Me.PanelControl1.Controls.Add(Me.TextEdit4)
+        Me.PanelControl1.Dock = System.Windows.Forms.DockStyle.Top
+        Me.PanelControl1.Location = New System.Drawing.Point(0, 0)
+        Me.PanelControl1.Name = "PanelControl1"
+        Me.PanelControl1.Size = New System.Drawing.Size(760, 71)
+        Me.PanelControl1.TabIndex = 12
+        '
+        'LabelControl7
+        '
+        Me.LabelControl7.Location = New System.Drawing.Point(420, 24)
+        Me.LabelControl7.Name = "LabelControl7"
+        Me.LabelControl7.Size = New System.Drawing.Size(54, 22)
+        Me.LabelControl7.TabIndex = 0
+        Me.LabelControl7.Text = "作业员"
+        '
+        'TextEdit6
+        '
+        Me.TextEdit6.Location = New System.Drawing.Point(493, 20)
+        Me.TextEdit6.Name = "TextEdit6"
+        Me.TextEdit6.Size = New System.Drawing.Size(172, 30)
+        Me.TextEdit6.TabIndex = 1
         '
         'frmFLBinfo
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 22.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(415, 449)
+        Me.ClientSize = New System.Drawing.Size(760, 381)
+        Me.Controls.Add(Me.PanelControl1)
         Me.Controls.Add(Me.LabelControl4)
         Me.Controls.Add(Me.RadioButton3)
         Me.Controls.Add(Me.RadioButton4)
         Me.Controls.Add(Me.LabelControl9)
-        Me.Controls.Add(Me.LabelControl5)
         Me.Controls.Add(Me.SimpleButton2)
         Me.Controls.Add(Me.SimpleButton1)
         Me.Controls.Add(Me.TextEdit2)
@@ -202,7 +235,6 @@ Partial Class frmFLBinfo
         Me.Controls.Add(Me.LabelControl1)
         Me.Controls.Add(Me.TextEdit3)
         Me.Controls.Add(Me.TextEdit5)
-        Me.Controls.Add(Me.TextEdit4)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "frmFLBinfo"
         Me.Text = "法兰板"
@@ -212,6 +244,10 @@ Partial Class frmFLBinfo
         CType(Me.TextEdit3.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit5.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit4.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PanelControl1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.PanelControl1.ResumeLayout(False)
+        Me.PanelControl1.PerformLayout()
+        CType(Me.TextEdit6.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -233,4 +269,7 @@ Partial Class frmFLBinfo
     Friend WithEvents LabelControl6 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents TextEdit5 As DevExpress.XtraEditors.ComboBoxEdit
     Friend WithEvents TextEdit4 As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents PanelControl1 As DevExpress.XtraEditors.PanelControl
+    Friend WithEvents TextEdit6 As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents LabelControl7 As DevExpress.XtraEditors.LabelControl
 End Class

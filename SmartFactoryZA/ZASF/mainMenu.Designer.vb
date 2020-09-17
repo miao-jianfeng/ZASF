@@ -40,6 +40,8 @@ Partial Class mainMenu
         Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton12 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton16 = New DevExpress.XtraEditors.SimpleButton()
+        Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
+        Me.SimpleButton4 = New DevExpress.XtraEditors.SimpleButton()
         CType(Me.GroupControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupControl1.SuspendLayout()
         CType(Me.胶片车间, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -202,6 +204,8 @@ Partial Class mainMenu
         '
         'GroupControl3
         '
+        Me.GroupControl3.Controls.Add(Me.SimpleButton4)
+        Me.GroupControl3.Controls.Add(Me.SimpleButton2)
         Me.GroupControl3.Controls.Add(Me.SimpleButton1)
         Me.GroupControl3.Controls.Add(Me.SimpleButton12)
         Me.GroupControl3.Controls.Add(Me.SimpleButton16)
@@ -235,6 +239,22 @@ Partial Class mainMenu
         Me.SimpleButton16.Size = New System.Drawing.Size(169, 34)
         Me.SimpleButton16.TabIndex = 0
         Me.SimpleButton16.Text = "硬件设置"
+        '
+        'SimpleButton2
+        '
+        Me.SimpleButton2.Location = New System.Drawing.Point(628, 63)
+        Me.SimpleButton2.Name = "SimpleButton2"
+        Me.SimpleButton2.Size = New System.Drawing.Size(169, 34)
+        Me.SimpleButton2.TabIndex = 2
+        Me.SimpleButton2.Text = "派工单一览"
+        '
+        'SimpleButton4
+        '
+        Me.SimpleButton4.Location = New System.Drawing.Point(829, 63)
+        Me.SimpleButton4.Name = "SimpleButton4"
+        Me.SimpleButton4.Size = New System.Drawing.Size(143, 34)
+        Me.SimpleButton4.TabIndex = 3
+        Me.SimpleButton4.Text = "派工单明细"
         '
         'mainMenu
         '
@@ -279,4 +299,6 @@ Partial Class mainMenu
     Friend WithEvents SimpleButton16 As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents SimpleButton1 As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents btnBasketInfo As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents SimpleButton2 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents SimpleButton4 As DevExpress.XtraEditors.SimpleButton
 End Class

@@ -218,7 +218,7 @@ Partial Class frmPreOrganizationEdit
         Me.GroupBox3.Controls.Add(Me.Label99)
         Me.GroupBox3.Controls.Add(Me.Label101)
         Me.GroupBox3.Controls.Add(Me.LabelControl44)
-        Me.GroupBox3.Location = New System.Drawing.Point(1077, 65)
+        Me.GroupBox3.Location = New System.Drawing.Point(1076, 65)
         Me.GroupBox3.Name = "GroupBox3"
         Me.GroupBox3.Size = New System.Drawing.Size(181, 206)
         Me.GroupBox3.TabIndex = 215
@@ -1486,9 +1486,9 @@ Partial Class frmPreOrganizationEdit
         Me.GroupControl1.Controls.Add(Me.LabelControl30)
         Me.GroupControl1.Controls.Add(Me.LabelControl33)
         Me.GroupControl1.Controls.Add(Me.LabelControl36)
-        Me.GroupControl1.Location = New System.Drawing.Point(871, 65)
+        Me.GroupControl1.Location = New System.Drawing.Point(880, 65)
         Me.GroupControl1.Name = "GroupControl1"
-        Me.GroupControl1.Size = New System.Drawing.Size(200, 206)
+        Me.GroupControl1.Size = New System.Drawing.Size(181, 206)
         Me.GroupControl1.TabIndex = 221
         Me.GroupControl1.Text = "骨架板信息"
         '
@@ -1569,7 +1569,7 @@ Partial Class frmPreOrganizationEdit
         '
         Me.LabelControl36.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelControl36.Appearance.Options.UseFont = True
-        Me.LabelControl36.Location = New System.Drawing.Point(170, 174)
+        Me.LabelControl36.Location = New System.Drawing.Point(152, 173)
         Me.LabelControl36.Name = "LabelControl36"
         Me.LabelControl36.Size = New System.Drawing.Size(19, 22)
         Me.LabelControl36.TabIndex = 202

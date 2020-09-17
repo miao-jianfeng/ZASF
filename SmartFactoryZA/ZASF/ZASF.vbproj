@@ -165,6 +165,18 @@
     <Compile Include="temp2.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="其它画面\frmDispatchDetail.Designer.vb">
+      <DependentUpon>frmDispatchDetail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="其它画面\frmDispatchDetail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="其它画面\frmDispatchList.Designer.vb">
+      <DependentUpon>frmDispatchList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="其它画面\frmDispatchList.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="其它画面\frmHWParamSetting.Designer.vb">
       <DependentUpon>frmHWParamSetting.vb</DependentUpon>
     </Compile>
@@ -353,6 +365,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="temp2.resx">
       <DependentUpon>temp2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="其它画面\frmDispatchDetail.resx">
+      <DependentUpon>frmDispatchDetail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="其它画面\frmDispatchList.resx">
+      <DependentUpon>frmDispatchList.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="其它画面\frmHWParamSetting.resx">
       <DependentUpon>frmHWParamSetting.vb</DependentUpon>

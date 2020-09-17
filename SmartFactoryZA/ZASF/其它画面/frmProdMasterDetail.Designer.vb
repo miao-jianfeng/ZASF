@@ -118,10 +118,10 @@ Partial Class frmProdMasterDetail
         '
         'TextEdit1
         '
-        Me.TextEdit1.Location = New System.Drawing.Point(142, 39)
+        Me.TextEdit1.Location = New System.Drawing.Point(148, 39)
         Me.TextEdit1.Margin = New System.Windows.Forms.Padding(6)
         Me.TextEdit1.Name = "TextEdit1"
-        Me.TextEdit1.Size = New System.Drawing.Size(201, 30)
+        Me.TextEdit1.Size = New System.Drawing.Size(195, 30)
         Me.TextEdit1.TabIndex = 0
         '
         'LabelControl1
@@ -186,7 +186,7 @@ Partial Class frmProdMasterDetail
         '
         'LabelControl5
         '
-        Me.LabelControl5.Location = New System.Drawing.Point(529, 141)
+        Me.LabelControl5.Location = New System.Drawing.Point(531, 141)
         Me.LabelControl5.Margin = New System.Windows.Forms.Padding(32)
         Me.LabelControl5.Name = "LabelControl5"
         Me.LabelControl5.Size = New System.Drawing.Size(23, 22)
@@ -195,10 +195,10 @@ Partial Class frmProdMasterDetail
         '
         'TextEdit5
         '
-        Me.TextEdit5.Location = New System.Drawing.Point(142, 137)
+        Me.TextEdit5.Location = New System.Drawing.Point(148, 137)
         Me.TextEdit5.Margin = New System.Windows.Forms.Padding(9)
         Me.TextEdit5.Name = "TextEdit5"
-        Me.TextEdit5.Size = New System.Drawing.Size(201, 30)
+        Me.TextEdit5.Size = New System.Drawing.Size(195, 30)
         Me.TextEdit5.TabIndex = 4
         '
         'LabelControl6
@@ -294,16 +294,16 @@ Partial Class frmProdMasterDetail
         Me.GroupControl1.Controls.Add(Me.LabelControl19)
         Me.GroupControl1.Controls.Add(Me.GroupControl3)
         Me.GroupControl1.Controls.Add(Me.GroupControl2)
-        Me.GroupControl1.Location = New System.Drawing.Point(38, 198)
+        Me.GroupControl1.Location = New System.Drawing.Point(38, 191)
         Me.GroupControl1.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupControl1.Name = "GroupControl1"
-        Me.GroupControl1.Size = New System.Drawing.Size(455, 383)
+        Me.GroupControl1.Size = New System.Drawing.Size(494, 383)
         Me.GroupControl1.TabIndex = 9
         Me.GroupControl1.Text = "硫化条件1"
         '
         'TextEdit15
         '
-        Me.TextEdit15.Location = New System.Drawing.Point(104, 315)
+        Me.TextEdit15.Location = New System.Drawing.Point(126, 327)
         Me.TextEdit15.Margin = New System.Windows.Forms.Padding(48)
         Me.TextEdit15.Name = "TextEdit15"
         Me.TextEdit15.Size = New System.Drawing.Size(84, 30)
@@ -311,7 +311,7 @@ Partial Class frmProdMasterDetail
         '
         'LabelControl19
         '
-        Me.LabelControl19.Location = New System.Drawing.Point(21, 319)
+        Me.LabelControl19.Location = New System.Drawing.Point(43, 331)
         Me.LabelControl19.Margin = New System.Windows.Forms.Padding(48)
         Me.LabelControl19.Name = "LabelControl19"
         Me.LabelControl19.Size = New System.Drawing.Size(72, 22)
@@ -327,7 +327,7 @@ Partial Class frmProdMasterDetail
         Me.GroupControl3.Controls.Add(Me.TextEdit14)
         Me.GroupControl3.Controls.Add(Me.LabelControl18)
         Me.GroupControl3.GroupStyle = DevExpress.Utils.GroupStyle.Light
-        Me.GroupControl3.Location = New System.Drawing.Point(21, 59)
+        Me.GroupControl3.Location = New System.Drawing.Point(43, 63)
         Me.GroupControl3.Margin = New System.Windows.Forms.Padding(6)
         Me.GroupControl3.Name = "GroupControl3"
         Me.GroupControl3.Size = New System.Drawing.Size(403, 109)
@@ -336,7 +336,7 @@ Partial Class frmProdMasterDetail
         '
         'TextEdit12
         '
-        Me.TextEdit12.Location = New System.Drawing.Point(323, 44)
+        Me.TextEdit12.Location = New System.Drawing.Point(323, 49)
         Me.TextEdit12.Margin = New System.Windows.Forms.Padding(108)
         Me.TextEdit12.Name = "TextEdit12"
         Me.TextEdit12.Size = New System.Drawing.Size(56, 30)
@@ -344,7 +344,7 @@ Partial Class frmProdMasterDetail
         '
         'TextEdit13
         '
-        Me.TextEdit13.Location = New System.Drawing.Point(203, 44)
+        Me.TextEdit13.Location = New System.Drawing.Point(203, 49)
         Me.TextEdit13.Margin = New System.Windows.Forms.Padding(72)
         Me.TextEdit13.Name = "TextEdit13"
         Me.TextEdit13.Size = New System.Drawing.Size(56, 30)
@@ -353,7 +353,7 @@ Partial Class frmProdMasterDetail
         'LabelControl16
         '
         Me.LabelControl16.LineVisible = True
-        Me.LabelControl16.Location = New System.Drawing.Point(273, 48)
+        Me.LabelControl16.Location = New System.Drawing.Point(273, 53)
         Me.LabelControl16.Margin = New System.Windows.Forms.Padding(108)
         Me.LabelControl16.Name = "LabelControl16"
         Me.LabelControl16.Size = New System.Drawing.Size(36, 22)
@@ -362,7 +362,7 @@ Partial Class frmProdMasterDetail
         '
         'LabelControl17
         '
-        Me.LabelControl17.Location = New System.Drawing.Point(153, 48)
+        Me.LabelControl17.Location = New System.Drawing.Point(153, 53)
         Me.LabelControl17.Margin = New System.Windows.Forms.Padding(72)
         Me.LabelControl17.Name = "LabelControl17"
         Me.LabelControl17.Size = New System.Drawing.Size(36, 22)
@@ -371,7 +371,7 @@ Partial Class frmProdMasterDetail
         '
         'TextEdit14
         '
-        Me.TextEdit14.Location = New System.Drawing.Point(83, 44)
+        Me.TextEdit14.Location = New System.Drawing.Point(83, 49)
         Me.TextEdit14.Margin = New System.Windows.Forms.Padding(48)
         Me.TextEdit14.Name = "TextEdit14"
         Me.TextEdit14.Size = New System.Drawing.Size(56, 30)
@@ -379,7 +379,7 @@ Partial Class frmProdMasterDetail
         '
         'LabelControl18
         '
-        Me.LabelControl18.Location = New System.Drawing.Point(15, 48)
+        Me.LabelControl18.Location = New System.Drawing.Point(15, 53)
         Me.LabelControl18.Margin = New System.Windows.Forms.Padding(48)
         Me.LabelControl18.Name = "LabelControl18"
         Me.LabelControl18.Size = New System.Drawing.Size(54, 22)
@@ -395,7 +395,7 @@ Partial Class frmProdMasterDetail
         Me.GroupControl2.Controls.Add(Me.TextEdit9)
         Me.GroupControl2.Controls.Add(Me.LabelControl13)
         Me.GroupControl2.GroupStyle = DevExpress.Utils.GroupStyle.Light
-        Me.GroupControl2.Location = New System.Drawing.Point(21, 185)
+        Me.GroupControl2.Location = New System.Drawing.Point(43, 194)
         Me.GroupControl2.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupControl2.Name = "GroupControl2"
         Me.GroupControl2.Size = New System.Drawing.Size(403, 109)
@@ -404,7 +404,7 @@ Partial Class frmProdMasterDetail
         '
         'TextEdit11
         '
-        Me.TextEdit11.Location = New System.Drawing.Point(323, 44)
+        Me.TextEdit11.Location = New System.Drawing.Point(323, 48)
         Me.TextEdit11.Margin = New System.Windows.Forms.Padding(72)
         Me.TextEdit11.Name = "TextEdit11"
         Me.TextEdit11.Size = New System.Drawing.Size(56, 30)
@@ -412,7 +412,7 @@ Partial Class frmProdMasterDetail
         '
         'TextEdit10
         '
-        Me.TextEdit10.Location = New System.Drawing.Point(203, 44)
+        Me.TextEdit10.Location = New System.Drawing.Point(203, 48)
         Me.TextEdit10.Margin = New System.Windows.Forms.Padding(48)
         Me.TextEdit10.Name = "TextEdit10"
         Me.TextEdit10.Size = New System.Drawing.Size(56, 30)
@@ -421,7 +421,7 @@ Partial Class frmProdMasterDetail
         'LabelControl15
         '
         Me.LabelControl15.LineVisible = True
-        Me.LabelControl15.Location = New System.Drawing.Point(273, 48)
+        Me.LabelControl15.Location = New System.Drawing.Point(273, 52)
         Me.LabelControl15.Margin = New System.Windows.Forms.Padding(72)
         Me.LabelControl15.Name = "LabelControl15"
         Me.LabelControl15.Size = New System.Drawing.Size(36, 22)
@@ -430,7 +430,7 @@ Partial Class frmProdMasterDetail
         '
         'LabelControl14
         '
-        Me.LabelControl14.Location = New System.Drawing.Point(153, 48)
+        Me.LabelControl14.Location = New System.Drawing.Point(153, 52)
         Me.LabelControl14.Margin = New System.Windows.Forms.Padding(48)
         Me.LabelControl14.Name = "LabelControl14"
         Me.LabelControl14.Size = New System.Drawing.Size(36, 22)
@@ -439,7 +439,7 @@ Partial Class frmProdMasterDetail
         '
         'TextEdit9
         '
-        Me.TextEdit9.Location = New System.Drawing.Point(83, 44)
+        Me.TextEdit9.Location = New System.Drawing.Point(83, 48)
         Me.TextEdit9.Margin = New System.Windows.Forms.Padding(32)
         Me.TextEdit9.Name = "TextEdit9"
         Me.TextEdit9.Size = New System.Drawing.Size(56, 30)
@@ -447,7 +447,7 @@ Partial Class frmProdMasterDetail
         '
         'LabelControl13
         '
-        Me.LabelControl13.Location = New System.Drawing.Point(15, 48)
+        Me.LabelControl13.Location = New System.Drawing.Point(15, 52)
         Me.LabelControl13.Margin = New System.Windows.Forms.Padding(32)
         Me.LabelControl13.Name = "LabelControl13"
         Me.LabelControl13.Size = New System.Drawing.Size(54, 22)
@@ -460,16 +460,16 @@ Partial Class frmProdMasterDetail
         Me.GroupControl4.Controls.Add(Me.LabelControl20)
         Me.GroupControl4.Controls.Add(Me.GroupControl5)
         Me.GroupControl4.Controls.Add(Me.GroupControl6)
-        Me.GroupControl4.Location = New System.Drawing.Point(539, 198)
+        Me.GroupControl4.Location = New System.Drawing.Point(572, 191)
         Me.GroupControl4.Margin = New System.Windows.Forms.Padding(6)
         Me.GroupControl4.Name = "GroupControl4"
-        Me.GroupControl4.Size = New System.Drawing.Size(455, 383)
+        Me.GroupControl4.Size = New System.Drawing.Size(494, 383)
         Me.GroupControl4.TabIndex = 10
         Me.GroupControl4.Text = "硫化条件2"
         '
         'TextEdit16
         '
-        Me.TextEdit16.Location = New System.Drawing.Point(104, 315)
+        Me.TextEdit16.Location = New System.Drawing.Point(126, 327)
         Me.TextEdit16.Margin = New System.Windows.Forms.Padding(72)
         Me.TextEdit16.Name = "TextEdit16"
         Me.TextEdit16.Size = New System.Drawing.Size(84, 30)
@@ -477,7 +477,7 @@ Partial Class frmProdMasterDetail
         '
         'LabelControl20
         '
-        Me.LabelControl20.Location = New System.Drawing.Point(21, 319)
+        Me.LabelControl20.Location = New System.Drawing.Point(43, 331)
         Me.LabelControl20.Margin = New System.Windows.Forms.Padding(72)
         Me.LabelControl20.Name = "LabelControl20"
         Me.LabelControl20.Size = New System.Drawing.Size(72, 22)
@@ -493,7 +493,7 @@ Partial Class frmProdMasterDetail
         Me.GroupControl5.Controls.Add(Me.TextEdit19)
         Me.GroupControl5.Controls.Add(Me.LabelControl23)
         Me.GroupControl5.GroupStyle = DevExpress.Utils.GroupStyle.Light
-        Me.GroupControl5.Location = New System.Drawing.Point(21, 59)
+        Me.GroupControl5.Location = New System.Drawing.Point(43, 63)
         Me.GroupControl5.Margin = New System.Windows.Forms.Padding(9)
         Me.GroupControl5.Name = "GroupControl5"
         Me.GroupControl5.Size = New System.Drawing.Size(403, 109)
@@ -502,7 +502,7 @@ Partial Class frmProdMasterDetail
         '
         'TextEdit17
         '
-        Me.TextEdit17.Location = New System.Drawing.Point(323, 44)
+        Me.TextEdit17.Location = New System.Drawing.Point(323, 49)
         Me.TextEdit17.Margin = New System.Windows.Forms.Padding(162)
         Me.TextEdit17.Name = "TextEdit17"
         Me.TextEdit17.Size = New System.Drawing.Size(56, 30)
@@ -510,7 +510,7 @@ Partial Class frmProdMasterDetail
         '
         'TextEdit18
         '
-        Me.TextEdit18.Location = New System.Drawing.Point(203, 44)
+        Me.TextEdit18.Location = New System.Drawing.Point(203, 49)
         Me.TextEdit18.Margin = New System.Windows.Forms.Padding(108)
         Me.TextEdit18.Name = "TextEdit18"
         Me.TextEdit18.Size = New System.Drawing.Size(56, 30)
@@ -519,7 +519,7 @@ Partial Class frmProdMasterDetail
         'LabelControl21
         '
         Me.LabelControl21.LineVisible = True
-        Me.LabelControl21.Location = New System.Drawing.Point(273, 48)
+        Me.LabelControl21.Location = New System.Drawing.Point(273, 53)
         Me.LabelControl21.Margin = New System.Windows.Forms.Padding(162)
         Me.LabelControl21.Name = "LabelControl21"
         Me.LabelControl21.Size = New System.Drawing.Size(36, 22)
@@ -528,7 +528,7 @@ Partial Class frmProdMasterDetail
         '
         'LabelControl22
         '
-        Me.LabelControl22.Location = New System.Drawing.Point(153, 48)
+        Me.LabelControl22.Location = New System.Drawing.Point(153, 53)
         Me.LabelControl22.Margin = New System.Windows.Forms.Padding(108)
         Me.LabelControl22.Name = "LabelControl22"
         Me.LabelControl22.Size = New System.Drawing.Size(36, 22)
@@ -537,7 +537,7 @@ Partial Class frmProdMasterDetail
         '
         'TextEdit19
         '
-        Me.TextEdit19.Location = New System.Drawing.Point(83, 44)
+        Me.TextEdit19.Location = New System.Drawing.Point(83, 49)
         Me.TextEdit19.Margin = New System.Windows.Forms.Padding(72)
         Me.TextEdit19.Name = "TextEdit19"
         Me.TextEdit19.Size = New System.Drawing.Size(56, 30)
@@ -545,7 +545,7 @@ Partial Class frmProdMasterDetail
         '
         'LabelControl23
         '
-        Me.LabelControl23.Location = New System.Drawing.Point(15, 48)
+        Me.LabelControl23.Location = New System.Drawing.Point(15, 53)
         Me.LabelControl23.Margin = New System.Windows.Forms.Padding(72)
         Me.LabelControl23.Name = "LabelControl23"
         Me.LabelControl23.Size = New System.Drawing.Size(54, 22)
@@ -561,7 +561,7 @@ Partial Class frmProdMasterDetail
         Me.GroupControl6.Controls.Add(Me.TextEdit22)
         Me.GroupControl6.Controls.Add(Me.LabelControl26)
         Me.GroupControl6.GroupStyle = DevExpress.Utils.GroupStyle.Light
-        Me.GroupControl6.Location = New System.Drawing.Point(21, 185)
+        Me.GroupControl6.Location = New System.Drawing.Point(43, 194)
         Me.GroupControl6.Margin = New System.Windows.Forms.Padding(6)
         Me.GroupControl6.Name = "GroupControl6"
         Me.GroupControl6.Size = New System.Drawing.Size(403, 109)
@@ -570,7 +570,7 @@ Partial Class frmProdMasterDetail
         '
         'TextEdit20
         '
-        Me.TextEdit20.Location = New System.Drawing.Point(323, 44)
+        Me.TextEdit20.Location = New System.Drawing.Point(323, 47)
         Me.TextEdit20.Margin = New System.Windows.Forms.Padding(108)
         Me.TextEdit20.Name = "TextEdit20"
         Me.TextEdit20.Size = New System.Drawing.Size(56, 30)
@@ -578,7 +578,7 @@ Partial Class frmProdMasterDetail
         '
         'TextEdit21
         '
-        Me.TextEdit21.Location = New System.Drawing.Point(203, 44)
+        Me.TextEdit21.Location = New System.Drawing.Point(203, 47)
         Me.TextEdit21.Margin = New System.Windows.Forms.Padding(72)
         Me.TextEdit21.Name = "TextEdit21"
         Me.TextEdit21.Size = New System.Drawing.Size(56, 30)
@@ -587,7 +587,7 @@ Partial Class frmProdMasterDetail
         'LabelControl24
         '
         Me.LabelControl24.LineVisible = True
-        Me.LabelControl24.Location = New System.Drawing.Point(273, 48)
+        Me.LabelControl24.Location = New System.Drawing.Point(273, 51)
         Me.LabelControl24.Margin = New System.Windows.Forms.Padding(108)
         Me.LabelControl24.Name = "LabelControl24"
         Me.LabelControl24.Size = New System.Drawing.Size(36, 22)
@@ -596,7 +596,7 @@ Partial Class frmProdMasterDetail
         '
         'LabelControl25
         '
-        Me.LabelControl25.Location = New System.Drawing.Point(153, 48)
+        Me.LabelControl25.Location = New System.Drawing.Point(153, 51)
         Me.LabelControl25.Margin = New System.Windows.Forms.Padding(72)
         Me.LabelControl25.Name = "LabelControl25"
         Me.LabelControl25.Size = New System.Drawing.Size(36, 22)
@@ -605,7 +605,7 @@ Partial Class frmProdMasterDetail
         '
         'TextEdit22
         '
-        Me.TextEdit22.Location = New System.Drawing.Point(83, 44)
+        Me.TextEdit22.Location = New System.Drawing.Point(83, 47)
         Me.TextEdit22.Margin = New System.Windows.Forms.Padding(48)
         Me.TextEdit22.Name = "TextEdit22"
         Me.TextEdit22.Size = New System.Drawing.Size(56, 30)
@@ -613,7 +613,7 @@ Partial Class frmProdMasterDetail
         '
         'LabelControl26
         '
-        Me.LabelControl26.Location = New System.Drawing.Point(15, 48)
+        Me.LabelControl26.Location = New System.Drawing.Point(15, 51)
         Me.LabelControl26.Margin = New System.Windows.Forms.Padding(48)
         Me.LabelControl26.Name = "LabelControl26"
         Me.LabelControl26.Size = New System.Drawing.Size(54, 22)
@@ -622,10 +622,10 @@ Partial Class frmProdMasterDetail
         '
         'SimpleButton1
         '
-        Me.SimpleButton1.Location = New System.Drawing.Point(883, 605)
+        Me.SimpleButton1.Location = New System.Drawing.Point(892, 603)
         Me.SimpleButton1.Margin = New System.Windows.Forms.Padding(4)
         Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(112, 34)
+        Me.SimpleButton1.Size = New System.Drawing.Size(174, 53)
         Me.SimpleButton1.TabIndex = 11
         Me.SimpleButton1.Text = "保存"
         '
@@ -667,7 +667,7 @@ Partial Class frmProdMasterDetail
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(144.0!, 144.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
-        Me.ClientSize = New System.Drawing.Size(1098, 669)
+        Me.ClientSize = New System.Drawing.Size(1104, 684)
         Me.Controls.Add(Me.SimpleButton1)
         Me.Controls.Add(Me.GroupControl4)
         Me.Controls.Add(Me.GroupControl1)

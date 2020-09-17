@@ -253,16 +253,16 @@
         End With
     End Sub
 
-    Private Sub btnClear_lhj_Click(sender As Object, e As EventArgs) Handles btnClear_lhj.Click
+    Private Sub btnClear_lhj_Click(sender As Object, e As EventArgs)
         lhj_ID.Text = String.Empty
         lhj_ip.Text = String.Empty
         lhj_port.Text = String.Empty
         lhj_Status.Text = String.Empty
         lhj_deleted.Checked = False
-        lhj_scbh.Text = String.Empty
+        'lhj_scbh.Text = String.Empty
     End Sub
 
-    Private Sub dgvList_lhj_CellClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgvList_lhj.CellClick
+    Private Sub dgvList_lhj_CellClick(sender As Object, e As DataGridViewCellEventArgs)
         '当点击表头部的列时，e.RowIndex==-1
         If e.RowIndex > -1 Then
             With dgvList_lhj.Rows(e.RowIndex)
@@ -271,7 +271,7 @@
                 lhj_port.Text = .Cells("collh_port").Value.ToString
                 lhj_Status.Text = .Cells("collh_status_name").Value.ToString
                 lhj_deleted.Checked = .Cells("collh_deleted").Value
-                lhj_scbh.Text = .Cells("collh_scbh").Value.ToString
+                'lhj_scbh.Text = .Cells("collh_scbh").Value.ToString
             End With
             setLHEntity(old_lh)
         End If
@@ -281,12 +281,12 @@
             .id_text = lhj_ID.Text
             .ip_text = lhj_ip.Text
             .port_text = lhj_port.Text
-            .scbh_text = lhj_scbh.Text
+            '.scbh_text = lhj_scbh.Text
             .status_text = getStatusNoByText(lhj_Status.Text)
             .deleted_text = lhj_deleted.Checked
         End With
     End Sub
-    Private Sub btnAdd_lhj_Click(sender As Object, e As EventArgs) Handles btnAdd_lhj.Click
+    Private Sub btnAdd_lhj_Click(sender As Object, e As EventArgs)
         If chkLH() = False Then Exit Sub
         setLHEntity(new_lh)
         If objHWSetting.saveLH(INSERT_TYPE, old_lh, new_lh) <> -2 Then
@@ -298,7 +298,7 @@
     End Sub
 
 
-    Private Sub btnUpdate_lhj_Click(sender As Object, e As EventArgs) Handles btnUpdate_lhj.Click
+    Private Sub btnUpdate_lhj_Click(sender As Object, e As EventArgs)
         If chkLH() = False Then Exit Sub
         setLHEntity(new_lh)
         If objHWSetting.saveLH(UPDATE_TYPE, old_lh, new_lh) <> -2 Then
@@ -327,7 +327,7 @@
 
         Return rtn
     End Function
-    Private Sub btnDEL_lhj_Click(sender As Object, e As EventArgs) Handles btnDEL_lhj.Click
+    Private Sub btnDEL_lhj_Click(sender As Object, e As EventArgs)
         If chkLH() = False Then Exit Sub
         If MsgBox(getMsgStr("msg006"), MsgBoxStyle.YesNo) = MsgBoxResult.No Then
             Exit Sub
@@ -381,6 +381,10 @@
         End Select
         Return sn
     End Function
+
+    Private Sub tp_lh_Paint(sender As Object, e As PaintEventArgs) Handles tp_lh.Paint
+
+    End Sub
 End Class
 
 
