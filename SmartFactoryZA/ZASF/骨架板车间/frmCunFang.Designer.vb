@@ -40,7 +40,7 @@ Partial Class frmCunFang
         '
         'LabelControl1
         '
-        Me.LabelControl1.Location = New System.Drawing.Point(44, 75)
+        Me.LabelControl1.Location = New System.Drawing.Point(44, 133)
         Me.LabelControl1.Name = "LabelControl1"
         Me.LabelControl1.Size = New System.Drawing.Size(90, 22)
         Me.LabelControl1.TabIndex = 0
@@ -48,7 +48,7 @@ Partial Class frmCunFang
         '
         'LabelControl2
         '
-        Me.LabelControl2.Location = New System.Drawing.Point(62, 129)
+        Me.LabelControl2.Location = New System.Drawing.Point(62, 35)
         Me.LabelControl2.Name = "LabelControl2"
         Me.LabelControl2.Size = New System.Drawing.Size(72, 22)
         Me.LabelControl2.TabIndex = 1
@@ -56,7 +56,7 @@ Partial Class frmCunFang
         '
         'LabelControl3
         '
-        Me.LabelControl3.Location = New System.Drawing.Point(26, 183)
+        Me.LabelControl3.Location = New System.Drawing.Point(26, 182)
         Me.LabelControl3.Name = "LabelControl3"
         Me.LabelControl3.Size = New System.Drawing.Size(108, 22)
         Me.LabelControl3.TabIndex = 2
@@ -73,7 +73,7 @@ Partial Class frmCunFang
         'TextEdit2
         '
         Me.TextEdit2.EditValue = Nothing
-        Me.TextEdit2.Location = New System.Drawing.Point(151, 179)
+        Me.TextEdit2.Location = New System.Drawing.Point(151, 178)
         Me.TextEdit2.Name = "TextEdit2"
         Me.TextEdit2.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.TextEdit2.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -88,7 +88,7 @@ Partial Class frmCunFang
         '
         'TextEdit3
         '
-        Me.TextEdit3.Location = New System.Drawing.Point(151, 125)
+        Me.TextEdit3.Location = New System.Drawing.Point(151, 31)
         Me.TextEdit3.Name = "TextEdit3"
         Me.TextEdit3.Size = New System.Drawing.Size(187, 30)
         Me.TextEdit3.TabIndex = 2
@@ -103,7 +103,7 @@ Partial Class frmCunFang
         '
         'LabelControl5
         '
-        Me.LabelControl5.Location = New System.Drawing.Point(62, 22)
+        Me.LabelControl5.Location = New System.Drawing.Point(62, 84)
         Me.LabelControl5.Name = "LabelControl5"
         Me.LabelControl5.Size = New System.Drawing.Size(72, 22)
         Me.LabelControl5.TabIndex = 0
@@ -111,7 +111,7 @@ Partial Class frmCunFang
         '
         'TextEdit4
         '
-        Me.TextEdit4.Location = New System.Drawing.Point(151, 18)
+        Me.TextEdit4.Location = New System.Drawing.Point(151, 80)
         Me.TextEdit4.Name = "TextEdit4"
         Me.TextEdit4.Size = New System.Drawing.Size(187, 30)
         Me.TextEdit4.TabIndex = 0
@@ -140,7 +140,7 @@ Partial Class frmCunFang
         '
         'TextEdit1
         '
-        Me.TextEdit1.Location = New System.Drawing.Point(151, 71)
+        Me.TextEdit1.Location = New System.Drawing.Point(151, 129)
         Me.TextEdit1.Name = "TextEdit1"
         Me.TextEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.TextEdit1.Size = New System.Drawing.Size(187, 30)

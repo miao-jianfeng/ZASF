@@ -19,106 +19,106 @@ Partial Class frmLiuHuaJi
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim XyDiagram3 As DevExpress.XtraCharts.XYDiagram = New DevExpress.XtraCharts.XYDiagram()
-        Dim Series7 As DevExpress.XtraCharts.Series = New DevExpress.XtraCharts.Series()
-        Dim SeriesPoint85 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("5Min", New Object() {CType(150.0R, Object)})
-        Dim SeriesPoint86 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("10Min", New Object() {CType(150.0R, Object)})
-        Dim SeriesPoint87 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("15Min", New Object() {CType(150.0R, Object)})
-        Dim SeriesPoint88 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("20Min", New Object() {CType(150.0R, Object)})
-        Dim SeriesPoint89 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("25Min", New Object() {CType(150.0R, Object)})
-        Dim SeriesPoint90 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("30Min", New Object() {CType(150.0R, Object)})
-        Dim SeriesPoint91 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("35Min", New Object() {CType(150.0R, Object)})
-        Dim SeriesPoint92 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("40Min", New Object() {CType(150.0R, Object)})
-        Dim SeriesPoint93 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("45Min", New Object() {CType(150.0R, Object)})
-        Dim SeriesPoint94 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("50Min", New Object() {CType(150.0R, Object)})
-        Dim SeriesPoint95 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("55Min", New Object() {CType(150.0R, Object)})
-        Dim SeriesPoint96 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("60Min", New Object() {CType(150.0R, Object)})
-        Dim SeriesPoint97 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("65Min", New Object() {CType(150.0R, Object)})
-        Dim SeriesPoint98 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("70Min", New Object() {CType(150.0R, Object)})
-        Dim LineSeriesView9 As DevExpress.XtraCharts.LineSeriesView = New DevExpress.XtraCharts.LineSeriesView()
-        Dim Series8 As DevExpress.XtraCharts.Series = New DevExpress.XtraCharts.Series()
-        Dim SeriesPoint99 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("5Min", New Object() {CType(50.0R, Object)})
-        Dim SeriesPoint100 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("10Min", New Object() {CType(70.0R, Object)})
-        Dim SeriesPoint101 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("15Min", New Object() {CType(100.0R, Object)})
-        Dim SeriesPoint102 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("20Min", New Object() {CType(130.0R, Object)})
-        Dim SeriesPoint103 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("25Min", New Object() {CType(130.0R, Object)})
-        Dim SeriesPoint104 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("30Min", New Object() {CType(130.0R, Object)})
-        Dim SeriesPoint105 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("35Min", New Object() {CType(130.0R, Object)})
-        Dim SeriesPoint106 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("40Min", New Object() {CType(130.0R, Object)})
-        Dim SeriesPoint107 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("45Min", New Object() {CType(130.0R, Object)})
-        Dim SeriesPoint108 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("50Min", New Object() {CType(130.0R, Object)})
-        Dim SeriesPoint109 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("55Min", New Object() {CType(130.0R, Object)})
-        Dim SeriesPoint110 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("60Min", New Object() {CType(70.0R, Object)})
-        Dim SeriesPoint111 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("65Min", New Object() {CType(70.0R, Object)})
-        Dim SeriesPoint112 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("70Min", New Object() {CType(70.0R, Object)})
-        Dim LineSeriesView10 As DevExpress.XtraCharts.LineSeriesView = New DevExpress.XtraCharts.LineSeriesView()
-        Dim Series9 As DevExpress.XtraCharts.Series = New DevExpress.XtraCharts.Series()
-        Dim SeriesPoint113 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("5Min", New Object() {CType(50.0R, Object)})
-        Dim SeriesPoint114 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("10Min", New Object() {CType(50.0R, Object)})
-        Dim SeriesPoint115 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("15Min", New Object() {CType(50.0R, Object)})
-        Dim SeriesPoint116 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("20Min", New Object() {CType(50.0R, Object)})
-        Dim SeriesPoint117 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("25Min", New Object() {CType(50.0R, Object)})
-        Dim SeriesPoint118 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("30Min", New Object() {CType(50.0R, Object)})
-        Dim SeriesPoint119 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("35Min", New Object() {CType(50.0R, Object)})
-        Dim SeriesPoint120 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("40Min", New Object() {CType(50.0R, Object)})
-        Dim SeriesPoint121 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("45Min", New Object() {CType(50.0R, Object)})
-        Dim SeriesPoint122 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("50Min", New Object() {CType(50.0R, Object)})
-        Dim SeriesPoint123 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("55Min", New Object() {CType(50.0R, Object)})
-        Dim SeriesPoint124 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("60Min", New Object() {CType(50.0R, Object)})
-        Dim SeriesPoint125 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("65Min", New Object() {CType(50.0R, Object)})
-        Dim SeriesPoint126 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("70Min", New Object() {CType(50.0R, Object)})
-        Dim LineSeriesView11 As DevExpress.XtraCharts.LineSeriesView = New DevExpress.XtraCharts.LineSeriesView()
-        Dim LineSeriesView12 As DevExpress.XtraCharts.LineSeriesView = New DevExpress.XtraCharts.LineSeriesView()
-        Dim XyDiagram4 As DevExpress.XtraCharts.XYDiagram = New DevExpress.XtraCharts.XYDiagram()
-        Dim Series10 As DevExpress.XtraCharts.Series = New DevExpress.XtraCharts.Series()
-        Dim SeriesPoint127 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("5Min", New Object() {CType(150.0R, Object)})
-        Dim SeriesPoint128 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("10Min", New Object() {CType(150.0R, Object)})
-        Dim SeriesPoint129 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("15Min", New Object() {CType(150.0R, Object)})
-        Dim SeriesPoint130 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("20Min", New Object() {CType(150.0R, Object)})
-        Dim SeriesPoint131 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("25Min", New Object() {CType(150.0R, Object)})
-        Dim SeriesPoint132 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("30Min", New Object() {CType(150.0R, Object)})
-        Dim SeriesPoint133 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("35Min", New Object() {CType(150.0R, Object)})
-        Dim SeriesPoint134 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("40Min", New Object() {CType(150.0R, Object)})
-        Dim SeriesPoint135 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("45Min", New Object() {CType(150.0R, Object)})
-        Dim SeriesPoint136 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("50Min", New Object() {CType(150.0R, Object)})
-        Dim SeriesPoint137 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("55Min", New Object() {CType(150.0R, Object)})
-        Dim SeriesPoint138 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("60Min", New Object() {CType(150.0R, Object)})
-        Dim SeriesPoint139 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("65Min", New Object() {CType(150.0R, Object)})
-        Dim SeriesPoint140 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("70Min", New Object() {CType(150.0R, Object)})
-        Dim LineSeriesView13 As DevExpress.XtraCharts.LineSeriesView = New DevExpress.XtraCharts.LineSeriesView()
-        Dim Series11 As DevExpress.XtraCharts.Series = New DevExpress.XtraCharts.Series()
-        Dim SeriesPoint141 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("5Min", New Object() {CType(100.0R, Object)})
-        Dim SeriesPoint142 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("10Min", New Object() {CType(100.0R, Object)})
-        Dim SeriesPoint143 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("15Min", New Object() {CType(100.0R, Object)})
-        Dim SeriesPoint144 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("20Min", New Object() {CType(100.0R, Object)})
-        Dim SeriesPoint145 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("25Min", New Object() {CType(100.0R, Object)})
-        Dim SeriesPoint146 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("30Min", New Object() {CType(100.0R, Object)})
-        Dim SeriesPoint147 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("35Min", New Object() {CType(100.0R, Object)})
-        Dim SeriesPoint148 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("40Min", New Object() {CType(100.0R, Object)})
-        Dim SeriesPoint149 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("45Min", New Object() {CType(100.0R, Object)})
-        Dim SeriesPoint150 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("50Min", New Object() {CType(100.0R, Object)})
-        Dim SeriesPoint151 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("55Min", New Object() {CType(100.0R, Object)})
-        Dim SeriesPoint152 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("60Min", New Object() {CType(100.0R, Object)})
-        Dim SeriesPoint153 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("65Min", New Object() {CType(100.0R, Object)})
-        Dim SeriesPoint154 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("70Min", New Object() {CType(100.0R, Object)})
-        Dim LineSeriesView14 As DevExpress.XtraCharts.LineSeriesView = New DevExpress.XtraCharts.LineSeriesView()
-        Dim Series12 As DevExpress.XtraCharts.Series = New DevExpress.XtraCharts.Series()
-        Dim SeriesPoint155 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("5Min", New Object() {CType(50.0R, Object)})
-        Dim SeriesPoint156 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("10Min", New Object() {CType(50.0R, Object)})
-        Dim SeriesPoint157 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("15Min", New Object() {CType(50.0R, Object)})
-        Dim SeriesPoint158 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("20Min", New Object() {CType(50.0R, Object)})
-        Dim SeriesPoint159 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("25Min", New Object() {CType(50.0R, Object)})
-        Dim SeriesPoint160 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("30Min", New Object() {CType(50.0R, Object)})
-        Dim SeriesPoint161 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("35Min", New Object() {CType(50.0R, Object)})
-        Dim SeriesPoint162 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("40Min", New Object() {CType(50.0R, Object)})
-        Dim SeriesPoint163 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("45Min", New Object() {CType(50.0R, Object)})
-        Dim SeriesPoint164 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("50Min", New Object() {CType(50.0R, Object)})
-        Dim SeriesPoint165 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("55Min", New Object() {CType(50.0R, Object)})
-        Dim SeriesPoint166 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("60Min", New Object() {CType(50.0R, Object)})
-        Dim SeriesPoint167 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("65Min", New Object() {CType(50.0R, Object)})
-        Dim SeriesPoint168 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("70Min", New Object() {CType(50.0R, Object)})
-        Dim LineSeriesView15 As DevExpress.XtraCharts.LineSeriesView = New DevExpress.XtraCharts.LineSeriesView()
-        Dim LineSeriesView16 As DevExpress.XtraCharts.LineSeriesView = New DevExpress.XtraCharts.LineSeriesView()
+        Dim XyDiagram1 As DevExpress.XtraCharts.XYDiagram = New DevExpress.XtraCharts.XYDiagram()
+        Dim Series1 As DevExpress.XtraCharts.Series = New DevExpress.XtraCharts.Series()
+        Dim SeriesPoint1 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("5Min", New Object() {CType(150.0R, Object)})
+        Dim SeriesPoint2 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("10Min", New Object() {CType(150.0R, Object)})
+        Dim SeriesPoint3 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("15Min", New Object() {CType(150.0R, Object)})
+        Dim SeriesPoint4 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("20Min", New Object() {CType(150.0R, Object)})
+        Dim SeriesPoint5 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("25Min", New Object() {CType(150.0R, Object)})
+        Dim SeriesPoint6 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("30Min", New Object() {CType(150.0R, Object)})
+        Dim SeriesPoint7 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("35Min", New Object() {CType(150.0R, Object)})
+        Dim SeriesPoint8 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("40Min", New Object() {CType(150.0R, Object)})
+        Dim SeriesPoint9 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("45Min", New Object() {CType(150.0R, Object)})
+        Dim SeriesPoint10 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("50Min", New Object() {CType(150.0R, Object)})
+        Dim SeriesPoint11 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("55Min", New Object() {CType(150.0R, Object)})
+        Dim SeriesPoint12 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("60Min", New Object() {CType(150.0R, Object)})
+        Dim SeriesPoint13 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("65Min", New Object() {CType(150.0R, Object)})
+        Dim SeriesPoint14 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("70Min", New Object() {CType(150.0R, Object)})
+        Dim LineSeriesView1 As DevExpress.XtraCharts.LineSeriesView = New DevExpress.XtraCharts.LineSeriesView()
+        Dim Series2 As DevExpress.XtraCharts.Series = New DevExpress.XtraCharts.Series()
+        Dim SeriesPoint15 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("5Min", New Object() {CType(50.0R, Object)})
+        Dim SeriesPoint16 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("10Min", New Object() {CType(70.0R, Object)})
+        Dim SeriesPoint17 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("15Min", New Object() {CType(100.0R, Object)})
+        Dim SeriesPoint18 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("20Min", New Object() {CType(130.0R, Object)})
+        Dim SeriesPoint19 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("25Min", New Object() {CType(130.0R, Object)})
+        Dim SeriesPoint20 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("30Min", New Object() {CType(130.0R, Object)})
+        Dim SeriesPoint21 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("35Min", New Object() {CType(130.0R, Object)})
+        Dim SeriesPoint22 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("40Min", New Object() {CType(130.0R, Object)})
+        Dim SeriesPoint23 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("45Min", New Object() {CType(130.0R, Object)})
+        Dim SeriesPoint24 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("50Min", New Object() {CType(130.0R, Object)})
+        Dim SeriesPoint25 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("55Min", New Object() {CType(130.0R, Object)})
+        Dim SeriesPoint26 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("60Min", New Object() {CType(70.0R, Object)})
+        Dim SeriesPoint27 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("65Min", New Object() {CType(70.0R, Object)})
+        Dim SeriesPoint28 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("70Min", New Object() {CType(70.0R, Object)})
+        Dim LineSeriesView2 As DevExpress.XtraCharts.LineSeriesView = New DevExpress.XtraCharts.LineSeriesView()
+        Dim Series3 As DevExpress.XtraCharts.Series = New DevExpress.XtraCharts.Series()
+        Dim SeriesPoint29 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("5Min", New Object() {CType(50.0R, Object)})
+        Dim SeriesPoint30 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("10Min", New Object() {CType(50.0R, Object)})
+        Dim SeriesPoint31 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("15Min", New Object() {CType(50.0R, Object)})
+        Dim SeriesPoint32 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("20Min", New Object() {CType(50.0R, Object)})
+        Dim SeriesPoint33 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("25Min", New Object() {CType(50.0R, Object)})
+        Dim SeriesPoint34 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("30Min", New Object() {CType(50.0R, Object)})
+        Dim SeriesPoint35 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("35Min", New Object() {CType(50.0R, Object)})
+        Dim SeriesPoint36 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("40Min", New Object() {CType(50.0R, Object)})
+        Dim SeriesPoint37 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("45Min", New Object() {CType(50.0R, Object)})
+        Dim SeriesPoint38 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("50Min", New Object() {CType(50.0R, Object)})
+        Dim SeriesPoint39 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("55Min", New Object() {CType(50.0R, Object)})
+        Dim SeriesPoint40 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("60Min", New Object() {CType(50.0R, Object)})
+        Dim SeriesPoint41 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("65Min", New Object() {CType(50.0R, Object)})
+        Dim SeriesPoint42 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("70Min", New Object() {CType(50.0R, Object)})
+        Dim LineSeriesView3 As DevExpress.XtraCharts.LineSeriesView = New DevExpress.XtraCharts.LineSeriesView()
+        Dim LineSeriesView4 As DevExpress.XtraCharts.LineSeriesView = New DevExpress.XtraCharts.LineSeriesView()
+        Dim XyDiagram2 As DevExpress.XtraCharts.XYDiagram = New DevExpress.XtraCharts.XYDiagram()
+        Dim Series4 As DevExpress.XtraCharts.Series = New DevExpress.XtraCharts.Series()
+        Dim SeriesPoint43 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("5Min", New Object() {CType(150.0R, Object)})
+        Dim SeriesPoint44 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("10Min", New Object() {CType(150.0R, Object)})
+        Dim SeriesPoint45 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("15Min", New Object() {CType(150.0R, Object)})
+        Dim SeriesPoint46 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("20Min", New Object() {CType(150.0R, Object)})
+        Dim SeriesPoint47 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("25Min", New Object() {CType(150.0R, Object)})
+        Dim SeriesPoint48 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("30Min", New Object() {CType(150.0R, Object)})
+        Dim SeriesPoint49 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("35Min", New Object() {CType(150.0R, Object)})
+        Dim SeriesPoint50 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("40Min", New Object() {CType(150.0R, Object)})
+        Dim SeriesPoint51 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("45Min", New Object() {CType(150.0R, Object)})
+        Dim SeriesPoint52 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("50Min", New Object() {CType(150.0R, Object)})
+        Dim SeriesPoint53 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("55Min", New Object() {CType(150.0R, Object)})
+        Dim SeriesPoint54 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("60Min", New Object() {CType(150.0R, Object)})
+        Dim SeriesPoint55 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("65Min", New Object() {CType(150.0R, Object)})
+        Dim SeriesPoint56 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("70Min", New Object() {CType(150.0R, Object)})
+        Dim LineSeriesView5 As DevExpress.XtraCharts.LineSeriesView = New DevExpress.XtraCharts.LineSeriesView()
+        Dim Series5 As DevExpress.XtraCharts.Series = New DevExpress.XtraCharts.Series()
+        Dim SeriesPoint57 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("5Min", New Object() {CType(100.0R, Object)})
+        Dim SeriesPoint58 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("10Min", New Object() {CType(100.0R, Object)})
+        Dim SeriesPoint59 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("15Min", New Object() {CType(100.0R, Object)})
+        Dim SeriesPoint60 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("20Min", New Object() {CType(100.0R, Object)})
+        Dim SeriesPoint61 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("25Min", New Object() {CType(100.0R, Object)})
+        Dim SeriesPoint62 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("30Min", New Object() {CType(100.0R, Object)})
+        Dim SeriesPoint63 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("35Min", New Object() {CType(100.0R, Object)})
+        Dim SeriesPoint64 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("40Min", New Object() {CType(100.0R, Object)})
+        Dim SeriesPoint65 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("45Min", New Object() {CType(100.0R, Object)})
+        Dim SeriesPoint66 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("50Min", New Object() {CType(100.0R, Object)})
+        Dim SeriesPoint67 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("55Min", New Object() {CType(100.0R, Object)})
+        Dim SeriesPoint68 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("60Min", New Object() {CType(100.0R, Object)})
+        Dim SeriesPoint69 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("65Min", New Object() {CType(100.0R, Object)})
+        Dim SeriesPoint70 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("70Min", New Object() {CType(100.0R, Object)})
+        Dim LineSeriesView6 As DevExpress.XtraCharts.LineSeriesView = New DevExpress.XtraCharts.LineSeriesView()
+        Dim Series6 As DevExpress.XtraCharts.Series = New DevExpress.XtraCharts.Series()
+        Dim SeriesPoint71 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("5Min", New Object() {CType(50.0R, Object)})
+        Dim SeriesPoint72 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("10Min", New Object() {CType(50.0R, Object)})
+        Dim SeriesPoint73 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("15Min", New Object() {CType(50.0R, Object)})
+        Dim SeriesPoint74 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("20Min", New Object() {CType(50.0R, Object)})
+        Dim SeriesPoint75 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("25Min", New Object() {CType(50.0R, Object)})
+        Dim SeriesPoint76 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("30Min", New Object() {CType(50.0R, Object)})
+        Dim SeriesPoint77 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("35Min", New Object() {CType(50.0R, Object)})
+        Dim SeriesPoint78 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("40Min", New Object() {CType(50.0R, Object)})
+        Dim SeriesPoint79 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("45Min", New Object() {CType(50.0R, Object)})
+        Dim SeriesPoint80 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("50Min", New Object() {CType(50.0R, Object)})
+        Dim SeriesPoint81 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("55Min", New Object() {CType(50.0R, Object)})
+        Dim SeriesPoint82 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("60Min", New Object() {CType(50.0R, Object)})
+        Dim SeriesPoint83 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("65Min", New Object() {CType(50.0R, Object)})
+        Dim SeriesPoint84 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint("70Min", New Object() {CType(50.0R, Object)})
+        Dim LineSeriesView7 As DevExpress.XtraCharts.LineSeriesView = New DevExpress.XtraCharts.LineSeriesView()
+        Dim LineSeriesView8 As DevExpress.XtraCharts.LineSeriesView = New DevExpress.XtraCharts.LineSeriesView()
         Me.ChartControl1 = New DevExpress.XtraCharts.ChartControl()
         Me.GroupControl1 = New DevExpress.XtraEditors.GroupControl()
         Me.LabelControl32 = New DevExpress.XtraEditors.LabelControl()
@@ -180,62 +180,62 @@ Partial Class frmLiuHuaJi
         Me.SimpleButton3 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
         CType(Me.ChartControl1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(XyDiagram3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Series7, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(LineSeriesView9, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Series8, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(LineSeriesView10, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Series9, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(LineSeriesView11, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(LineSeriesView12, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(XyDiagram1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Series1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(LineSeriesView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Series2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(LineSeriesView2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Series3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(LineSeriesView3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(LineSeriesView4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GroupControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupControl1.SuspendLayout()
         CType(Me.GroupControl2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupControl2.SuspendLayout()
         CType(Me.ToggleSwitch1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ChartControl2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(XyDiagram4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Series10, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(LineSeriesView13, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Series11, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(LineSeriesView14, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Series12, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(LineSeriesView15, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(LineSeriesView16, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(XyDiagram2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Series4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(LineSeriesView5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Series5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(LineSeriesView6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Series6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(LineSeriesView7, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(LineSeriesView8, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GroupBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
         'ChartControl1
         '
-        XyDiagram3.AxisX.VisibleInPanesSerializable = "-1"
-        XyDiagram3.AxisY.VisibleInPanesSerializable = "-1"
-        Me.ChartControl1.Diagram = XyDiagram3
+        XyDiagram1.AxisX.VisibleInPanesSerializable = "-1"
+        XyDiagram1.AxisY.VisibleInPanesSerializable = "-1"
+        Me.ChartControl1.Diagram = XyDiagram1
         Me.ChartControl1.Legend.Name = "Default Legend"
         Me.ChartControl1.Location = New System.Drawing.Point(378, 232)
         Me.ChartControl1.Name = "ChartControl1"
         Me.ChartControl1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Series7.LegendTextPattern = "上限温度"
-        Series7.Name = "Series 2"
-        SeriesPoint97.ColorSerializable = "#92D050"
-        Series7.Points.AddRange(New DevExpress.XtraCharts.SeriesPoint() {SeriesPoint85, SeriesPoint86, SeriesPoint87, SeriesPoint88, SeriesPoint89, SeriesPoint90, SeriesPoint91, SeriesPoint92, SeriesPoint93, SeriesPoint94, SeriesPoint95, SeriesPoint96, SeriesPoint97, SeriesPoint98})
-        Series7.SeriesPointsSortingKey = DevExpress.XtraCharts.SeriesPointKey.Value_1
-        Series7.View = LineSeriesView9
-        Series8.LegendTextPattern = "实际温度"
-        Series8.Name = "Series 1"
-        SeriesPoint108.ColorSerializable = "#F00000"
-        SeriesPoint111.ColorSerializable = "#92D050"
-        Series8.Points.AddRange(New DevExpress.XtraCharts.SeriesPoint() {SeriesPoint99, SeriesPoint100, SeriesPoint101, SeriesPoint102, SeriesPoint103, SeriesPoint104, SeriesPoint105, SeriesPoint106, SeriesPoint107, SeriesPoint108, SeriesPoint109, SeriesPoint110, SeriesPoint111, SeriesPoint112})
-        Series8.SeriesPointsSortingKey = DevExpress.XtraCharts.SeriesPointKey.Value_1
-        Series8.View = LineSeriesView10
-        Series9.LegendTextPattern = "下限温度"
-        Series9.Name = "Series 3"
-        SeriesPoint125.ColorSerializable = "#FFFFFF"
-        Series9.Points.AddRange(New DevExpress.XtraCharts.SeriesPoint() {SeriesPoint113, SeriesPoint114, SeriesPoint115, SeriesPoint116, SeriesPoint117, SeriesPoint118, SeriesPoint119, SeriesPoint120, SeriesPoint121, SeriesPoint122, SeriesPoint123, SeriesPoint124, SeriesPoint125, SeriesPoint126})
-        Series9.SeriesPointsSortingKey = DevExpress.XtraCharts.SeriesPointKey.Value_1
-        Series9.View = LineSeriesView11
-        Me.ChartControl1.SeriesSerializable = New DevExpress.XtraCharts.Series() {Series7, Series8, Series9}
-        Me.ChartControl1.SeriesTemplate.View = LineSeriesView12
+        Series1.LegendTextPattern = "上限温度"
+        Series1.Name = "Series 2"
+        SeriesPoint13.ColorSerializable = "#92D050"
+        Series1.Points.AddRange(New DevExpress.XtraCharts.SeriesPoint() {SeriesPoint1, SeriesPoint2, SeriesPoint3, SeriesPoint4, SeriesPoint5, SeriesPoint6, SeriesPoint7, SeriesPoint8, SeriesPoint9, SeriesPoint10, SeriesPoint11, SeriesPoint12, SeriesPoint13, SeriesPoint14})
+        Series1.SeriesPointsSortingKey = DevExpress.XtraCharts.SeriesPointKey.Value_1
+        Series1.View = LineSeriesView1
+        Series2.LegendTextPattern = "实际温度"
+        Series2.Name = "Series 1"
+        SeriesPoint24.ColorSerializable = "#F00000"
+        SeriesPoint27.ColorSerializable = "#92D050"
+        Series2.Points.AddRange(New DevExpress.XtraCharts.SeriesPoint() {SeriesPoint15, SeriesPoint16, SeriesPoint17, SeriesPoint18, SeriesPoint19, SeriesPoint20, SeriesPoint21, SeriesPoint22, SeriesPoint23, SeriesPoint24, SeriesPoint25, SeriesPoint26, SeriesPoint27, SeriesPoint28})
+        Series2.SeriesPointsSortingKey = DevExpress.XtraCharts.SeriesPointKey.Value_1
+        Series2.View = LineSeriesView2
+        Series3.LegendTextPattern = "下限温度"
+        Series3.Name = "Series 3"
+        SeriesPoint41.ColorSerializable = "#FFFFFF"
+        Series3.Points.AddRange(New DevExpress.XtraCharts.SeriesPoint() {SeriesPoint29, SeriesPoint30, SeriesPoint31, SeriesPoint32, SeriesPoint33, SeriesPoint34, SeriesPoint35, SeriesPoint36, SeriesPoint37, SeriesPoint38, SeriesPoint39, SeriesPoint40, SeriesPoint41, SeriesPoint42})
+        Series3.SeriesPointsSortingKey = DevExpress.XtraCharts.SeriesPointKey.Value_1
+        Series3.View = LineSeriesView3
+        Me.ChartControl1.SeriesSerializable = New DevExpress.XtraCharts.Series() {Series1, Series2, Series3}
+        Me.ChartControl1.SeriesTemplate.View = LineSeriesView4
         Me.ChartControl1.Size = New System.Drawing.Size(757, 280)
         Me.ChartControl1.TabIndex = 0
         '
@@ -563,34 +563,34 @@ Partial Class frmLiuHuaJi
         '
         'ChartControl2
         '
-        XyDiagram4.AxisX.VisibleInPanesSerializable = "-1"
-        XyDiagram4.AxisY.VisibleInPanesSerializable = "-1"
-        Me.ChartControl2.Diagram = XyDiagram4
+        XyDiagram2.AxisX.VisibleInPanesSerializable = "-1"
+        XyDiagram2.AxisY.VisibleInPanesSerializable = "-1"
+        Me.ChartControl2.Diagram = XyDiagram2
         Me.ChartControl2.Legend.Name = "Default Legend"
         Me.ChartControl2.Location = New System.Drawing.Point(378, 518)
         Me.ChartControl2.Name = "ChartControl2"
         Me.ChartControl2.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Series10.LegendTextPattern = "上限压强"
-        Series10.Name = "Series 2"
-        SeriesPoint139.ColorSerializable = "#92D050"
-        Series10.Points.AddRange(New DevExpress.XtraCharts.SeriesPoint() {SeriesPoint127, SeriesPoint128, SeriesPoint129, SeriesPoint130, SeriesPoint131, SeriesPoint132, SeriesPoint133, SeriesPoint134, SeriesPoint135, SeriesPoint136, SeriesPoint137, SeriesPoint138, SeriesPoint139, SeriesPoint140})
-        Series10.SeriesPointsSortingKey = DevExpress.XtraCharts.SeriesPointKey.Value_1
-        Series10.View = LineSeriesView13
-        Series11.LegendTextPattern = "实际压强"
-        Series11.Name = "Series 1"
-        SeriesPoint150.ColorSerializable = "#F00000"
-        SeriesPoint153.ColorSerializable = "#92D050"
-        Series11.Points.AddRange(New DevExpress.XtraCharts.SeriesPoint() {SeriesPoint141, SeriesPoint142, SeriesPoint143, SeriesPoint144, SeriesPoint145, SeriesPoint146, SeriesPoint147, SeriesPoint148, SeriesPoint149, SeriesPoint150, SeriesPoint151, SeriesPoint152, SeriesPoint153, SeriesPoint154})
-        Series11.SeriesPointsSortingKey = DevExpress.XtraCharts.SeriesPointKey.Value_1
-        Series11.View = LineSeriesView14
-        Series12.LegendTextPattern = "下限压强"
-        Series12.Name = "Series 3"
-        SeriesPoint167.ColorSerializable = "#FFFFFF"
-        Series12.Points.AddRange(New DevExpress.XtraCharts.SeriesPoint() {SeriesPoint155, SeriesPoint156, SeriesPoint157, SeriesPoint158, SeriesPoint159, SeriesPoint160, SeriesPoint161, SeriesPoint162, SeriesPoint163, SeriesPoint164, SeriesPoint165, SeriesPoint166, SeriesPoint167, SeriesPoint168})
-        Series12.SeriesPointsSortingKey = DevExpress.XtraCharts.SeriesPointKey.Value_1
-        Series12.View = LineSeriesView15
-        Me.ChartControl2.SeriesSerializable = New DevExpress.XtraCharts.Series() {Series10, Series11, Series12}
-        Me.ChartControl2.SeriesTemplate.View = LineSeriesView16
+        Series4.LegendTextPattern = "上限压强"
+        Series4.Name = "Series 2"
+        SeriesPoint55.ColorSerializable = "#92D050"
+        Series4.Points.AddRange(New DevExpress.XtraCharts.SeriesPoint() {SeriesPoint43, SeriesPoint44, SeriesPoint45, SeriesPoint46, SeriesPoint47, SeriesPoint48, SeriesPoint49, SeriesPoint50, SeriesPoint51, SeriesPoint52, SeriesPoint53, SeriesPoint54, SeriesPoint55, SeriesPoint56})
+        Series4.SeriesPointsSortingKey = DevExpress.XtraCharts.SeriesPointKey.Value_1
+        Series4.View = LineSeriesView5
+        Series5.LegendTextPattern = "实际压强"
+        Series5.Name = "Series 1"
+        SeriesPoint66.ColorSerializable = "#F00000"
+        SeriesPoint69.ColorSerializable = "#92D050"
+        Series5.Points.AddRange(New DevExpress.XtraCharts.SeriesPoint() {SeriesPoint57, SeriesPoint58, SeriesPoint59, SeriesPoint60, SeriesPoint61, SeriesPoint62, SeriesPoint63, SeriesPoint64, SeriesPoint65, SeriesPoint66, SeriesPoint67, SeriesPoint68, SeriesPoint69, SeriesPoint70})
+        Series5.SeriesPointsSortingKey = DevExpress.XtraCharts.SeriesPointKey.Value_1
+        Series5.View = LineSeriesView6
+        Series6.LegendTextPattern = "下限压强"
+        Series6.Name = "Series 3"
+        SeriesPoint83.ColorSerializable = "#FFFFFF"
+        Series6.Points.AddRange(New DevExpress.XtraCharts.SeriesPoint() {SeriesPoint71, SeriesPoint72, SeriesPoint73, SeriesPoint74, SeriesPoint75, SeriesPoint76, SeriesPoint77, SeriesPoint78, SeriesPoint79, SeriesPoint80, SeriesPoint81, SeriesPoint82, SeriesPoint83, SeriesPoint84})
+        Series6.SeriesPointsSortingKey = DevExpress.XtraCharts.SeriesPointKey.Value_1
+        Series6.View = LineSeriesView7
+        Me.ChartControl2.SeriesSerializable = New DevExpress.XtraCharts.Series() {Series4, Series5, Series6}
+        Me.ChartControl2.SeriesTemplate.View = LineSeriesView8
         Me.ChartControl2.Size = New System.Drawing.Size(757, 280)
         Me.ChartControl2.TabIndex = 216
         '
@@ -913,14 +913,14 @@ Partial Class frmLiuHuaJi
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "frmLiuHuaJi"
         Me.Text = "硫化机信息"
-        CType(XyDiagram3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(LineSeriesView9, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Series7, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(LineSeriesView10, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Series8, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(LineSeriesView11, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Series9, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(LineSeriesView12, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(XyDiagram1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(LineSeriesView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Series1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(LineSeriesView2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Series2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(LineSeriesView3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Series3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(LineSeriesView4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ChartControl1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.GroupControl1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupControl1.ResumeLayout(False)
@@ -929,14 +929,14 @@ Partial Class frmLiuHuaJi
         Me.GroupControl2.ResumeLayout(False)
         Me.GroupControl2.PerformLayout()
         CType(Me.ToggleSwitch1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(XyDiagram4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(LineSeriesView13, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Series10, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(LineSeriesView14, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Series11, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(LineSeriesView15, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Series12, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(LineSeriesView16, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(XyDiagram2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(LineSeriesView5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Series4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(LineSeriesView6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Series5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(LineSeriesView7, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Series6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(LineSeriesView8, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ChartControl2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.GroupBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox1.ResumeLayout(False)

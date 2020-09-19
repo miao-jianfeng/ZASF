@@ -60,7 +60,7 @@ Partial Class frmGJBHistoryList
         '
         Me.LabelControl1.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelControl1.Appearance.Options.UseFont = True
-        Me.LabelControl1.Location = New System.Drawing.Point(373, 22)
+        Me.LabelControl1.Location = New System.Drawing.Point(393, 22)
         Me.LabelControl1.Name = "LabelControl1"
         Me.LabelControl1.Size = New System.Drawing.Size(36, 22)
         Me.LabelControl1.TabIndex = 0
@@ -70,7 +70,7 @@ Partial Class frmGJBHistoryList
         '
         Me.LabelControl2.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelControl2.Appearance.Options.UseFont = True
-        Me.LabelControl2.Location = New System.Drawing.Point(193, 22)
+        Me.LabelControl2.Location = New System.Drawing.Point(213, 22)
         Me.LabelControl2.Name = "LabelControl2"
         Me.LabelControl2.Size = New System.Drawing.Size(54, 22)
         Me.LabelControl2.TabIndex = 1
@@ -79,7 +79,7 @@ Partial Class frmGJBHistoryList
         'DateEdit1
         '
         Me.DateEdit1.EditValue = Nothing
-        Me.DateEdit1.Location = New System.Drawing.Point(424, 19)
+        Me.DateEdit1.Location = New System.Drawing.Point(444, 19)
         Me.DateEdit1.Name = "DateEdit1"
         Me.DateEdit1.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateEdit1.Properties.Appearance.Options.UseFont = True
@@ -92,7 +92,7 @@ Partial Class frmGJBHistoryList
         '
         Me.LabelControl3.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelControl3.Appearance.Options.UseFont = True
-        Me.LabelControl3.Location = New System.Drawing.Point(556, 22)
+        Me.LabelControl3.Location = New System.Drawing.Point(576, 22)
         Me.LabelControl3.Name = "LabelControl3"
         Me.LabelControl3.Size = New System.Drawing.Size(30, 22)
         Me.LabelControl3.TabIndex = 0
@@ -101,7 +101,7 @@ Partial Class frmGJBHistoryList
         'DateEdit2
         '
         Me.DateEdit2.EditValue = Nothing
-        Me.DateEdit2.Location = New System.Drawing.Point(597, 19)
+        Me.DateEdit2.Location = New System.Drawing.Point(617, 19)
         Me.DateEdit2.Name = "DateEdit2"
         Me.DateEdit2.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateEdit2.Properties.Appearance.Options.UseFont = True
@@ -112,7 +112,7 @@ Partial Class frmGJBHistoryList
         '
         'TextEdit1
         '
-        Me.TextEdit1.Location = New System.Drawing.Point(264, 19)
+        Me.TextEdit1.Location = New System.Drawing.Point(284, 19)
         Me.TextEdit1.Name = "TextEdit1"
         Me.TextEdit1.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextEdit1.Properties.Appearance.Options.UseFont = True
@@ -123,7 +123,7 @@ Partial Class frmGJBHistoryList
         '
         Me.SimpleButton1.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SimpleButton1.Appearance.Options.UseFont = True
-        Me.SimpleButton1.Location = New System.Drawing.Point(881, 66)
+        Me.SimpleButton1.Location = New System.Drawing.Point(901, 66)
         Me.SimpleButton1.Name = "SimpleButton1"
         Me.SimpleButton1.Size = New System.Drawing.Size(112, 34)
         Me.SimpleButton1.TabIndex = 8
@@ -156,7 +156,7 @@ Partial Class frmGJBHistoryList
         '
         'TextEdit4
         '
-        Me.TextEdit4.Location = New System.Drawing.Point(95, 67)
+        Me.TextEdit4.Location = New System.Drawing.Point(115, 67)
         Me.TextEdit4.Name = "TextEdit4"
         Me.TextEdit4.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextEdit4.Properties.Appearance.Options.UseFont = True
@@ -167,7 +167,7 @@ Partial Class frmGJBHistoryList
         '
         Me.LabelControl7.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelControl7.Appearance.Options.UseFont = True
-        Me.LabelControl7.Location = New System.Drawing.Point(16, 71)
+        Me.LabelControl7.Location = New System.Drawing.Point(36, 71)
         Me.LabelControl7.Name = "LabelControl7"
         Me.LabelControl7.Size = New System.Drawing.Size(72, 22)
         Me.LabelControl7.TabIndex = 80
@@ -175,7 +175,7 @@ Partial Class frmGJBHistoryList
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(815, 19)
+        Me.TextBox3.Location = New System.Drawing.Point(835, 19)
         Me.TextBox3.Margin = New System.Windows.Forms.Padding(3, 5, 3, 5)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -187,7 +187,7 @@ Partial Class frmGJBHistoryList
         '
         Me.Label6.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.Appearance.Options.UseFont = True
-        Me.Label6.Location = New System.Drawing.Point(746, 22)
+        Me.Label6.Location = New System.Drawing.Point(766, 22)
         Me.Label6.Margin = New System.Windows.Forms.Padding(3, 5, 3, 5)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(54, 22)
@@ -198,7 +198,7 @@ Partial Class frmGJBHistoryList
         '
         Me.LabelControl6.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelControl6.Appearance.Options.UseFont = True
-        Me.LabelControl6.Location = New System.Drawing.Point(627, 70)
+        Me.LabelControl6.Location = New System.Drawing.Point(647, 70)
         Me.LabelControl6.Margin = New System.Windows.Forms.Padding(7, 6, 7, 6)
         Me.LabelControl6.Name = "LabelControl6"
         Me.LabelControl6.Size = New System.Drawing.Size(36, 22)
@@ -207,7 +207,7 @@ Partial Class frmGJBHistoryList
         '
         'ComboBoxEdit3
         '
-        Me.ComboBoxEdit3.Location = New System.Drawing.Point(682, 67)
+        Me.ComboBoxEdit3.Location = New System.Drawing.Point(702, 67)
         Me.ComboBoxEdit3.Margin = New System.Windows.Forms.Padding(6)
         Me.ComboBoxEdit3.Name = "ComboBoxEdit3"
         Me.ComboBoxEdit3.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -221,7 +221,7 @@ Partial Class frmGJBHistoryList
         '
         Me.LabelControl5.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelControl5.Appearance.Options.UseFont = True
-        Me.LabelControl5.Location = New System.Drawing.Point(15, 22)
+        Me.LabelControl5.Location = New System.Drawing.Point(35, 22)
         Me.LabelControl5.Margin = New System.Windows.Forms.Padding(7, 6, 7, 6)
         Me.LabelControl5.Name = "LabelControl5"
         Me.LabelControl5.Size = New System.Drawing.Size(36, 22)
@@ -230,7 +230,7 @@ Partial Class frmGJBHistoryList
         '
         'ComboBoxEdit2
         '
-        Me.ComboBoxEdit2.Location = New System.Drawing.Point(70, 19)
+        Me.ComboBoxEdit2.Location = New System.Drawing.Point(90, 19)
         Me.ComboBoxEdit2.Margin = New System.Windows.Forms.Padding(6)
         Me.ComboBoxEdit2.Name = "ComboBoxEdit2"
         Me.ComboBoxEdit2.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -244,7 +244,7 @@ Partial Class frmGJBHistoryList
         '
         Me.LabelControl4.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelControl4.Appearance.Options.UseFont = True
-        Me.LabelControl4.Location = New System.Drawing.Point(343, 70)
+        Me.LabelControl4.Location = New System.Drawing.Point(363, 70)
         Me.LabelControl4.Margin = New System.Windows.Forms.Padding(7, 6, 7, 6)
         Me.LabelControl4.Name = "LabelControl4"
         Me.LabelControl4.Size = New System.Drawing.Size(36, 22)
@@ -253,7 +253,7 @@ Partial Class frmGJBHistoryList
         '
         'ComboBoxEdit1
         '
-        Me.ComboBoxEdit1.Location = New System.Drawing.Point(392, 67)
+        Me.ComboBoxEdit1.Location = New System.Drawing.Point(412, 67)
         Me.ComboBoxEdit1.Margin = New System.Windows.Forms.Padding(6)
         Me.ComboBoxEdit1.Name = "ComboBoxEdit1"
         Me.ComboBoxEdit1.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))

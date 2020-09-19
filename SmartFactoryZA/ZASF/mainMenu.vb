@@ -144,4 +144,9 @@ Public Class mainMenu
         Dim a As New frmDispatchDetail
         a.ShowDialog()
     End Sub
+
+    Private Sub SimpleButton11_Click(sender As Object, e As EventArgs) Handles SimpleButton11.Click
+        Dim a As New frmLHHistoryList
+        a.ShowDialog()
+    End Sub
 End Class

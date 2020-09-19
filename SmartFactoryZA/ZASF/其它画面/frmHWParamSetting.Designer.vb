@@ -71,8 +71,6 @@ Partial Class frmHWParamSetting
         Me.btnSave_gjb = New DevExpress.XtraEditors.SimpleButton()
         Me.tp_lh = New DevExpress.XtraTab.XtraTabPage()
         Me.PanelControl2 = New DevExpress.XtraEditors.PanelControl()
-        Me.lhj_Muju = New DevExpress.XtraEditors.TextEdit()
-        Me.LabelControl26 = New DevExpress.XtraEditors.LabelControl()
         Me.lhj_deleted = New DevExpress.XtraEditors.CheckEdit()
         Me.lhj_Status = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.lhj_ip = New DevExpress.XtraEditors.TextEdit()
@@ -89,18 +87,6 @@ Partial Class frmHWParamSetting
         Me.btnSearch_lhj = New DevExpress.XtraEditors.SimpleButton()
         Me.PanelControl1 = New DevExpress.XtraEditors.PanelControl()
         Me.dgvList_lhj = New System.Windows.Forms.DataGridView()
-        Me.collh_id = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.collh_ip = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.collh_port = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.collh_status_name = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.collh_deleted = New System.Windows.Forms.DataGridViewCheckBoxColumn()
-        Me.collh_scbh = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.collh_factoryid = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.collh_workshop_id = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.colequip_type_id = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.collh_com = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.collh_status = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.collh_update_time = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.lh_search_id = New DevExpress.XtraEditors.TextEdit()
         Me.LabelControl20 = New DevExpress.XtraEditors.LabelControl()
         Me.tp_agv = New DevExpress.XtraTab.XtraTabPage()
@@ -131,6 +117,18 @@ Partial Class frmHWParamSetting
         Me.TextEdit5 = New DevExpress.XtraEditors.TextEdit()
         Me.LabelControl29 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl30 = New DevExpress.XtraEditors.LabelControl()
+        Me.collh_id = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.collh_ip = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.collh_port = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.collh_status_name = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.collh_deleted = New System.Windows.Forms.DataGridViewCheckBoxColumn()
+        Me.collh_scbh = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.collh_factoryid = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.collh_workshop_id = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.colequip_type_id = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.collh_com = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.collh_status = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.collh_update_time = New System.Windows.Forms.DataGridViewTextBoxColumn()
         CType(Me.tabWorkshop, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.tabWorkshop.SuspendLayout()
         Me.tp_jp.SuspendLayout()
@@ -173,7 +171,6 @@ Partial Class frmHWParamSetting
         Me.tp_lh.SuspendLayout()
         CType(Me.PanelControl2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PanelControl2.SuspendLayout()
-        CType(Me.lhj_Muju.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.lhj_deleted.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.lhj_Status.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.lhj_ip.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -696,8 +693,6 @@ Partial Class frmHWParamSetting
         '
         'PanelControl2
         '
-        Me.PanelControl2.Controls.Add(Me.lhj_Muju)
-        Me.PanelControl2.Controls.Add(Me.LabelControl26)
         Me.PanelControl2.Controls.Add(Me.lhj_deleted)
         Me.PanelControl2.Controls.Add(Me.lhj_Status)
         Me.PanelControl2.Controls.Add(Me.lhj_ip)
@@ -716,24 +711,9 @@ Partial Class frmHWParamSetting
         Me.PanelControl2.Size = New System.Drawing.Size(1065, 97)
         Me.PanelControl2.TabIndex = 2
         '
-        'lhj_Muju
-        '
-        Me.lhj_Muju.Location = New System.Drawing.Point(851, 12)
-        Me.lhj_Muju.Name = "lhj_Muju"
-        Me.lhj_Muju.Size = New System.Drawing.Size(194, 30)
-        Me.lhj_Muju.TabIndex = 28
-        '
-        'LabelControl26
-        '
-        Me.LabelControl26.Location = New System.Drawing.Point(806, 16)
-        Me.LabelControl26.Name = "LabelControl26"
-        Me.LabelControl26.Size = New System.Drawing.Size(36, 22)
-        Me.LabelControl26.TabIndex = 27
-        Me.LabelControl26.Text = "模具"
-        '
         'lhj_deleted
         '
-        Me.lhj_deleted.Location = New System.Drawing.Point(718, 13)
+        Me.lhj_deleted.Location = New System.Drawing.Point(703, 13)
         Me.lhj_deleted.Name = "lhj_deleted"
         Me.lhj_deleted.Properties.Caption = "报废"
         Me.lhj_deleted.Size = New System.Drawing.Size(82, 28)
@@ -879,128 +859,6 @@ Partial Class frmHWParamSetting
         Me.dgvList_lhj.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
         Me.dgvList_lhj.Size = New System.Drawing.Size(1071, 471)
         Me.dgvList_lhj.TabIndex = 1
-        '
-        'collh_id
-        '
-        Me.collh_id.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells
-        Me.collh_id.DataPropertyName = "equip_id"
-        Me.collh_id.HeaderText = "ID"
-        Me.collh_id.MinimumWidth = 8
-        Me.collh_id.Name = "collh_id"
-        Me.collh_id.ReadOnly = True
-        Me.collh_id.Width = 65
-        '
-        'collh_ip
-        '
-        Me.collh_ip.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells
-        Me.collh_ip.DataPropertyName = "ip"
-        Me.collh_ip.HeaderText = "IP地址"
-        Me.collh_ip.MinimumWidth = 8
-        Me.collh_ip.Name = "collh_ip"
-        Me.collh_ip.ReadOnly = True
-        Me.collh_ip.Width = 99
-        '
-        'collh_port
-        '
-        Me.collh_port.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells
-        Me.collh_port.DataPropertyName = "port"
-        Me.collh_port.HeaderText = "端口"
-        Me.collh_port.MinimumWidth = 8
-        Me.collh_port.Name = "collh_port"
-        Me.collh_port.ReadOnly = True
-        Me.collh_port.Width = 82
-        '
-        'collh_status_name
-        '
-        Me.collh_status_name.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells
-        Me.collh_status_name.DataPropertyName = "status_name"
-        Me.collh_status_name.HeaderText = "状态"
-        Me.collh_status_name.MinimumWidth = 8
-        Me.collh_status_name.Name = "collh_status_name"
-        Me.collh_status_name.ReadOnly = True
-        Me.collh_status_name.Width = 82
-        '
-        'collh_deleted
-        '
-        Me.collh_deleted.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader
-        Me.collh_deleted.DataPropertyName = "deleted"
-        Me.collh_deleted.FalseValue = "0"
-        Me.collh_deleted.HeaderText = "报废"
-        Me.collh_deleted.MinimumWidth = 8
-        Me.collh_deleted.Name = "collh_deleted"
-        Me.collh_deleted.ReadOnly = True
-        Me.collh_deleted.TrueValue = "1"
-        Me.collh_deleted.Width = 52
-        '
-        'collh_scbh
-        '
-        Me.collh_scbh.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells
-        Me.collh_scbh.DataPropertyName = "production_no"
-        Me.collh_scbh.HeaderText = "模具"
-        Me.collh_scbh.MinimumWidth = 8
-        Me.collh_scbh.Name = "collh_scbh"
-        Me.collh_scbh.ReadOnly = True
-        Me.collh_scbh.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.collh_scbh.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
-        Me.collh_scbh.Width = 52
-        '
-        'collh_factoryid
-        '
-        Me.collh_factoryid.DataPropertyName = "factory_id"
-        Me.collh_factoryid.HeaderText = "factoryid"
-        Me.collh_factoryid.MinimumWidth = 8
-        Me.collh_factoryid.Name = "collh_factoryid"
-        Me.collh_factoryid.ReadOnly = True
-        Me.collh_factoryid.Visible = False
-        Me.collh_factoryid.Width = 150
-        '
-        'collh_workshop_id
-        '
-        Me.collh_workshop_id.DataPropertyName = "workshop_id"
-        Me.collh_workshop_id.HeaderText = "workshop_id"
-        Me.collh_workshop_id.MinimumWidth = 8
-        Me.collh_workshop_id.Name = "collh_workshop_id"
-        Me.collh_workshop_id.ReadOnly = True
-        Me.collh_workshop_id.Visible = False
-        Me.collh_workshop_id.Width = 150
-        '
-        'colequip_type_id
-        '
-        Me.colequip_type_id.DataPropertyName = "equip_type_id"
-        Me.colequip_type_id.HeaderText = "equip_type_id"
-        Me.colequip_type_id.MinimumWidth = 8
-        Me.colequip_type_id.Name = "colequip_type_id"
-        Me.colequip_type_id.ReadOnly = True
-        Me.colequip_type_id.Visible = False
-        Me.colequip_type_id.Width = 150
-        '
-        'collh_com
-        '
-        Me.collh_com.DataPropertyName = "com"
-        Me.collh_com.HeaderText = "com"
-        Me.collh_com.MinimumWidth = 8
-        Me.collh_com.Name = "collh_com"
-        Me.collh_com.Visible = False
-        Me.collh_com.Width = 150
-        '
-        'collh_status
-        '
-        Me.collh_status.DataPropertyName = "status"
-        Me.collh_status.HeaderText = "status"
-        Me.collh_status.MinimumWidth = 8
-        Me.collh_status.Name = "collh_status"
-        Me.collh_status.Visible = False
-        Me.collh_status.Width = 150
-        '
-        'collh_update_time
-        '
-        Me.collh_update_time.DataPropertyName = "update_time"
-        Me.collh_update_time.HeaderText = "update_time"
-        Me.collh_update_time.MinimumWidth = 8
-        Me.collh_update_time.Name = "collh_update_time"
-        Me.collh_update_time.ReadOnly = True
-        Me.collh_update_time.Visible = False
-        Me.collh_update_time.Width = 150
         '
         'lh_search_id
         '
@@ -1301,6 +1159,129 @@ Partial Class frmHWParamSetting
         Me.LabelControl30.TabIndex = 17
         Me.LabelControl30.Text = "端口"
         '
+        'collh_id
+        '
+        Me.collh_id.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells
+        Me.collh_id.DataPropertyName = "equip_id"
+        Me.collh_id.HeaderText = "ID"
+        Me.collh_id.MinimumWidth = 8
+        Me.collh_id.Name = "collh_id"
+        Me.collh_id.ReadOnly = True
+        Me.collh_id.Width = 65
+        '
+        'collh_ip
+        '
+        Me.collh_ip.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells
+        Me.collh_ip.DataPropertyName = "ip"
+        Me.collh_ip.HeaderText = "IP地址"
+        Me.collh_ip.MinimumWidth = 8
+        Me.collh_ip.Name = "collh_ip"
+        Me.collh_ip.ReadOnly = True
+        Me.collh_ip.Width = 99
+        '
+        'collh_port
+        '
+        Me.collh_port.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells
+        Me.collh_port.DataPropertyName = "port"
+        Me.collh_port.HeaderText = "端口"
+        Me.collh_port.MinimumWidth = 8
+        Me.collh_port.Name = "collh_port"
+        Me.collh_port.ReadOnly = True
+        Me.collh_port.Width = 82
+        '
+        'collh_status_name
+        '
+        Me.collh_status_name.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells
+        Me.collh_status_name.DataPropertyName = "status_name"
+        Me.collh_status_name.HeaderText = "状态"
+        Me.collh_status_name.MinimumWidth = 8
+        Me.collh_status_name.Name = "collh_status_name"
+        Me.collh_status_name.ReadOnly = True
+        Me.collh_status_name.Width = 82
+        '
+        'collh_deleted
+        '
+        Me.collh_deleted.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader
+        Me.collh_deleted.DataPropertyName = "deleted"
+        Me.collh_deleted.FalseValue = "0"
+        Me.collh_deleted.HeaderText = "报废"
+        Me.collh_deleted.MinimumWidth = 8
+        Me.collh_deleted.Name = "collh_deleted"
+        Me.collh_deleted.ReadOnly = True
+        Me.collh_deleted.TrueValue = "1"
+        Me.collh_deleted.Width = 52
+        '
+        'collh_scbh
+        '
+        Me.collh_scbh.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells
+        Me.collh_scbh.DataPropertyName = "production_no"
+        Me.collh_scbh.HeaderText = "模具"
+        Me.collh_scbh.MinimumWidth = 8
+        Me.collh_scbh.Name = "collh_scbh"
+        Me.collh_scbh.ReadOnly = True
+        Me.collh_scbh.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.collh_scbh.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
+        Me.collh_scbh.Visible = False
+        Me.collh_scbh.Width = 52
+        '
+        'collh_factoryid
+        '
+        Me.collh_factoryid.DataPropertyName = "factory_id"
+        Me.collh_factoryid.HeaderText = "factoryid"
+        Me.collh_factoryid.MinimumWidth = 8
+        Me.collh_factoryid.Name = "collh_factoryid"
+        Me.collh_factoryid.ReadOnly = True
+        Me.collh_factoryid.Visible = False
+        Me.collh_factoryid.Width = 150
+        '
+        'collh_workshop_id
+        '
+        Me.collh_workshop_id.DataPropertyName = "workshop_id"
+        Me.collh_workshop_id.HeaderText = "workshop_id"
+        Me.collh_workshop_id.MinimumWidth = 8
+        Me.collh_workshop_id.Name = "collh_workshop_id"
+        Me.collh_workshop_id.ReadOnly = True
+        Me.collh_workshop_id.Visible = False
+        Me.collh_workshop_id.Width = 150
+        '
+        'colequip_type_id
+        '
+        Me.colequip_type_id.DataPropertyName = "equip_type_id"
+        Me.colequip_type_id.HeaderText = "equip_type_id"
+        Me.colequip_type_id.MinimumWidth = 8
+        Me.colequip_type_id.Name = "colequip_type_id"
+        Me.colequip_type_id.ReadOnly = True
+        Me.colequip_type_id.Visible = False
+        Me.colequip_type_id.Width = 150
+        '
+        'collh_com
+        '
+        Me.collh_com.DataPropertyName = "com"
+        Me.collh_com.HeaderText = "com"
+        Me.collh_com.MinimumWidth = 8
+        Me.collh_com.Name = "collh_com"
+        Me.collh_com.Visible = False
+        Me.collh_com.Width = 150
+        '
+        'collh_status
+        '
+        Me.collh_status.DataPropertyName = "status"
+        Me.collh_status.HeaderText = "status"
+        Me.collh_status.MinimumWidth = 8
+        Me.collh_status.Name = "collh_status"
+        Me.collh_status.Visible = False
+        Me.collh_status.Width = 150
+        '
+        'collh_update_time
+        '
+        Me.collh_update_time.DataPropertyName = "update_time"
+        Me.collh_update_time.HeaderText = "update_time"
+        Me.collh_update_time.MinimumWidth = 8
+        Me.collh_update_time.Name = "collh_update_time"
+        Me.collh_update_time.ReadOnly = True
+        Me.collh_update_time.Visible = False
+        Me.collh_update_time.Width = 150
+        '
         'frmHWParamSetting
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 22.0!)
@@ -1363,7 +1344,6 @@ Partial Class frmHWParamSetting
         CType(Me.PanelControl2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PanelControl2.ResumeLayout(False)
         Me.PanelControl2.PerformLayout()
-        CType(Me.lhj_Muju.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.lhj_deleted.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.lhj_Status.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.lhj_ip.Properties, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1446,8 +1426,6 @@ Partial Class frmHWParamSetting
     Friend WithEvents PanelControl1 As DevExpress.XtraEditors.PanelControl
     Friend WithEvents dgvList_lhj As DataGridView
     Friend WithEvents PanelControl2 As DevExpress.XtraEditors.PanelControl
-    Friend WithEvents lhj_Muju As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents LabelControl26 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents lhj_deleted As DevExpress.XtraEditors.CheckEdit
     Friend WithEvents lhj_Status As DevExpress.XtraEditors.ComboBoxEdit
     Friend WithEvents lhj_ip As DevExpress.XtraEditors.TextEdit
@@ -1461,18 +1439,6 @@ Partial Class frmHWParamSetting
     Friend WithEvents lhj_ID As DevExpress.XtraEditors.TextEdit
     Friend WithEvents LabelControl19 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents LabelControl18 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents collh_id As DataGridViewTextBoxColumn
-    Friend WithEvents collh_ip As DataGridViewTextBoxColumn
-    Friend WithEvents collh_port As DataGridViewTextBoxColumn
-    Friend WithEvents collh_status_name As DataGridViewTextBoxColumn
-    Friend WithEvents collh_deleted As DataGridViewCheckBoxColumn
-    Friend WithEvents collh_scbh As DataGridViewTextBoxColumn
-    Friend WithEvents collh_factoryid As DataGridViewTextBoxColumn
-    Friend WithEvents collh_workshop_id As DataGridViewTextBoxColumn
-    Friend WithEvents colequip_type_id As DataGridViewTextBoxColumn
-    Friend WithEvents collh_com As DataGridViewTextBoxColumn
-    Friend WithEvents collh_status As DataGridViewTextBoxColumn
-    Friend WithEvents collh_update_time As DataGridViewTextBoxColumn
     Friend WithEvents PanelControl3 As DevExpress.XtraEditors.PanelControl
     Friend WithEvents CheckEdit1 As DevExpress.XtraEditors.CheckEdit
     Friend WithEvents ComboBoxEdit1 As DevExpress.XtraEditors.ComboBoxEdit
@@ -1500,4 +1466,16 @@ Partial Class frmHWParamSetting
     Friend WithEvents DataGridViewTextBoxColumn9 As DataGridViewTextBoxColumn
     Friend WithEvents DataGridViewTextBoxColumn10 As DataGridViewTextBoxColumn
     Friend WithEvents DataGridViewTextBoxColumn11 As DataGridViewTextBoxColumn
+    Friend WithEvents collh_id As DataGridViewTextBoxColumn
+    Friend WithEvents collh_ip As DataGridViewTextBoxColumn
+    Friend WithEvents collh_port As DataGridViewTextBoxColumn
+    Friend WithEvents collh_status_name As DataGridViewTextBoxColumn
+    Friend WithEvents collh_deleted As DataGridViewCheckBoxColumn
+    Friend WithEvents collh_scbh As DataGridViewTextBoxColumn
+    Friend WithEvents collh_factoryid As DataGridViewTextBoxColumn
+    Friend WithEvents collh_workshop_id As DataGridViewTextBoxColumn
+    Friend WithEvents colequip_type_id As DataGridViewTextBoxColumn
+    Friend WithEvents collh_com As DataGridViewTextBoxColumn
+    Friend WithEvents collh_status As DataGridViewTextBoxColumn
+    Friend WithEvents collh_update_time As DataGridViewTextBoxColumn
 End Class
