@@ -78,6 +78,7 @@ Partial Class frmProdMasterDetail
         Me.TextEdit23 = New DevExpress.XtraEditors.TextEdit()
         Me.LabelControl28 = New DevExpress.XtraEditors.LabelControl()
         Me.TextEdit24 = New DevExpress.XtraEditors.TextEdit()
+        Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
         CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit3.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -316,7 +317,7 @@ Partial Class frmProdMasterDetail
         Me.LabelControl19.Name = "LabelControl19"
         Me.LabelControl19.Size = New System.Drawing.Size(72, 22)
         Me.LabelControl19.TabIndex = 8
-        Me.LabelControl19.Text = "加热时长"
+        Me.LabelControl19.Text = "硫化时长"
         '
         'GroupControl3
         '
@@ -482,7 +483,7 @@ Partial Class frmProdMasterDetail
         Me.LabelControl20.Name = "LabelControl20"
         Me.LabelControl20.Size = New System.Drawing.Size(72, 22)
         Me.LabelControl20.TabIndex = 8
-        Me.LabelControl20.Text = "加热时长"
+        Me.LabelControl20.Text = "硫化时长"
         '
         'GroupControl5
         '
@@ -663,11 +664,20 @@ Partial Class frmProdMasterDetail
         Me.TextEdit24.Size = New System.Drawing.Size(195, 30)
         Me.TextEdit24.TabIndex = 2
         '
+        'SimpleButton2
+        '
+        Me.SimpleButton2.Location = New System.Drawing.Point(698, 603)
+        Me.SimpleButton2.Name = "SimpleButton2"
+        Me.SimpleButton2.Size = New System.Drawing.Size(174, 53)
+        Me.SimpleButton2.TabIndex = 14
+        Me.SimpleButton2.Text = "同步MES"
+        '
         'frmProdMasterDetail
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(144.0!, 144.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
         Me.ClientSize = New System.Drawing.Size(1104, 684)
+        Me.Controls.Add(Me.SimpleButton2)
         Me.Controls.Add(Me.SimpleButton1)
         Me.Controls.Add(Me.GroupControl4)
         Me.Controls.Add(Me.GroupControl1)
@@ -804,4 +814,5 @@ Partial Class frmProdMasterDetail
     Friend WithEvents TextEdit23 As DevExpress.XtraEditors.TextEdit
     Friend WithEvents LabelControl28 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents TextEdit24 As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents SimpleButton2 As DevExpress.XtraEditors.SimpleButton
 End Class

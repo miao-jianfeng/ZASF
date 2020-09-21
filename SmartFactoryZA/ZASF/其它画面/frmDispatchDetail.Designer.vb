@@ -86,7 +86,7 @@ Partial Class frmDispatchDetail
         Me.TextEdit4.Location = New System.Drawing.Point(393, 146)
         Me.TextEdit4.Name = "TextEdit4"
         Me.TextEdit4.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.TextEdit4.Properties.Items.AddRange(New Object() {"未生产", "生产途中", "生产中断", "生产完成"})
+        Me.TextEdit4.Properties.Items.AddRange(New Object() {"未生产", "生产途中", "生产完成"})
         Me.TextEdit4.Size = New System.Drawing.Size(92, 30)
         Me.TextEdit4.TabIndex = 5
         '
