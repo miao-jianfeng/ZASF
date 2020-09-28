@@ -148,7 +148,9 @@ Partial Class frmLiuHuaJi
         Me.LabelControl2 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl10 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl8 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl52 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl6 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl51 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl4 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl1 = New DevExpress.XtraEditors.LabelControl()
         Me.ToggleSwitch1 = New DevExpress.XtraEditors.ToggleSwitch()
@@ -259,7 +261,9 @@ Partial Class frmLiuHuaJi
         Me.GroupControl1.Controls.Add(Me.LabelControl2)
         Me.GroupControl1.Controls.Add(Me.LabelControl10)
         Me.GroupControl1.Controls.Add(Me.LabelControl8)
+        Me.GroupControl1.Controls.Add(Me.LabelControl52)
         Me.GroupControl1.Controls.Add(Me.LabelControl6)
+        Me.GroupControl1.Controls.Add(Me.LabelControl51)
         Me.GroupControl1.Controls.Add(Me.LabelControl4)
         Me.GroupControl1.Controls.Add(Me.LabelControl1)
         Me.GroupControl1.Controls.Add(Me.ToggleSwitch1)
@@ -271,7 +275,7 @@ Partial Class frmLiuHuaJi
         '
         'LabelControl32
         '
-        Me.LabelControl32.Location = New System.Drawing.Point(264, 361)
+        Me.LabelControl32.Location = New System.Drawing.Point(264, 380)
         Me.LabelControl32.Name = "LabelControl32"
         Me.LabelControl32.Size = New System.Drawing.Size(46, 22)
         Me.LabelControl32.TabIndex = 28
@@ -279,7 +283,7 @@ Partial Class frmLiuHuaJi
         '
         'LabelControl28
         '
-        Me.LabelControl28.Location = New System.Drawing.Point(264, 306)
+        Me.LabelControl28.Location = New System.Drawing.Point(264, 333)
         Me.LabelControl28.Name = "LabelControl28"
         Me.LabelControl28.Size = New System.Drawing.Size(30, 22)
         Me.LabelControl28.TabIndex = 28
@@ -287,7 +291,7 @@ Partial Class frmLiuHuaJi
         '
         'LabelControl31
         '
-        Me.LabelControl31.Location = New System.Drawing.Point(99, 361)
+        Me.LabelControl31.Location = New System.Drawing.Point(99, 380)
         Me.LabelControl31.Name = "LabelControl31"
         Me.LabelControl31.Size = New System.Drawing.Size(46, 22)
         Me.LabelControl31.TabIndex = 28
@@ -295,7 +299,7 @@ Partial Class frmLiuHuaJi
         '
         'LabelControl27
         '
-        Me.LabelControl27.Location = New System.Drawing.Point(107, 306)
+        Me.LabelControl27.Location = New System.Drawing.Point(107, 333)
         Me.LabelControl27.Name = "LabelControl27"
         Me.LabelControl27.Size = New System.Drawing.Size(30, 22)
         Me.LabelControl27.TabIndex = 28
@@ -312,7 +316,7 @@ Partial Class frmLiuHuaJi
         Me.GroupControl2.Controls.Add(Me.LabelControl15)
         Me.GroupControl2.Controls.Add(Me.LabelControl14)
         Me.GroupControl2.Controls.Add(Me.LabelControl13)
-        Me.GroupControl2.Location = New System.Drawing.Point(11, 416)
+        Me.GroupControl2.Location = New System.Drawing.Point(11, 424)
         Me.GroupControl2.Name = "GroupControl2"
         Me.GroupControl2.Size = New System.Drawing.Size(311, 212)
         Me.GroupControl2.TabIndex = 25
@@ -396,7 +400,7 @@ Partial Class frmLiuHuaJi
         Me.LabelControl9.Appearance.ForeColor = System.Drawing.Color.Green
         Me.LabelControl9.Appearance.Options.UseFont = True
         Me.LabelControl9.Appearance.Options.UseForeColor = True
-        Me.LabelControl9.Location = New System.Drawing.Point(114, 148)
+        Me.LabelControl9.Location = New System.Drawing.Point(114, 189)
         Me.LabelControl9.Name = "LabelControl9"
         Me.LabelControl9.Size = New System.Drawing.Size(118, 29)
         Me.LabelControl9.TabIndex = 16
@@ -408,7 +412,7 @@ Partial Class frmLiuHuaJi
         Me.LabelControl11.Appearance.ForeColor = System.Drawing.Color.Green
         Me.LabelControl11.Appearance.Options.UseFont = True
         Me.LabelControl11.Appearance.Options.UseForeColor = True
-        Me.LabelControl11.Location = New System.Drawing.Point(114, 196)
+        Me.LabelControl11.Location = New System.Drawing.Point(114, 236)
         Me.LabelControl11.Name = "LabelControl11"
         Me.LabelControl11.Size = New System.Drawing.Size(103, 29)
         Me.LabelControl11.TabIndex = 16
@@ -416,7 +420,7 @@ Partial Class frmLiuHuaJi
         '
         'LabelControl7
         '
-        Me.LabelControl7.Location = New System.Drawing.Point(264, 101)
+        Me.LabelControl7.Location = New System.Drawing.Point(264, 145)
         Me.LabelControl7.Name = "LabelControl7"
         Me.LabelControl7.Size = New System.Drawing.Size(58, 22)
         Me.LabelControl7.TabIndex = 16
@@ -424,7 +428,7 @@ Partial Class frmLiuHuaJi
         '
         'LabelControl12
         '
-        Me.LabelControl12.Location = New System.Drawing.Point(107, 255)
+        Me.LabelControl12.Location = New System.Drawing.Point(107, 286)
         Me.LabelControl12.Name = "LabelControl12"
         Me.LabelControl12.Size = New System.Drawing.Size(146, 22)
         Me.LabelControl12.TabIndex = 16
@@ -432,7 +436,7 @@ Partial Class frmLiuHuaJi
         '
         'LabelControl5
         '
-        Me.LabelControl5.Location = New System.Drawing.Point(101, 101)
+        Me.LabelControl5.Location = New System.Drawing.Point(101, 145)
         Me.LabelControl5.Name = "LabelControl5"
         Me.LabelControl5.Size = New System.Drawing.Size(58, 22)
         Me.LabelControl5.TabIndex = 16
@@ -444,7 +448,7 @@ Partial Class frmLiuHuaJi
         Me.LabelControl3.Appearance.ForeColor = System.Drawing.Color.Green
         Me.LabelControl3.Appearance.Options.UseFont = True
         Me.LabelControl3.Appearance.Options.UseForeColor = True
-        Me.LabelControl3.Location = New System.Drawing.Point(236, 42)
+        Me.LabelControl3.Location = New System.Drawing.Point(236, 45)
         Me.LabelControl3.Name = "LabelControl3"
         Me.LabelControl3.Size = New System.Drawing.Size(87, 34)
         Me.LabelControl3.TabIndex = 16
@@ -454,7 +458,7 @@ Partial Class frmLiuHuaJi
         '
         Me.LabelControl30.Appearance.Font = New System.Drawing.Font("宋体", 10.5!)
         Me.LabelControl30.Appearance.Options.UseFont = True
-        Me.LabelControl30.Location = New System.Drawing.Point(169, 361)
+        Me.LabelControl30.Location = New System.Drawing.Point(169, 381)
         Me.LabelControl30.Name = "LabelControl30"
         Me.LabelControl30.Size = New System.Drawing.Size(84, 21)
         Me.LabelControl30.TabIndex = 16
@@ -464,7 +468,7 @@ Partial Class frmLiuHuaJi
         '
         Me.LabelControl26.Appearance.Font = New System.Drawing.Font("宋体", 10.5!)
         Me.LabelControl26.Appearance.Options.UseFont = True
-        Me.LabelControl26.Location = New System.Drawing.Point(169, 306)
+        Me.LabelControl26.Location = New System.Drawing.Point(169, 334)
         Me.LabelControl26.Name = "LabelControl26"
         Me.LabelControl26.Size = New System.Drawing.Size(84, 21)
         Me.LabelControl26.TabIndex = 16
@@ -474,7 +478,7 @@ Partial Class frmLiuHuaJi
         '
         Me.LabelControl29.Appearance.Font = New System.Drawing.Font("宋体", 10.5!)
         Me.LabelControl29.Appearance.Options.UseFont = True
-        Me.LabelControl29.Location = New System.Drawing.Point(11, 361)
+        Me.LabelControl29.Location = New System.Drawing.Point(11, 381)
         Me.LabelControl29.Name = "LabelControl29"
         Me.LabelControl29.Size = New System.Drawing.Size(84, 21)
         Me.LabelControl29.TabIndex = 16
@@ -484,7 +488,7 @@ Partial Class frmLiuHuaJi
         '
         Me.LabelControl25.Appearance.Font = New System.Drawing.Font("宋体", 10.5!)
         Me.LabelControl25.Appearance.Options.UseFont = True
-        Me.LabelControl25.Location = New System.Drawing.Point(11, 306)
+        Me.LabelControl25.Location = New System.Drawing.Point(11, 334)
         Me.LabelControl25.Name = "LabelControl25"
         Me.LabelControl25.Size = New System.Drawing.Size(84, 21)
         Me.LabelControl25.TabIndex = 16
@@ -494,7 +498,7 @@ Partial Class frmLiuHuaJi
         '
         Me.LabelControl2.Appearance.Font = New System.Drawing.Font("宋体", 10.5!)
         Me.LabelControl2.Appearance.Options.UseFont = True
-        Me.LabelControl2.Location = New System.Drawing.Point(11, 255)
+        Me.LabelControl2.Location = New System.Drawing.Point(11, 287)
         Me.LabelControl2.Name = "LabelControl2"
         Me.LabelControl2.Size = New System.Drawing.Size(84, 21)
         Me.LabelControl2.TabIndex = 16
@@ -504,7 +508,7 @@ Partial Class frmLiuHuaJi
         '
         Me.LabelControl10.Appearance.Font = New System.Drawing.Font("宋体", 10.5!)
         Me.LabelControl10.Appearance.Options.UseFont = True
-        Me.LabelControl10.Location = New System.Drawing.Point(11, 201)
+        Me.LabelControl10.Location = New System.Drawing.Point(11, 240)
         Me.LabelControl10.Name = "LabelControl10"
         Me.LabelControl10.Size = New System.Drawing.Size(84, 21)
         Me.LabelControl10.TabIndex = 16
@@ -514,27 +518,47 @@ Partial Class frmLiuHuaJi
         '
         Me.LabelControl8.Appearance.Font = New System.Drawing.Font("宋体", 10.5!)
         Me.LabelControl8.Appearance.Options.UseFont = True
-        Me.LabelControl8.Location = New System.Drawing.Point(11, 151)
+        Me.LabelControl8.Location = New System.Drawing.Point(11, 193)
         Me.LabelControl8.Name = "LabelControl8"
         Me.LabelControl8.Size = New System.Drawing.Size(84, 21)
         Me.LabelControl8.TabIndex = 16
         Me.LabelControl8.Text = "目前均温"
         '
+        'LabelControl52
+        '
+        Me.LabelControl52.Appearance.Font = New System.Drawing.Font("宋体", 10.5!)
+        Me.LabelControl52.Appearance.Options.UseFont = True
+        Me.LabelControl52.Location = New System.Drawing.Point(75, 99)
+        Me.LabelControl52.Name = "LabelControl52"
+        Me.LabelControl52.Size = New System.Drawing.Size(121, 21)
+        Me.LabelControl52.TabIndex = 16
+        Me.LabelControl52.Text = "xxxxxxxxxxx"
+        '
         'LabelControl6
         '
         Me.LabelControl6.Appearance.Font = New System.Drawing.Font("宋体", 10.5!)
         Me.LabelControl6.Appearance.Options.UseFont = True
-        Me.LabelControl6.Location = New System.Drawing.Point(174, 102)
+        Me.LabelControl6.Location = New System.Drawing.Point(174, 146)
         Me.LabelControl6.Name = "LabelControl6"
         Me.LabelControl6.Size = New System.Drawing.Size(84, 21)
         Me.LabelControl6.TabIndex = 16
         Me.LabelControl6.Text = "剩余时长"
         '
+        'LabelControl51
+        '
+        Me.LabelControl51.Appearance.Font = New System.Drawing.Font("宋体", 10.5!)
+        Me.LabelControl51.Appearance.Options.UseFont = True
+        Me.LabelControl51.Location = New System.Drawing.Point(11, 99)
+        Me.LabelControl51.Name = "LabelControl51"
+        Me.LabelControl51.Size = New System.Drawing.Size(42, 21)
+        Me.LabelControl51.TabIndex = 16
+        Me.LabelControl51.Text = "型号"
+        '
         'LabelControl4
         '
         Me.LabelControl4.Appearance.Font = New System.Drawing.Font("宋体", 10.5!)
         Me.LabelControl4.Appearance.Options.UseFont = True
-        Me.LabelControl4.Location = New System.Drawing.Point(11, 102)
+        Me.LabelControl4.Location = New System.Drawing.Point(11, 146)
         Me.LabelControl4.Name = "LabelControl4"
         Me.LabelControl4.Size = New System.Drawing.Size(84, 21)
         Me.LabelControl4.TabIndex = 16
@@ -552,7 +576,7 @@ Partial Class frmLiuHuaJi
         '
         'ToggleSwitch1
         '
-        Me.ToggleSwitch1.Location = New System.Drawing.Point(104, 49)
+        Me.ToggleSwitch1.Location = New System.Drawing.Point(104, 48)
         Me.ToggleSwitch1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.ToggleSwitch1.Name = "ToggleSwitch1"
         Me.ToggleSwitch1.Properties.OffText = "Off"
@@ -859,9 +883,9 @@ Partial Class frmLiuHuaJi
         Me.LabelControl48.Appearance.Options.UseFont = True
         Me.LabelControl48.Location = New System.Drawing.Point(171, 125)
         Me.LabelControl48.Name = "LabelControl48"
-        Me.LabelControl48.Size = New System.Drawing.Size(23, 22)
+        Me.LabelControl48.Size = New System.Drawing.Size(30, 22)
         Me.LabelControl48.TabIndex = 202
-        Me.LabelControl48.Text = "cm"
+        Me.LabelControl48.Text = "mm"
         '
         'SimpleButton5
         '
@@ -1005,4 +1029,6 @@ Partial Class frmLiuHuaJi
     Friend WithEvents LabelControl24 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents LabelControl47 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents LabelControl17 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents LabelControl52 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents LabelControl51 As DevExpress.XtraEditors.LabelControl
 End Class

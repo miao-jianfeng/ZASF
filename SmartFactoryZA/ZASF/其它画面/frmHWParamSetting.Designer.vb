@@ -20,47 +20,19 @@ Partial Class frmHWParamSetting
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.tabWorkshop = New DevExpress.XtraTab.XtraTabControl()
-        Me.tp_jp = New DevExpress.XtraTab.XtraTabPage()
-        Me.GroupControl7 = New DevExpress.XtraEditors.GroupControl()
-        Me.LabelControl8 = New DevExpress.XtraEditors.LabelControl()
-        Me.jp_bhjdzc_id = New DevExpress.XtraEditors.TextEdit()
-        Me.GroupControl10 = New DevExpress.XtraEditors.GroupControl()
-        Me.LabelControl24 = New DevExpress.XtraEditors.LabelControl()
-        Me.jp_dpdzc_id = New DevExpress.XtraEditors.TextEdit()
-        Me.GroupControl6 = New DevExpress.XtraEditors.GroupControl()
-        Me.LabelControl23 = New DevExpress.XtraEditors.LabelControl()
-        Me.LabelControl22 = New DevExpress.XtraEditors.LabelControl()
-        Me.GroupControl4 = New DevExpress.XtraEditors.GroupControl()
-        Me.jp_smq_com = New DevExpress.XtraEditors.TextEdit()
-        Me.LabelControl1 = New DevExpress.XtraEditors.LabelControl()
-        Me.jp_ybb_ip = New DevExpress.XtraEditors.TextEdit()
-        Me.GroupControl5 = New DevExpress.XtraEditors.GroupControl()
-        Me.LabelControl9 = New DevExpress.XtraEditors.LabelControl()
-        Me.jp_dzc_id = New DevExpress.XtraEditors.TextEdit()
-        Me.jp_yjb_id = New DevExpress.XtraEditors.TextEdit()
-        Me.jp_ybb_id = New DevExpress.XtraEditors.TextEdit()
-        Me.jp_ybb_port = New DevExpress.XtraEditors.TextEdit()
-        Me.jp_yjb_port = New DevExpress.XtraEditors.TextEdit()
-        Me.LabelControl15 = New DevExpress.XtraEditors.LabelControl()
-        Me.LabelControl14 = New DevExpress.XtraEditors.LabelControl()
-        Me.LabelControl10 = New DevExpress.XtraEditors.LabelControl()
-        Me.LabelControl11 = New DevExpress.XtraEditors.LabelControl()
-        Me.jp_yjb_ip = New DevExpress.XtraEditors.TextEdit()
-        Me.LabelControl13 = New DevExpress.XtraEditors.LabelControl()
-        Me.LabelControl12 = New DevExpress.XtraEditors.LabelControl()
-        Me.btnSave_jp = New DevExpress.XtraEditors.SimpleButton()
         Me.tp_gjb = New DevExpress.XtraTab.XtraTabPage()
-        Me.GroupControl11 = New DevExpress.XtraEditors.GroupControl()
-        Me.LabelControl25 = New DevExpress.XtraEditors.LabelControl()
-        Me.TextEdit1 = New DevExpress.XtraEditors.TextEdit()
         Me.GroupControl3 = New DevExpress.XtraEditors.GroupControl()
         Me.gjb_scaner2_com = New DevExpress.XtraEditors.TextEdit()
         Me.gjb_scaner1_com = New DevExpress.XtraEditors.TextEdit()
         Me.LabelControl7 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl6 = New DevExpress.XtraEditors.LabelControl()
         Me.GroupControl2 = New DevExpress.XtraEditors.GroupControl()
+        Me.gjb_dzc_port = New DevExpress.XtraEditors.TextEdit()
         Me.LabelControl5 = New DevExpress.XtraEditors.LabelControl()
         Me.gjb_dzc_id = New DevExpress.XtraEditors.TextEdit()
+        Me.LabelControl26 = New DevExpress.XtraEditors.LabelControl()
+        Me.gjb_dzc_ip = New DevExpress.XtraEditors.TextEdit()
+        Me.LabelControl25 = New DevExpress.XtraEditors.LabelControl()
         Me.GroupControl1 = New DevExpress.XtraEditors.GroupControl()
         Me.gjb_jxb_port = New DevExpress.XtraEditors.TextEdit()
         Me.LabelControl2 = New DevExpress.XtraEditors.LabelControl()
@@ -69,6 +41,46 @@ Partial Class frmHWParamSetting
         Me.gjb_jxb_ID = New DevExpress.XtraEditors.TextEdit()
         Me.LabelControl4 = New DevExpress.XtraEditors.LabelControl()
         Me.btnSave_gjb = New DevExpress.XtraEditors.SimpleButton()
+        Me.tp_jp = New DevExpress.XtraTab.XtraTabPage()
+        Me.GroupControl7 = New DevExpress.XtraEditors.GroupControl()
+        Me.LabelControl8 = New DevExpress.XtraEditors.LabelControl()
+        Me.jp_bhjdzc_id = New DevExpress.XtraEditors.TextEdit()
+        Me.LabelControl37 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl36 = New DevExpress.XtraEditors.LabelControl()
+        Me.jp_bhjdzc_port = New DevExpress.XtraEditors.TextEdit()
+        Me.jp_bhjdzc_ip = New DevExpress.XtraEditors.TextEdit()
+        Me.GroupControl10 = New DevExpress.XtraEditors.GroupControl()
+        Me.LabelControl24 = New DevExpress.XtraEditors.LabelControl()
+        Me.jp_dpdzc_id = New DevExpress.XtraEditors.TextEdit()
+        Me.LabelControl32 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl31 = New DevExpress.XtraEditors.LabelControl()
+        Me.jp_dpdzc_ip = New DevExpress.XtraEditors.TextEdit()
+        Me.jp_dpdzc_port = New DevExpress.XtraEditors.TextEdit()
+        Me.GroupControl6 = New DevExpress.XtraEditors.GroupControl()
+        Me.LabelControl9 = New DevExpress.XtraEditors.LabelControl()
+        Me.jp_dzc_id = New DevExpress.XtraEditors.TextEdit()
+        Me.jp_dzc_ip = New DevExpress.XtraEditors.TextEdit()
+        Me.LabelControl34 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl33 = New DevExpress.XtraEditors.LabelControl()
+        Me.jp_dzc_port = New DevExpress.XtraEditors.TextEdit()
+        Me.jp_smq_com = New DevExpress.XtraEditors.TextEdit()
+        Me.LabelControl1 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl23 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl22 = New DevExpress.XtraEditors.LabelControl()
+        Me.jp_ybb_ip = New DevExpress.XtraEditors.TextEdit()
+        Me.jp_yjb_id = New DevExpress.XtraEditors.TextEdit()
+        Me.jp_ybb_id = New DevExpress.XtraEditors.TextEdit()
+        Me.jp_ybb_port = New DevExpress.XtraEditors.TextEdit()
+        Me.jp_yjb_port = New DevExpress.XtraEditors.TextEdit()
+        Me.LabelControl35 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl15 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl14 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl10 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl11 = New DevExpress.XtraEditors.LabelControl()
+        Me.jp_yjb_ip = New DevExpress.XtraEditors.TextEdit()
+        Me.LabelControl13 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl12 = New DevExpress.XtraEditors.LabelControl()
+        Me.btnSave_jp = New DevExpress.XtraEditors.SimpleButton()
         Me.tp_lh = New DevExpress.XtraTab.XtraTabPage()
         Me.PanelControl2 = New DevExpress.XtraEditors.PanelControl()
         Me.lhj_deleted = New DevExpress.XtraEditors.CheckEdit()
@@ -79,8 +91,10 @@ Partial Class frmHWParamSetting
         Me.btnUpdate_lhj = New DevExpress.XtraEditors.SimpleButton()
         Me.btnAdd_lhj = New DevExpress.XtraEditors.SimpleButton()
         Me.btnClear_lhj = New DevExpress.XtraEditors.SimpleButton()
+        Me.LabelControl21 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl16 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl17 = New DevExpress.XtraEditors.LabelControl()
+        Me.lhj_type_name = New DevExpress.XtraEditors.TextEdit()
         Me.lhj_ID = New DevExpress.XtraEditors.TextEdit()
         Me.LabelControl19 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl18 = New DevExpress.XtraEditors.LabelControl()
@@ -91,83 +105,86 @@ Partial Class frmHWParamSetting
         Me.LabelControl20 = New DevExpress.XtraEditors.LabelControl()
         Me.tp_agv = New DevExpress.XtraTab.XtraTabPage()
         Me.PanelControl4 = New DevExpress.XtraEditors.PanelControl()
-        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewCheckBoxColumn1 = New System.Windows.Forms.DataGridViewCheckBoxColumn()
-        Me.DataGridViewTextBoxColumn5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvList_AGV = New System.Windows.Forms.DataGridView()
+        Me.colagv_id = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.colagv_ip = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.colagv_port = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.colagv_status_name = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.colagv_deleted = New System.Windows.Forms.DataGridViewCheckBoxColumn()
         Me.DataGridViewTextBoxColumn6 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.colagv_type_name = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DataGridViewTextBoxColumn7 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DataGridViewTextBoxColumn8 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DataGridViewTextBoxColumn9 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DataGridViewTextBoxColumn10 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DataGridViewTextBoxColumn11 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.PanelControl3 = New DevExpress.XtraEditors.PanelControl()
-        Me.CheckEdit1 = New DevExpress.XtraEditors.CheckEdit()
-        Me.ComboBoxEdit1 = New DevExpress.XtraEditors.ComboBoxEdit()
-        Me.TextEdit3 = New DevExpress.XtraEditors.TextEdit()
-        Me.TextEdit4 = New DevExpress.XtraEditors.TextEdit()
-        Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton3 = New DevExpress.XtraEditors.SimpleButton()
+        Me.btnClear_AGV = New DevExpress.XtraEditors.SimpleButton()
+        Me.agv_deleted = New DevExpress.XtraEditors.CheckEdit()
+        Me.agv_status = New DevExpress.XtraEditors.ComboBoxEdit()
+        Me.agv_ip = New DevExpress.XtraEditors.TextEdit()
+        Me.agv_port = New DevExpress.XtraEditors.TextEdit()
+        Me.btnDelete_AGV = New DevExpress.XtraEditors.SimpleButton()
+        Me.btnUpdate_AGV = New DevExpress.XtraEditors.SimpleButton()
+        Me.btnAdd_AGV = New DevExpress.XtraEditors.SimpleButton()
         Me.LabelControl27 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl28 = New DevExpress.XtraEditors.LabelControl()
-        Me.TextEdit5 = New DevExpress.XtraEditors.TextEdit()
+        Me.agv_id = New DevExpress.XtraEditors.TextEdit()
         Me.LabelControl29 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl30 = New DevExpress.XtraEditors.LabelControl()
         Me.collh_id = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.collh_type_name = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.collh_ip = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.collh_port = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.collh_status_name = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.collh_deleted = New System.Windows.Forms.DataGridViewCheckBoxColumn()
-        Me.collh_scbh = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.collh_factoryid = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.collh_workshop_id = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.colequip_type_id = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.collh_equip_type_id = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.collh_production_no = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.collh_com = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.collh_status = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.collh_update_time = New System.Windows.Forms.DataGridViewTextBoxColumn()
         CType(Me.tabWorkshop, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.tabWorkshop.SuspendLayout()
-        Me.tp_jp.SuspendLayout()
-        CType(Me.GroupControl7, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupControl7.SuspendLayout()
-        CType(Me.jp_bhjdzc_id.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.GroupControl10, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupControl10.SuspendLayout()
-        CType(Me.jp_dpdzc_id.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.GroupControl6, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupControl6.SuspendLayout()
-        CType(Me.GroupControl4, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupControl4.SuspendLayout()
-        CType(Me.jp_smq_com.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.jp_ybb_ip.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.GroupControl5, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupControl5.SuspendLayout()
-        CType(Me.jp_dzc_id.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.jp_yjb_id.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.jp_ybb_id.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.jp_ybb_port.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.jp_yjb_port.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.jp_yjb_ip.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.tp_gjb.SuspendLayout()
-        CType(Me.GroupControl11, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupControl11.SuspendLayout()
-        CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GroupControl3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupControl3.SuspendLayout()
         CType(Me.gjb_scaner2_com.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.gjb_scaner1_com.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GroupControl2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupControl2.SuspendLayout()
+        CType(Me.gjb_dzc_port.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.gjb_dzc_id.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.gjb_dzc_ip.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GroupControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupControl1.SuspendLayout()
         CType(Me.gjb_jxb_port.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.gjb_jxb_ip.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.gjb_jxb_ID.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.tp_jp.SuspendLayout()
+        CType(Me.GroupControl7, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupControl7.SuspendLayout()
+        CType(Me.jp_bhjdzc_id.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.jp_bhjdzc_port.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.jp_bhjdzc_ip.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.GroupControl10, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupControl10.SuspendLayout()
+        CType(Me.jp_dpdzc_id.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.jp_dpdzc_ip.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.jp_dpdzc_port.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.GroupControl6, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupControl6.SuspendLayout()
+        CType(Me.jp_dzc_id.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.jp_dzc_ip.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.jp_dzc_port.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.jp_smq_com.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.jp_ybb_ip.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.jp_yjb_id.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.jp_ybb_id.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.jp_ybb_port.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.jp_yjb_port.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.jp_yjb_ip.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.tp_lh.SuspendLayout()
         CType(Me.PanelControl2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PanelControl2.SuspendLayout()
@@ -175,6 +192,7 @@ Partial Class frmHWParamSetting
         CType(Me.lhj_Status.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.lhj_ip.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.lhj_port.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.lhj_type_name.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.lhj_ID.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PanelControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PanelControl1.SuspendLayout()
@@ -183,314 +201,27 @@ Partial Class frmHWParamSetting
         Me.tp_agv.SuspendLayout()
         CType(Me.PanelControl4, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PanelControl4.SuspendLayout()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.dgvList_AGV, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PanelControl3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PanelControl3.SuspendLayout()
-        CType(Me.CheckEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ComboBoxEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit3.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit4.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit5.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.agv_deleted.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.agv_status.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.agv_ip.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.agv_port.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.agv_id.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'tabWorkshop
         '
         Me.tabWorkshop.Location = New System.Drawing.Point(12, 0)
         Me.tabWorkshop.Name = "tabWorkshop"
-        Me.tabWorkshop.SelectedTabPage = Me.tp_jp
+        Me.tabWorkshop.SelectedTabPage = Me.tp_gjb
         Me.tabWorkshop.Size = New System.Drawing.Size(1077, 654)
         Me.tabWorkshop.TabIndex = 0
         Me.tabWorkshop.TabPages.AddRange(New DevExpress.XtraTab.XtraTabPage() {Me.tp_gjb, Me.tp_jp, Me.tp_lh, Me.tp_agv})
         '
-        'tp_jp
-        '
-        Me.tp_jp.Controls.Add(Me.GroupControl7)
-        Me.tp_jp.Controls.Add(Me.GroupControl10)
-        Me.tp_jp.Controls.Add(Me.GroupControl6)
-        Me.tp_jp.Controls.Add(Me.btnSave_jp)
-        Me.tp_jp.Name = "tp_jp"
-        Me.tp_jp.Size = New System.Drawing.Size(1075, 619)
-        Me.tp_jp.Text = "胶片车间"
-        '
-        'GroupControl7
-        '
-        Me.GroupControl7.Controls.Add(Me.LabelControl8)
-        Me.GroupControl7.Controls.Add(Me.jp_bhjdzc_id)
-        Me.GroupControl7.Location = New System.Drawing.Point(22, 379)
-        Me.GroupControl7.Name = "GroupControl7"
-        Me.GroupControl7.Size = New System.Drawing.Size(224, 100)
-        Me.GroupControl7.TabIndex = 2
-        Me.GroupControl7.Text = "保护胶秤重 电子秤"
-        '
-        'LabelControl8
-        '
-        Me.LabelControl8.Location = New System.Drawing.Point(18, 52)
-        Me.LabelControl8.Name = "LabelControl8"
-        Me.LabelControl8.Size = New System.Drawing.Size(19, 22)
-        Me.LabelControl8.TabIndex = 0
-        Me.LabelControl8.Text = "ID"
-        '
-        'jp_bhjdzc_id
-        '
-        Me.jp_bhjdzc_id.ImeMode = System.Windows.Forms.ImeMode.Disable
-        Me.jp_bhjdzc_id.Location = New System.Drawing.Point(43, 48)
-        Me.jp_bhjdzc_id.Name = "jp_bhjdzc_id"
-        Me.jp_bhjdzc_id.Size = New System.Drawing.Size(150, 30)
-        Me.jp_bhjdzc_id.TabIndex = 0
-        Me.jp_bhjdzc_id.Tag = "保护胶秤重 电子秤ID"
-        '
-        'GroupControl10
-        '
-        Me.GroupControl10.Controls.Add(Me.LabelControl24)
-        Me.GroupControl10.Controls.Add(Me.jp_dpdzc_id)
-        Me.GroupControl10.Location = New System.Drawing.Point(22, 19)
-        Me.GroupControl10.Name = "GroupControl10"
-        Me.GroupControl10.Size = New System.Drawing.Size(224, 100)
-        Me.GroupControl10.TabIndex = 0
-        Me.GroupControl10.Text = "端片秤重 电子秤"
-        '
-        'LabelControl24
-        '
-        Me.LabelControl24.Location = New System.Drawing.Point(19, 55)
-        Me.LabelControl24.Name = "LabelControl24"
-        Me.LabelControl24.Size = New System.Drawing.Size(19, 22)
-        Me.LabelControl24.TabIndex = 0
-        Me.LabelControl24.Text = "ID"
-        '
-        'jp_dpdzc_id
-        '
-        Me.jp_dpdzc_id.ImeMode = System.Windows.Forms.ImeMode.Disable
-        Me.jp_dpdzc_id.Location = New System.Drawing.Point(44, 51)
-        Me.jp_dpdzc_id.Name = "jp_dpdzc_id"
-        Me.jp_dpdzc_id.Size = New System.Drawing.Size(150, 30)
-        Me.jp_dpdzc_id.TabIndex = 0
-        Me.jp_dpdzc_id.Tag = "端片秤重 电子秤"
-        '
-        'GroupControl6
-        '
-        Me.GroupControl6.Controls.Add(Me.LabelControl23)
-        Me.GroupControl6.Controls.Add(Me.LabelControl22)
-        Me.GroupControl6.Controls.Add(Me.GroupControl4)
-        Me.GroupControl6.Controls.Add(Me.jp_ybb_ip)
-        Me.GroupControl6.Controls.Add(Me.GroupControl5)
-        Me.GroupControl6.Controls.Add(Me.jp_yjb_id)
-        Me.GroupControl6.Controls.Add(Me.jp_ybb_id)
-        Me.GroupControl6.Controls.Add(Me.jp_ybb_port)
-        Me.GroupControl6.Controls.Add(Me.jp_yjb_port)
-        Me.GroupControl6.Controls.Add(Me.LabelControl15)
-        Me.GroupControl6.Controls.Add(Me.LabelControl14)
-        Me.GroupControl6.Controls.Add(Me.LabelControl10)
-        Me.GroupControl6.Controls.Add(Me.LabelControl11)
-        Me.GroupControl6.Controls.Add(Me.jp_yjb_ip)
-        Me.GroupControl6.Controls.Add(Me.LabelControl13)
-        Me.GroupControl6.Controls.Add(Me.LabelControl12)
-        Me.GroupControl6.Location = New System.Drawing.Point(22, 125)
-        Me.GroupControl6.Name = "GroupControl6"
-        Me.GroupControl6.Size = New System.Drawing.Size(719, 248)
-        Me.GroupControl6.TabIndex = 1
-        Me.GroupControl6.Text = "机械臂"
-        '
-        'LabelControl23
-        '
-        Me.LabelControl23.Location = New System.Drawing.Point(82, 47)
-        Me.LabelControl23.Name = "LabelControl23"
-        Me.LabelControl23.Size = New System.Drawing.Size(19, 22)
-        Me.LabelControl23.TabIndex = 10
-        Me.LabelControl23.Text = "ID"
-        '
-        'LabelControl22
-        '
-        Me.LabelControl22.Location = New System.Drawing.Point(82, 90)
-        Me.LabelControl22.Name = "LabelControl22"
-        Me.LabelControl22.Size = New System.Drawing.Size(19, 22)
-        Me.LabelControl22.TabIndex = 11
-        Me.LabelControl22.Text = "ID"
-        '
-        'GroupControl4
-        '
-        Me.GroupControl4.Controls.Add(Me.jp_smq_com)
-        Me.GroupControl4.Controls.Add(Me.LabelControl1)
-        Me.GroupControl4.GroupStyle = DevExpress.Utils.GroupStyle.Light
-        Me.GroupControl4.Location = New System.Drawing.Point(267, 131)
-        Me.GroupControl4.Name = "GroupControl4"
-        Me.GroupControl4.Size = New System.Drawing.Size(224, 100)
-        Me.GroupControl4.TabIndex = 7
-        Me.GroupControl4.Text = "扫描枪"
-        '
-        'jp_smq_com
-        '
-        Me.jp_smq_com.ImeMode = System.Windows.Forms.ImeMode.Disable
-        Me.jp_smq_com.Location = New System.Drawing.Point(89, 51)
-        Me.jp_smq_com.Name = "jp_smq_com"
-        Me.jp_smq_com.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric
-        Me.jp_smq_com.Properties.MaxLength = 5
-        Me.jp_smq_com.Size = New System.Drawing.Size(103, 30)
-        Me.jp_smq_com.TabIndex = 0
-        Me.jp_smq_com.Tag = "扫描枪COM口"
-        '
-        'LabelControl1
-        '
-        Me.LabelControl1.Location = New System.Drawing.Point(27, 55)
-        Me.LabelControl1.Name = "LabelControl1"
-        Me.LabelControl1.Size = New System.Drawing.Size(56, 22)
-        Me.LabelControl1.TabIndex = 0
-        Me.LabelControl1.Text = "COM口"
-        '
-        'jp_ybb_ip
-        '
-        Me.jp_ybb_ip.ImeMode = System.Windows.Forms.ImeMode.Disable
-        Me.jp_ybb_ip.Location = New System.Drawing.Point(341, 86)
-        Me.jp_ybb_ip.Name = "jp_ybb_ip"
-        Me.jp_ybb_ip.Properties.Mask.BeepOnError = True
-        Me.jp_ybb_ip.Properties.Mask.EditMask = "999.999.999.999"
-        Me.jp_ybb_ip.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Simple
-        Me.jp_ybb_ip.Properties.XlsxFormatString = "000.000.000.000"
-        Me.jp_ybb_ip.Size = New System.Drawing.Size(150, 30)
-        Me.jp_ybb_ip.TabIndex = 4
-        Me.jp_ybb_ip.Tag = "运板臂IP"
-        '
-        'GroupControl5
-        '
-        Me.GroupControl5.Controls.Add(Me.LabelControl9)
-        Me.GroupControl5.Controls.Add(Me.jp_dzc_id)
-        Me.GroupControl5.GroupStyle = DevExpress.Utils.GroupStyle.Light
-        Me.GroupControl5.Location = New System.Drawing.Point(19, 131)
-        Me.GroupControl5.Name = "GroupControl5"
-        Me.GroupControl5.Size = New System.Drawing.Size(224, 100)
-        Me.GroupControl5.TabIndex = 6
-        Me.GroupControl5.Text = "电子秤"
-        '
-        'LabelControl9
-        '
-        Me.LabelControl9.Location = New System.Drawing.Point(19, 55)
-        Me.LabelControl9.Name = "LabelControl9"
-        Me.LabelControl9.Size = New System.Drawing.Size(19, 22)
-        Me.LabelControl9.TabIndex = 0
-        Me.LabelControl9.Text = "ID"
-        '
-        'jp_dzc_id
-        '
-        Me.jp_dzc_id.ImeMode = System.Windows.Forms.ImeMode.Disable
-        Me.jp_dzc_id.Location = New System.Drawing.Point(44, 51)
-        Me.jp_dzc_id.Name = "jp_dzc_id"
-        Me.jp_dzc_id.Size = New System.Drawing.Size(150, 30)
-        Me.jp_dzc_id.TabIndex = 0
-        Me.jp_dzc_id.Tag = "电子秤ID"
-        '
-        'jp_yjb_id
-        '
-        Me.jp_yjb_id.EditValue = ""
-        Me.jp_yjb_id.ImeMode = System.Windows.Forms.ImeMode.Disable
-        Me.jp_yjb_id.Location = New System.Drawing.Point(107, 43)
-        Me.jp_yjb_id.Name = "jp_yjb_id"
-        Me.jp_yjb_id.Size = New System.Drawing.Size(150, 30)
-        Me.jp_yjb_id.TabIndex = 0
-        Me.jp_yjb_id.Tag = "运胶臂ID"
-        '
-        'jp_ybb_id
-        '
-        Me.jp_ybb_id.EditValue = ""
-        Me.jp_ybb_id.ImeMode = System.Windows.Forms.ImeMode.Disable
-        Me.jp_ybb_id.Location = New System.Drawing.Point(107, 86)
-        Me.jp_ybb_id.Name = "jp_ybb_id"
-        Me.jp_ybb_id.Size = New System.Drawing.Size(150, 30)
-        Me.jp_ybb_id.TabIndex = 3
-        Me.jp_ybb_id.Tag = "运板臂ID"
-        '
-        'jp_ybb_port
-        '
-        Me.jp_ybb_port.ImeMode = System.Windows.Forms.ImeMode.Disable
-        Me.jp_ybb_port.Location = New System.Drawing.Point(563, 86)
-        Me.jp_ybb_port.Name = "jp_ybb_port"
-        Me.jp_ybb_port.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric
-        Me.jp_ybb_port.Properties.MaxLength = 5
-        Me.jp_ybb_port.Size = New System.Drawing.Size(82, 30)
-        Me.jp_ybb_port.TabIndex = 5
-        Me.jp_ybb_port.Tag = "运板臂端口"
-        '
-        'jp_yjb_port
-        '
-        Me.jp_yjb_port.ImeMode = System.Windows.Forms.ImeMode.Disable
-        Me.jp_yjb_port.Location = New System.Drawing.Point(563, 43)
-        Me.jp_yjb_port.Name = "jp_yjb_port"
-        Me.jp_yjb_port.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric
-        Me.jp_yjb_port.Properties.MaxLength = 5
-        Me.jp_yjb_port.Size = New System.Drawing.Size(82, 30)
-        Me.jp_yjb_port.TabIndex = 2
-        Me.jp_yjb_port.Tag = "运胶臂端口"
-        '
-        'LabelControl15
-        '
-        Me.LabelControl15.Location = New System.Drawing.Point(21, 90)
-        Me.LabelControl15.Name = "LabelControl15"
-        Me.LabelControl15.Size = New System.Drawing.Size(54, 22)
-        Me.LabelControl15.TabIndex = 9
-        Me.LabelControl15.Text = "运板臂"
-        '
-        'LabelControl14
-        '
-        Me.LabelControl14.Location = New System.Drawing.Point(282, 90)
-        Me.LabelControl14.Name = "LabelControl14"
-        Me.LabelControl14.Size = New System.Drawing.Size(53, 22)
-        Me.LabelControl14.TabIndex = 0
-        Me.LabelControl14.Text = "IP地址"
-        '
-        'LabelControl10
-        '
-        Me.LabelControl10.Location = New System.Drawing.Point(21, 47)
-        Me.LabelControl10.Name = "LabelControl10"
-        Me.LabelControl10.Size = New System.Drawing.Size(54, 22)
-        Me.LabelControl10.TabIndex = 15
-        Me.LabelControl10.Text = "运胶臂"
-        '
-        'LabelControl11
-        '
-        Me.LabelControl11.Location = New System.Drawing.Point(282, 47)
-        Me.LabelControl11.Name = "LabelControl11"
-        Me.LabelControl11.Size = New System.Drawing.Size(53, 22)
-        Me.LabelControl11.TabIndex = 0
-        Me.LabelControl11.Text = "IP地址"
-        '
-        'jp_yjb_ip
-        '
-        Me.jp_yjb_ip.ImeMode = System.Windows.Forms.ImeMode.Disable
-        Me.jp_yjb_ip.Location = New System.Drawing.Point(341, 43)
-        Me.jp_yjb_ip.Name = "jp_yjb_ip"
-        Me.jp_yjb_ip.Properties.Mask.BeepOnError = True
-        Me.jp_yjb_ip.Properties.Mask.EditMask = "999.999.999.999"
-        Me.jp_yjb_ip.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Simple
-        Me.jp_yjb_ip.Properties.XlsxFormatString = "000.000.000.000"
-        Me.jp_yjb_ip.Size = New System.Drawing.Size(150, 30)
-        Me.jp_yjb_ip.TabIndex = 1
-        Me.jp_yjb_ip.Tag = "运胶臂IP"
-        '
-        'LabelControl13
-        '
-        Me.LabelControl13.Location = New System.Drawing.Point(521, 90)
-        Me.LabelControl13.Name = "LabelControl13"
-        Me.LabelControl13.Size = New System.Drawing.Size(36, 22)
-        Me.LabelControl13.TabIndex = 0
-        Me.LabelControl13.Text = "端口"
-        '
-        'LabelControl12
-        '
-        Me.LabelControl12.Location = New System.Drawing.Point(521, 47)
-        Me.LabelControl12.Name = "LabelControl12"
-        Me.LabelControl12.Size = New System.Drawing.Size(36, 22)
-        Me.LabelControl12.TabIndex = 0
-        Me.LabelControl12.Text = "端口"
-        '
-        'btnSave_jp
-        '
-        Me.btnSave_jp.Location = New System.Drawing.Point(620, 465)
-        Me.btnSave_jp.Name = "btnSave_jp"
-        Me.btnSave_jp.Size = New System.Drawing.Size(112, 34)
-        Me.btnSave_jp.TabIndex = 3
-        Me.btnSave_jp.Text = "保存"
-        '
         'tp_gjb
         '
-        Me.tp_gjb.Controls.Add(Me.GroupControl11)
         Me.tp_gjb.Controls.Add(Me.GroupControl3)
         Me.tp_gjb.Controls.Add(Me.GroupControl2)
         Me.tp_gjb.Controls.Add(Me.GroupControl1)
@@ -499,42 +230,15 @@ Partial Class frmHWParamSetting
         Me.tp_gjb.Size = New System.Drawing.Size(1075, 619)
         Me.tp_gjb.Text = "骨架板装配车间"
         '
-        'GroupControl11
-        '
-        Me.GroupControl11.Controls.Add(Me.LabelControl25)
-        Me.GroupControl11.Controls.Add(Me.TextEdit1)
-        Me.GroupControl11.Location = New System.Drawing.Point(20, 277)
-        Me.GroupControl11.Name = "GroupControl11"
-        Me.GroupControl11.Size = New System.Drawing.Size(249, 100)
-        Me.GroupControl11.TabIndex = 4
-        Me.GroupControl11.Text = "法兰板秤重 电子秤"
-        '
-        'LabelControl25
-        '
-        Me.LabelControl25.Location = New System.Drawing.Point(21, 55)
-        Me.LabelControl25.Name = "LabelControl25"
-        Me.LabelControl25.Size = New System.Drawing.Size(19, 22)
-        Me.LabelControl25.TabIndex = 0
-        Me.LabelControl25.Text = "ID"
-        '
-        'TextEdit1
-        '
-        Me.TextEdit1.ImeMode = System.Windows.Forms.ImeMode.Disable
-        Me.TextEdit1.Location = New System.Drawing.Point(46, 51)
-        Me.TextEdit1.Name = "TextEdit1"
-        Me.TextEdit1.Size = New System.Drawing.Size(150, 30)
-        Me.TextEdit1.TabIndex = 0
-        Me.TextEdit1.Tag = "电子秤ID"
-        '
         'GroupControl3
         '
         Me.GroupControl3.Controls.Add(Me.gjb_scaner2_com)
         Me.GroupControl3.Controls.Add(Me.gjb_scaner1_com)
         Me.GroupControl3.Controls.Add(Me.LabelControl7)
         Me.GroupControl3.Controls.Add(Me.LabelControl6)
-        Me.GroupControl3.Location = New System.Drawing.Point(295, 149)
+        Me.GroupControl3.Location = New System.Drawing.Point(20, 277)
         Me.GroupControl3.Name = "GroupControl3"
-        Me.GroupControl3.Size = New System.Drawing.Size(600, 100)
+        Me.GroupControl3.Size = New System.Drawing.Size(749, 100)
         Me.GroupControl3.TabIndex = 2
         Me.GroupControl3.Text = "扫描枪"
         '
@@ -543,6 +247,7 @@ Partial Class frmHWParamSetting
         Me.gjb_scaner2_com.ImeMode = System.Windows.Forms.ImeMode.Disable
         Me.gjb_scaner2_com.Location = New System.Drawing.Point(427, 51)
         Me.gjb_scaner2_com.Name = "gjb_scaner2_com"
+        Me.gjb_scaner2_com.Properties.Mask.EditMask = "d"
         Me.gjb_scaner2_com.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric
         Me.gjb_scaner2_com.Properties.MaxLength = 5
         Me.gjb_scaner2_com.Size = New System.Drawing.Size(130, 30)
@@ -554,6 +259,7 @@ Partial Class frmHWParamSetting
         Me.gjb_scaner1_com.ImeMode = System.Windows.Forms.ImeMode.Disable
         Me.gjb_scaner1_com.Location = New System.Drawing.Point(143, 51)
         Me.gjb_scaner1_com.Name = "gjb_scaner1_com"
+        Me.gjb_scaner1_com.Properties.Mask.EditMask = "d"
         Me.gjb_scaner1_com.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric
         Me.gjb_scaner1_com.Properties.MaxLength = 5
         Me.gjb_scaner1_com.Size = New System.Drawing.Size(130, 30)
@@ -578,13 +284,28 @@ Partial Class frmHWParamSetting
         '
         'GroupControl2
         '
+        Me.GroupControl2.Controls.Add(Me.gjb_dzc_port)
         Me.GroupControl2.Controls.Add(Me.LabelControl5)
         Me.GroupControl2.Controls.Add(Me.gjb_dzc_id)
-        Me.GroupControl2.Location = New System.Drawing.Point(20, 149)
+        Me.GroupControl2.Controls.Add(Me.LabelControl26)
+        Me.GroupControl2.Controls.Add(Me.gjb_dzc_ip)
+        Me.GroupControl2.Controls.Add(Me.LabelControl25)
+        Me.GroupControl2.Location = New System.Drawing.Point(20, 152)
         Me.GroupControl2.Name = "GroupControl2"
-        Me.GroupControl2.Size = New System.Drawing.Size(249, 100)
+        Me.GroupControl2.Size = New System.Drawing.Size(749, 100)
         Me.GroupControl2.TabIndex = 1
         Me.GroupControl2.Text = "电子秤"
+        '
+        'gjb_dzc_port
+        '
+        Me.gjb_dzc_port.ImeMode = System.Windows.Forms.ImeMode.Disable
+        Me.gjb_dzc_port.Location = New System.Drawing.Point(541, 51)
+        Me.gjb_dzc_port.Name = "gjb_dzc_port"
+        Me.gjb_dzc_port.Properties.Mask.EditMask = "d"
+        Me.gjb_dzc_port.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric
+        Me.gjb_dzc_port.Size = New System.Drawing.Size(150, 30)
+        Me.gjb_dzc_port.TabIndex = 2
+        Me.gjb_dzc_port.Tag = "机械臂端口"
         '
         'LabelControl5
         '
@@ -603,6 +324,33 @@ Partial Class frmHWParamSetting
         Me.gjb_dzc_id.TabIndex = 0
         Me.gjb_dzc_id.Tag = "电子秤ID"
         '
+        'LabelControl26
+        '
+        Me.LabelControl26.Location = New System.Drawing.Point(245, 55)
+        Me.LabelControl26.Name = "LabelControl26"
+        Me.LabelControl26.Size = New System.Drawing.Size(53, 22)
+        Me.LabelControl26.TabIndex = 0
+        Me.LabelControl26.Text = "IP地址"
+        '
+        'gjb_dzc_ip
+        '
+        Me.gjb_dzc_ip.ImeMode = System.Windows.Forms.ImeMode.Disable
+        Me.gjb_dzc_ip.Location = New System.Drawing.Point(304, 51)
+        Me.gjb_dzc_ip.Name = "gjb_dzc_ip"
+        Me.gjb_dzc_ip.Properties.Mask.EditMask = "###.###.###.###"
+        Me.gjb_dzc_ip.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Simple
+        Me.gjb_dzc_ip.Size = New System.Drawing.Size(150, 30)
+        Me.gjb_dzc_ip.TabIndex = 1
+        Me.gjb_dzc_ip.Tag = "机械臂IP"
+        '
+        'LabelControl25
+        '
+        Me.LabelControl25.Location = New System.Drawing.Point(499, 55)
+        Me.LabelControl25.Name = "LabelControl25"
+        Me.LabelControl25.Size = New System.Drawing.Size(36, 22)
+        Me.LabelControl25.TabIndex = 0
+        Me.LabelControl25.Text = "端口"
+        '
         'GroupControl1
         '
         Me.GroupControl1.Controls.Add(Me.gjb_jxb_port)
@@ -613,7 +361,7 @@ Partial Class frmHWParamSetting
         Me.GroupControl1.Controls.Add(Me.LabelControl4)
         Me.GroupControl1.Location = New System.Drawing.Point(20, 27)
         Me.GroupControl1.Name = "GroupControl1"
-        Me.GroupControl1.Size = New System.Drawing.Size(875, 100)
+        Me.GroupControl1.Size = New System.Drawing.Size(749, 100)
         Me.GroupControl1.TabIndex = 0
         Me.GroupControl1.Text = "机械臂"
         '
@@ -622,7 +370,7 @@ Partial Class frmHWParamSetting
         Me.gjb_jxb_port.ImeMode = System.Windows.Forms.ImeMode.Disable
         Me.gjb_jxb_port.Location = New System.Drawing.Point(541, 51)
         Me.gjb_jxb_port.Name = "gjb_jxb_port"
-        Me.gjb_jxb_port.Properties.Mask.EditMask = "#####"
+        Me.gjb_jxb_port.Properties.Mask.EditMask = "d"
         Me.gjb_jxb_port.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric
         Me.gjb_jxb_port.Size = New System.Drawing.Size(150, 30)
         Me.gjb_jxb_port.TabIndex = 2
@@ -674,11 +422,424 @@ Partial Class frmHWParamSetting
         '
         'btnSave_gjb
         '
-        Me.btnSave_gjb.Location = New System.Drawing.Point(783, 413)
+        Me.btnSave_gjb.Location = New System.Drawing.Point(657, 402)
         Me.btnSave_gjb.Name = "btnSave_gjb"
         Me.btnSave_gjb.Size = New System.Drawing.Size(112, 34)
         Me.btnSave_gjb.TabIndex = 3
         Me.btnSave_gjb.Text = "保存"
+        '
+        'tp_jp
+        '
+        Me.tp_jp.Controls.Add(Me.GroupControl7)
+        Me.tp_jp.Controls.Add(Me.GroupControl10)
+        Me.tp_jp.Controls.Add(Me.GroupControl6)
+        Me.tp_jp.Controls.Add(Me.btnSave_jp)
+        Me.tp_jp.Name = "tp_jp"
+        Me.tp_jp.Size = New System.Drawing.Size(1075, 619)
+        Me.tp_jp.Text = "胶片车间"
+        '
+        'GroupControl7
+        '
+        Me.GroupControl7.Controls.Add(Me.LabelControl8)
+        Me.GroupControl7.Controls.Add(Me.jp_bhjdzc_id)
+        Me.GroupControl7.Controls.Add(Me.LabelControl37)
+        Me.GroupControl7.Controls.Add(Me.LabelControl36)
+        Me.GroupControl7.Controls.Add(Me.jp_bhjdzc_port)
+        Me.GroupControl7.Controls.Add(Me.jp_bhjdzc_ip)
+        Me.GroupControl7.Location = New System.Drawing.Point(22, 364)
+        Me.GroupControl7.Name = "GroupControl7"
+        Me.GroupControl7.Size = New System.Drawing.Size(719, 100)
+        Me.GroupControl7.TabIndex = 2
+        Me.GroupControl7.Text = "保护胶秤重 电子秤"
+        '
+        'LabelControl8
+        '
+        Me.LabelControl8.Location = New System.Drawing.Point(18, 56)
+        Me.LabelControl8.Name = "LabelControl8"
+        Me.LabelControl8.Size = New System.Drawing.Size(19, 22)
+        Me.LabelControl8.TabIndex = 0
+        Me.LabelControl8.Text = "ID"
+        '
+        'jp_bhjdzc_id
+        '
+        Me.jp_bhjdzc_id.ImeMode = System.Windows.Forms.ImeMode.Disable
+        Me.jp_bhjdzc_id.Location = New System.Drawing.Point(43, 52)
+        Me.jp_bhjdzc_id.Name = "jp_bhjdzc_id"
+        Me.jp_bhjdzc_id.Size = New System.Drawing.Size(150, 30)
+        Me.jp_bhjdzc_id.TabIndex = 0
+        Me.jp_bhjdzc_id.Tag = "保护胶秤重 电子秤ID"
+        '
+        'LabelControl37
+        '
+        Me.LabelControl37.Location = New System.Drawing.Point(282, 56)
+        Me.LabelControl37.Name = "LabelControl37"
+        Me.LabelControl37.Size = New System.Drawing.Size(53, 22)
+        Me.LabelControl37.TabIndex = 0
+        Me.LabelControl37.Text = "IP地址"
+        '
+        'LabelControl36
+        '
+        Me.LabelControl36.Location = New System.Drawing.Point(527, 56)
+        Me.LabelControl36.Name = "LabelControl36"
+        Me.LabelControl36.Size = New System.Drawing.Size(36, 22)
+        Me.LabelControl36.TabIndex = 0
+        Me.LabelControl36.Text = "端口"
+        '
+        'jp_bhjdzc_port
+        '
+        Me.jp_bhjdzc_port.ImeMode = System.Windows.Forms.ImeMode.Disable
+        Me.jp_bhjdzc_port.Location = New System.Drawing.Point(576, 52)
+        Me.jp_bhjdzc_port.Name = "jp_bhjdzc_port"
+        Me.jp_bhjdzc_port.Properties.Mask.EditMask = "d"
+        Me.jp_bhjdzc_port.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric
+        Me.jp_bhjdzc_port.Properties.MaxLength = 5
+        Me.jp_bhjdzc_port.Size = New System.Drawing.Size(82, 30)
+        Me.jp_bhjdzc_port.TabIndex = 2
+        Me.jp_bhjdzc_port.Tag = "运胶臂端口"
+        '
+        'jp_bhjdzc_ip
+        '
+        Me.jp_bhjdzc_ip.ImeMode = System.Windows.Forms.ImeMode.Disable
+        Me.jp_bhjdzc_ip.Location = New System.Drawing.Point(347, 52)
+        Me.jp_bhjdzc_ip.Name = "jp_bhjdzc_ip"
+        Me.jp_bhjdzc_ip.Properties.Mask.BeepOnError = True
+        Me.jp_bhjdzc_ip.Properties.Mask.EditMask = "999.999.999.999"
+        Me.jp_bhjdzc_ip.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Simple
+        Me.jp_bhjdzc_ip.Properties.XlsxFormatString = "000.000.000.000"
+        Me.jp_bhjdzc_ip.Size = New System.Drawing.Size(150, 30)
+        Me.jp_bhjdzc_ip.TabIndex = 1
+        Me.jp_bhjdzc_ip.Tag = "运胶臂IP"
+        '
+        'GroupControl10
+        '
+        Me.GroupControl10.Controls.Add(Me.LabelControl24)
+        Me.GroupControl10.Controls.Add(Me.jp_dpdzc_id)
+        Me.GroupControl10.Controls.Add(Me.LabelControl32)
+        Me.GroupControl10.Controls.Add(Me.LabelControl31)
+        Me.GroupControl10.Controls.Add(Me.jp_dpdzc_ip)
+        Me.GroupControl10.Controls.Add(Me.jp_dpdzc_port)
+        Me.GroupControl10.Location = New System.Drawing.Point(22, 19)
+        Me.GroupControl10.Name = "GroupControl10"
+        Me.GroupControl10.Size = New System.Drawing.Size(719, 100)
+        Me.GroupControl10.TabIndex = 0
+        Me.GroupControl10.Text = "端片秤重 电子秤"
+        '
+        'LabelControl24
+        '
+        Me.LabelControl24.Location = New System.Drawing.Point(19, 55)
+        Me.LabelControl24.Name = "LabelControl24"
+        Me.LabelControl24.Size = New System.Drawing.Size(19, 22)
+        Me.LabelControl24.TabIndex = 0
+        Me.LabelControl24.Text = "ID"
+        '
+        'jp_dpdzc_id
+        '
+        Me.jp_dpdzc_id.ImeMode = System.Windows.Forms.ImeMode.Disable
+        Me.jp_dpdzc_id.Location = New System.Drawing.Point(44, 51)
+        Me.jp_dpdzc_id.Name = "jp_dpdzc_id"
+        Me.jp_dpdzc_id.Size = New System.Drawing.Size(150, 30)
+        Me.jp_dpdzc_id.TabIndex = 0
+        Me.jp_dpdzc_id.Tag = "端片秤重 电子秤"
+        '
+        'LabelControl32
+        '
+        Me.LabelControl32.Location = New System.Drawing.Point(282, 55)
+        Me.LabelControl32.Name = "LabelControl32"
+        Me.LabelControl32.Size = New System.Drawing.Size(53, 22)
+        Me.LabelControl32.TabIndex = 0
+        Me.LabelControl32.Text = "IP地址"
+        '
+        'LabelControl31
+        '
+        Me.LabelControl31.Location = New System.Drawing.Point(527, 55)
+        Me.LabelControl31.Name = "LabelControl31"
+        Me.LabelControl31.Size = New System.Drawing.Size(36, 22)
+        Me.LabelControl31.TabIndex = 0
+        Me.LabelControl31.Text = "端口"
+        '
+        'jp_dpdzc_ip
+        '
+        Me.jp_dpdzc_ip.ImeMode = System.Windows.Forms.ImeMode.Disable
+        Me.jp_dpdzc_ip.Location = New System.Drawing.Point(347, 51)
+        Me.jp_dpdzc_ip.Name = "jp_dpdzc_ip"
+        Me.jp_dpdzc_ip.Properties.Mask.BeepOnError = True
+        Me.jp_dpdzc_ip.Properties.Mask.EditMask = "999.999.999.999"
+        Me.jp_dpdzc_ip.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Simple
+        Me.jp_dpdzc_ip.Properties.XlsxFormatString = "000.000.000.000"
+        Me.jp_dpdzc_ip.Size = New System.Drawing.Size(150, 30)
+        Me.jp_dpdzc_ip.TabIndex = 1
+        Me.jp_dpdzc_ip.Tag = "运胶臂IP"
+        '
+        'jp_dpdzc_port
+        '
+        Me.jp_dpdzc_port.ImeMode = System.Windows.Forms.ImeMode.Disable
+        Me.jp_dpdzc_port.Location = New System.Drawing.Point(576, 51)
+        Me.jp_dpdzc_port.Name = "jp_dpdzc_port"
+        Me.jp_dpdzc_port.Properties.Mask.EditMask = "d"
+        Me.jp_dpdzc_port.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric
+        Me.jp_dpdzc_port.Properties.MaxLength = 5
+        Me.jp_dpdzc_port.Size = New System.Drawing.Size(82, 30)
+        Me.jp_dpdzc_port.TabIndex = 2
+        Me.jp_dpdzc_port.Tag = "运胶臂端口"
+        '
+        'GroupControl6
+        '
+        Me.GroupControl6.Controls.Add(Me.LabelControl9)
+        Me.GroupControl6.Controls.Add(Me.jp_dzc_id)
+        Me.GroupControl6.Controls.Add(Me.jp_dzc_ip)
+        Me.GroupControl6.Controls.Add(Me.LabelControl34)
+        Me.GroupControl6.Controls.Add(Me.LabelControl33)
+        Me.GroupControl6.Controls.Add(Me.jp_dzc_port)
+        Me.GroupControl6.Controls.Add(Me.jp_smq_com)
+        Me.GroupControl6.Controls.Add(Me.LabelControl1)
+        Me.GroupControl6.Controls.Add(Me.LabelControl23)
+        Me.GroupControl6.Controls.Add(Me.LabelControl22)
+        Me.GroupControl6.Controls.Add(Me.jp_ybb_ip)
+        Me.GroupControl6.Controls.Add(Me.jp_yjb_id)
+        Me.GroupControl6.Controls.Add(Me.jp_ybb_id)
+        Me.GroupControl6.Controls.Add(Me.jp_ybb_port)
+        Me.GroupControl6.Controls.Add(Me.jp_yjb_port)
+        Me.GroupControl6.Controls.Add(Me.LabelControl35)
+        Me.GroupControl6.Controls.Add(Me.LabelControl15)
+        Me.GroupControl6.Controls.Add(Me.LabelControl14)
+        Me.GroupControl6.Controls.Add(Me.LabelControl10)
+        Me.GroupControl6.Controls.Add(Me.LabelControl11)
+        Me.GroupControl6.Controls.Add(Me.jp_yjb_ip)
+        Me.GroupControl6.Controls.Add(Me.LabelControl13)
+        Me.GroupControl6.Controls.Add(Me.LabelControl12)
+        Me.GroupControl6.Location = New System.Drawing.Point(22, 125)
+        Me.GroupControl6.Name = "GroupControl6"
+        Me.GroupControl6.Size = New System.Drawing.Size(719, 233)
+        Me.GroupControl6.TabIndex = 1
+        Me.GroupControl6.Text = "预组装"
+        '
+        'LabelControl9
+        '
+        Me.LabelControl9.Location = New System.Drawing.Point(82, 135)
+        Me.LabelControl9.Name = "LabelControl9"
+        Me.LabelControl9.Size = New System.Drawing.Size(19, 22)
+        Me.LabelControl9.TabIndex = 16
+        Me.LabelControl9.Text = "ID"
+        '
+        'jp_dzc_id
+        '
+        Me.jp_dzc_id.ImeMode = System.Windows.Forms.ImeMode.Disable
+        Me.jp_dzc_id.Location = New System.Drawing.Point(112, 131)
+        Me.jp_dzc_id.Name = "jp_dzc_id"
+        Me.jp_dzc_id.Size = New System.Drawing.Size(150, 30)
+        Me.jp_dzc_id.TabIndex = 17
+        Me.jp_dzc_id.Tag = "电子秤ID"
+        '
+        'jp_dzc_ip
+        '
+        Me.jp_dzc_ip.ImeMode = System.Windows.Forms.ImeMode.Disable
+        Me.jp_dzc_ip.Location = New System.Drawing.Point(352, 131)
+        Me.jp_dzc_ip.Name = "jp_dzc_ip"
+        Me.jp_dzc_ip.Properties.Mask.BeepOnError = True
+        Me.jp_dzc_ip.Properties.Mask.EditMask = "999.999.999.999"
+        Me.jp_dzc_ip.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Simple
+        Me.jp_dzc_ip.Properties.XlsxFormatString = "000.000.000.000"
+        Me.jp_dzc_ip.Size = New System.Drawing.Size(150, 30)
+        Me.jp_dzc_ip.TabIndex = 20
+        Me.jp_dzc_ip.Tag = "运板臂IP"
+        '
+        'LabelControl34
+        '
+        Me.LabelControl34.Location = New System.Drawing.Point(287, 135)
+        Me.LabelControl34.Name = "LabelControl34"
+        Me.LabelControl34.Size = New System.Drawing.Size(53, 22)
+        Me.LabelControl34.TabIndex = 18
+        Me.LabelControl34.Text = "IP地址"
+        '
+        'LabelControl33
+        '
+        Me.LabelControl33.Location = New System.Drawing.Point(532, 135)
+        Me.LabelControl33.Name = "LabelControl33"
+        Me.LabelControl33.Size = New System.Drawing.Size(36, 22)
+        Me.LabelControl33.TabIndex = 19
+        Me.LabelControl33.Text = "端口"
+        '
+        'jp_dzc_port
+        '
+        Me.jp_dzc_port.ImeMode = System.Windows.Forms.ImeMode.Disable
+        Me.jp_dzc_port.Location = New System.Drawing.Point(581, 131)
+        Me.jp_dzc_port.Name = "jp_dzc_port"
+        Me.jp_dzc_port.Properties.Mask.EditMask = "d"
+        Me.jp_dzc_port.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric
+        Me.jp_dzc_port.Properties.MaxLength = 5
+        Me.jp_dzc_port.Size = New System.Drawing.Size(82, 30)
+        Me.jp_dzc_port.TabIndex = 21
+        Me.jp_dzc_port.Tag = "运板臂端口"
+        '
+        'jp_smq_com
+        '
+        Me.jp_smq_com.ImeMode = System.Windows.Forms.ImeMode.Disable
+        Me.jp_smq_com.Location = New System.Drawing.Point(159, 175)
+        Me.jp_smq_com.Name = "jp_smq_com"
+        Me.jp_smq_com.Properties.Mask.EditMask = "d"
+        Me.jp_smq_com.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric
+        Me.jp_smq_com.Properties.MaxLength = 5
+        Me.jp_smq_com.Size = New System.Drawing.Size(103, 30)
+        Me.jp_smq_com.TabIndex = 0
+        Me.jp_smq_com.Tag = "扫描枪COM口"
+        '
+        'LabelControl1
+        '
+        Me.LabelControl1.Location = New System.Drawing.Point(21, 179)
+        Me.LabelControl1.Name = "LabelControl1"
+        Me.LabelControl1.Size = New System.Drawing.Size(116, 22)
+        Me.LabelControl1.TabIndex = 0
+        Me.LabelControl1.Text = "扫描枪 COM口"
+        '
+        'LabelControl23
+        '
+        Me.LabelControl23.Location = New System.Drawing.Point(82, 47)
+        Me.LabelControl23.Name = "LabelControl23"
+        Me.LabelControl23.Size = New System.Drawing.Size(19, 22)
+        Me.LabelControl23.TabIndex = 10
+        Me.LabelControl23.Text = "ID"
+        '
+        'LabelControl22
+        '
+        Me.LabelControl22.Location = New System.Drawing.Point(82, 90)
+        Me.LabelControl22.Name = "LabelControl22"
+        Me.LabelControl22.Size = New System.Drawing.Size(19, 22)
+        Me.LabelControl22.TabIndex = 11
+        Me.LabelControl22.Text = "ID"
+        '
+        'jp_ybb_ip
+        '
+        Me.jp_ybb_ip.ImeMode = System.Windows.Forms.ImeMode.Disable
+        Me.jp_ybb_ip.Location = New System.Drawing.Point(352, 86)
+        Me.jp_ybb_ip.Name = "jp_ybb_ip"
+        Me.jp_ybb_ip.Properties.Mask.BeepOnError = True
+        Me.jp_ybb_ip.Properties.Mask.EditMask = "999.999.999.999"
+        Me.jp_ybb_ip.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Simple
+        Me.jp_ybb_ip.Properties.XlsxFormatString = "000.000.000.000"
+        Me.jp_ybb_ip.Size = New System.Drawing.Size(150, 30)
+        Me.jp_ybb_ip.TabIndex = 4
+        Me.jp_ybb_ip.Tag = "运板臂IP"
+        '
+        'jp_yjb_id
+        '
+        Me.jp_yjb_id.EditValue = ""
+        Me.jp_yjb_id.ImeMode = System.Windows.Forms.ImeMode.Disable
+        Me.jp_yjb_id.Location = New System.Drawing.Point(112, 43)
+        Me.jp_yjb_id.Name = "jp_yjb_id"
+        Me.jp_yjb_id.Size = New System.Drawing.Size(150, 30)
+        Me.jp_yjb_id.TabIndex = 0
+        Me.jp_yjb_id.Tag = "运胶臂ID"
+        '
+        'jp_ybb_id
+        '
+        Me.jp_ybb_id.EditValue = ""
+        Me.jp_ybb_id.ImeMode = System.Windows.Forms.ImeMode.Disable
+        Me.jp_ybb_id.Location = New System.Drawing.Point(112, 87)
+        Me.jp_ybb_id.Name = "jp_ybb_id"
+        Me.jp_ybb_id.Size = New System.Drawing.Size(150, 30)
+        Me.jp_ybb_id.TabIndex = 3
+        Me.jp_ybb_id.Tag = "运板臂ID"
+        '
+        'jp_ybb_port
+        '
+        Me.jp_ybb_port.ImeMode = System.Windows.Forms.ImeMode.Disable
+        Me.jp_ybb_port.Location = New System.Drawing.Point(581, 86)
+        Me.jp_ybb_port.Name = "jp_ybb_port"
+        Me.jp_ybb_port.Properties.Mask.EditMask = "d"
+        Me.jp_ybb_port.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric
+        Me.jp_ybb_port.Properties.MaxLength = 5
+        Me.jp_ybb_port.Size = New System.Drawing.Size(82, 30)
+        Me.jp_ybb_port.TabIndex = 5
+        Me.jp_ybb_port.Tag = "运板臂端口"
+        '
+        'jp_yjb_port
+        '
+        Me.jp_yjb_port.ImeMode = System.Windows.Forms.ImeMode.Disable
+        Me.jp_yjb_port.Location = New System.Drawing.Point(581, 43)
+        Me.jp_yjb_port.Name = "jp_yjb_port"
+        Me.jp_yjb_port.Properties.Mask.EditMask = "d"
+        Me.jp_yjb_port.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric
+        Me.jp_yjb_port.Properties.MaxLength = 5
+        Me.jp_yjb_port.Size = New System.Drawing.Size(82, 30)
+        Me.jp_yjb_port.TabIndex = 2
+        Me.jp_yjb_port.Tag = "运胶臂端口"
+        '
+        'LabelControl35
+        '
+        Me.LabelControl35.Location = New System.Drawing.Point(21, 135)
+        Me.LabelControl35.Name = "LabelControl35"
+        Me.LabelControl35.Size = New System.Drawing.Size(54, 22)
+        Me.LabelControl35.TabIndex = 9
+        Me.LabelControl35.Text = "电子秤"
+        '
+        'LabelControl15
+        '
+        Me.LabelControl15.Location = New System.Drawing.Point(21, 90)
+        Me.LabelControl15.Name = "LabelControl15"
+        Me.LabelControl15.Size = New System.Drawing.Size(54, 22)
+        Me.LabelControl15.TabIndex = 9
+        Me.LabelControl15.Text = "运板臂"
+        '
+        'LabelControl14
+        '
+        Me.LabelControl14.Location = New System.Drawing.Point(287, 90)
+        Me.LabelControl14.Name = "LabelControl14"
+        Me.LabelControl14.Size = New System.Drawing.Size(53, 22)
+        Me.LabelControl14.TabIndex = 0
+        Me.LabelControl14.Text = "IP地址"
+        '
+        'LabelControl10
+        '
+        Me.LabelControl10.Location = New System.Drawing.Point(21, 47)
+        Me.LabelControl10.Name = "LabelControl10"
+        Me.LabelControl10.Size = New System.Drawing.Size(54, 22)
+        Me.LabelControl10.TabIndex = 15
+        Me.LabelControl10.Text = "运胶臂"
+        '
+        'LabelControl11
+        '
+        Me.LabelControl11.Location = New System.Drawing.Point(287, 47)
+        Me.LabelControl11.Name = "LabelControl11"
+        Me.LabelControl11.Size = New System.Drawing.Size(53, 22)
+        Me.LabelControl11.TabIndex = 0
+        Me.LabelControl11.Text = "IP地址"
+        '
+        'jp_yjb_ip
+        '
+        Me.jp_yjb_ip.ImeMode = System.Windows.Forms.ImeMode.Disable
+        Me.jp_yjb_ip.Location = New System.Drawing.Point(352, 43)
+        Me.jp_yjb_ip.Name = "jp_yjb_ip"
+        Me.jp_yjb_ip.Properties.Mask.BeepOnError = True
+        Me.jp_yjb_ip.Properties.Mask.EditMask = "999.999.999.999"
+        Me.jp_yjb_ip.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Simple
+        Me.jp_yjb_ip.Properties.XlsxFormatString = "000.000.000.000"
+        Me.jp_yjb_ip.Size = New System.Drawing.Size(150, 30)
+        Me.jp_yjb_ip.TabIndex = 1
+        Me.jp_yjb_ip.Tag = "运胶臂IP"
+        '
+        'LabelControl13
+        '
+        Me.LabelControl13.Location = New System.Drawing.Point(532, 90)
+        Me.LabelControl13.Name = "LabelControl13"
+        Me.LabelControl13.Size = New System.Drawing.Size(36, 22)
+        Me.LabelControl13.TabIndex = 0
+        Me.LabelControl13.Text = "端口"
+        '
+        'LabelControl12
+        '
+        Me.LabelControl12.Location = New System.Drawing.Point(532, 47)
+        Me.LabelControl12.Name = "LabelControl12"
+        Me.LabelControl12.Size = New System.Drawing.Size(36, 22)
+        Me.LabelControl12.TabIndex = 0
+        Me.LabelControl12.Text = "端口"
+        '
+        'btnSave_jp
+        '
+        Me.btnSave_jp.Location = New System.Drawing.Point(629, 495)
+        Me.btnSave_jp.Name = "btnSave_jp"
+        Me.btnSave_jp.Size = New System.Drawing.Size(112, 34)
+        Me.btnSave_jp.TabIndex = 3
+        Me.btnSave_jp.Text = "保存"
         '
         'tp_lh
         '
@@ -701,8 +862,10 @@ Partial Class frmHWParamSetting
         Me.PanelControl2.Controls.Add(Me.btnUpdate_lhj)
         Me.PanelControl2.Controls.Add(Me.btnAdd_lhj)
         Me.PanelControl2.Controls.Add(Me.btnClear_lhj)
+        Me.PanelControl2.Controls.Add(Me.LabelControl21)
         Me.PanelControl2.Controls.Add(Me.LabelControl16)
         Me.PanelControl2.Controls.Add(Me.LabelControl17)
+        Me.PanelControl2.Controls.Add(Me.lhj_type_name)
         Me.PanelControl2.Controls.Add(Me.lhj_ID)
         Me.PanelControl2.Controls.Add(Me.LabelControl19)
         Me.PanelControl2.Controls.Add(Me.LabelControl18)
@@ -713,7 +876,7 @@ Partial Class frmHWParamSetting
         '
         'lhj_deleted
         '
-        Me.lhj_deleted.Location = New System.Drawing.Point(703, 13)
+        Me.lhj_deleted.Location = New System.Drawing.Point(964, 16)
         Me.lhj_deleted.Name = "lhj_deleted"
         Me.lhj_deleted.Properties.Caption = "报废"
         Me.lhj_deleted.Size = New System.Drawing.Size(82, 28)
@@ -721,7 +884,7 @@ Partial Class frmHWParamSetting
         '
         'lhj_Status
         '
-        Me.lhj_Status.Location = New System.Drawing.Point(593, 12)
+        Me.lhj_Status.Location = New System.Drawing.Point(854, 15)
         Me.lhj_Status.Name = "lhj_Status"
         Me.lhj_Status.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.lhj_Status.Properties.Items.AddRange(New Object() {"闲", "忙", "维修中"})
@@ -732,7 +895,7 @@ Partial Class frmHWParamSetting
         'lhj_ip
         '
         Me.lhj_ip.ImeMode = System.Windows.Forms.ImeMode.Disable
-        Me.lhj_ip.Location = New System.Drawing.Point(230, 12)
+        Me.lhj_ip.Location = New System.Drawing.Point(491, 15)
         Me.lhj_ip.Name = "lhj_ip"
         Me.lhj_ip.Properties.Mask.BeepOnError = True
         Me.lhj_ip.Properties.Mask.EditMask = "999.999.999.999"
@@ -745,7 +908,7 @@ Partial Class frmHWParamSetting
         'lhj_port
         '
         Me.lhj_port.ImeMode = System.Windows.Forms.ImeMode.Disable
-        Me.lhj_port.Location = New System.Drawing.Point(451, 12)
+        Me.lhj_port.Location = New System.Drawing.Point(712, 15)
         Me.lhj_port.Name = "lhj_port"
         Me.lhj_port.Properties.Mask.EditMask = "d"
         Me.lhj_port.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric
@@ -786,9 +949,17 @@ Partial Class frmHWParamSetting
         Me.btnClear_lhj.TabIndex = 23
         Me.btnClear_lhj.Text = "清空"
         '
+        'LabelControl21
+        '
+        Me.LabelControl21.Location = New System.Drawing.Point(181, 19)
+        Me.LabelControl21.Name = "LabelControl21"
+        Me.LabelControl21.Size = New System.Drawing.Size(36, 22)
+        Me.LabelControl21.TabIndex = 14
+        Me.LabelControl21.Text = "型号"
+        '
         'LabelControl16
         '
-        Me.LabelControl16.Location = New System.Drawing.Point(20, 16)
+        Me.LabelControl16.Location = New System.Drawing.Point(29, 19)
         Me.LabelControl16.Name = "LabelControl16"
         Me.LabelControl16.Size = New System.Drawing.Size(19, 22)
         Me.LabelControl16.TabIndex = 14
@@ -796,16 +967,25 @@ Partial Class frmHWParamSetting
         '
         'LabelControl17
         '
-        Me.LabelControl17.Location = New System.Drawing.Point(171, 16)
+        Me.LabelControl17.Location = New System.Drawing.Point(432, 19)
         Me.LabelControl17.Name = "LabelControl17"
         Me.LabelControl17.Size = New System.Drawing.Size(53, 22)
         Me.LabelControl17.TabIndex = 15
         Me.LabelControl17.Text = "IP地址"
         '
+        'lhj_type_name
+        '
+        Me.lhj_type_name.ImeMode = System.Windows.Forms.ImeMode.Disable
+        Me.lhj_type_name.Location = New System.Drawing.Point(230, 15)
+        Me.lhj_type_name.Name = "lhj_type_name"
+        Me.lhj_type_name.Size = New System.Drawing.Size(176, 30)
+        Me.lhj_type_name.TabIndex = 18
+        Me.lhj_type_name.Tag = "型号"
+        '
         'lhj_ID
         '
         Me.lhj_ID.ImeMode = System.Windows.Forms.ImeMode.Disable
-        Me.lhj_ID.Location = New System.Drawing.Point(45, 12)
+        Me.lhj_ID.Location = New System.Drawing.Point(54, 15)
         Me.lhj_ID.Name = "lhj_ID"
         Me.lhj_ID.Size = New System.Drawing.Size(102, 30)
         Me.lhj_ID.TabIndex = 18
@@ -813,7 +993,7 @@ Partial Class frmHWParamSetting
         '
         'LabelControl19
         '
-        Me.LabelControl19.Location = New System.Drawing.Point(550, 16)
+        Me.LabelControl19.Location = New System.Drawing.Point(811, 19)
         Me.LabelControl19.Name = "LabelControl19"
         Me.LabelControl19.Size = New System.Drawing.Size(36, 22)
         Me.LabelControl19.TabIndex = 16
@@ -821,7 +1001,7 @@ Partial Class frmHWParamSetting
         '
         'LabelControl18
         '
-        Me.LabelControl18.Location = New System.Drawing.Point(409, 16)
+        Me.LabelControl18.Location = New System.Drawing.Point(670, 19)
         Me.LabelControl18.Name = "LabelControl18"
         Me.LabelControl18.Size = New System.Drawing.Size(36, 22)
         Me.LabelControl18.TabIndex = 17
@@ -850,7 +1030,7 @@ Partial Class frmHWParamSetting
         Me.dgvList_lhj.AllowUserToDeleteRows = False
         Me.dgvList_lhj.AllowUserToOrderColumns = True
         Me.dgvList_lhj.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvList_lhj.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.collh_id, Me.collh_ip, Me.collh_port, Me.collh_status_name, Me.collh_deleted, Me.collh_scbh, Me.collh_factoryid, Me.collh_workshop_id, Me.colequip_type_id, Me.collh_com, Me.collh_status, Me.collh_update_time})
+        Me.dgvList_lhj.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.collh_id, Me.collh_type_name, Me.collh_ip, Me.collh_port, Me.collh_status_name, Me.collh_deleted, Me.collh_factoryid, Me.collh_workshop_id, Me.collh_equip_type_id, Me.collh_production_no, Me.collh_com, Me.collh_status, Me.collh_update_time})
         Me.dgvList_lhj.Dock = System.Windows.Forms.DockStyle.Fill
         Me.dgvList_lhj.Location = New System.Drawing.Point(2, 2)
         Me.dgvList_lhj.Name = "dgvList_lhj"
@@ -885,93 +1065,80 @@ Partial Class frmHWParamSetting
         '
         'PanelControl4
         '
-        Me.PanelControl4.Controls.Add(Me.DataGridView1)
+        Me.PanelControl4.Controls.Add(Me.dgvList_AGV)
         Me.PanelControl4.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.PanelControl4.Location = New System.Drawing.Point(0, 107)
         Me.PanelControl4.Name = "PanelControl4"
         Me.PanelControl4.Size = New System.Drawing.Size(1075, 512)
         Me.PanelControl4.TabIndex = 4
         '
-        'DataGridView1
+        'dgvList_AGV
         '
-        Me.DataGridView1.AllowUserToAddRows = False
-        Me.DataGridView1.AllowUserToDeleteRows = False
-        Me.DataGridView1.AllowUserToOrderColumns = True
-        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn1, Me.DataGridViewTextBoxColumn2, Me.DataGridViewTextBoxColumn3, Me.DataGridViewTextBoxColumn4, Me.DataGridViewCheckBoxColumn1, Me.DataGridViewTextBoxColumn5, Me.DataGridViewTextBoxColumn6, Me.DataGridViewTextBoxColumn7, Me.DataGridViewTextBoxColumn8, Me.DataGridViewTextBoxColumn9, Me.DataGridViewTextBoxColumn10, Me.DataGridViewTextBoxColumn11})
-        Me.DataGridView1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.DataGridView1.Location = New System.Drawing.Point(2, 2)
-        Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.RowHeadersWidth = 62
-        Me.DataGridView1.RowTemplate.Height = 30
-        Me.DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.DataGridView1.Size = New System.Drawing.Size(1071, 508)
-        Me.DataGridView1.TabIndex = 1
+        Me.dgvList_AGV.AllowUserToAddRows = False
+        Me.dgvList_AGV.AllowUserToDeleteRows = False
+        Me.dgvList_AGV.AllowUserToOrderColumns = True
+        Me.dgvList_AGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvList_AGV.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.colagv_id, Me.colagv_ip, Me.colagv_port, Me.colagv_status_name, Me.colagv_deleted, Me.DataGridViewTextBoxColumn6, Me.colagv_type_name, Me.DataGridViewTextBoxColumn7, Me.DataGridViewTextBoxColumn8, Me.DataGridViewTextBoxColumn9, Me.DataGridViewTextBoxColumn10, Me.DataGridViewTextBoxColumn11})
+        Me.dgvList_AGV.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.dgvList_AGV.Location = New System.Drawing.Point(2, 2)
+        Me.dgvList_AGV.Name = "dgvList_AGV"
+        Me.dgvList_AGV.RowHeadersWidth = 62
+        Me.dgvList_AGV.RowTemplate.Height = 30
+        Me.dgvList_AGV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
+        Me.dgvList_AGV.Size = New System.Drawing.Size(1071, 508)
+        Me.dgvList_AGV.TabIndex = 1
         '
-        'DataGridViewTextBoxColumn1
+        'colagv_id
         '
-        Me.DataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells
-        Me.DataGridViewTextBoxColumn1.DataPropertyName = "equip_id"
-        Me.DataGridViewTextBoxColumn1.HeaderText = "ID"
-        Me.DataGridViewTextBoxColumn1.MinimumWidth = 8
-        Me.DataGridViewTextBoxColumn1.Name = "DataGridViewTextBoxColumn1"
-        Me.DataGridViewTextBoxColumn1.ReadOnly = True
-        Me.DataGridViewTextBoxColumn1.Width = 65
+        Me.colagv_id.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells
+        Me.colagv_id.DataPropertyName = "equip_id"
+        Me.colagv_id.HeaderText = "ID"
+        Me.colagv_id.MinimumWidth = 8
+        Me.colagv_id.Name = "colagv_id"
+        Me.colagv_id.ReadOnly = True
+        Me.colagv_id.Width = 65
         '
-        'DataGridViewTextBoxColumn2
+        'colagv_ip
         '
-        Me.DataGridViewTextBoxColumn2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells
-        Me.DataGridViewTextBoxColumn2.DataPropertyName = "ip"
-        Me.DataGridViewTextBoxColumn2.HeaderText = "IP地址"
-        Me.DataGridViewTextBoxColumn2.MinimumWidth = 8
-        Me.DataGridViewTextBoxColumn2.Name = "DataGridViewTextBoxColumn2"
-        Me.DataGridViewTextBoxColumn2.ReadOnly = True
-        Me.DataGridViewTextBoxColumn2.Width = 99
+        Me.colagv_ip.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells
+        Me.colagv_ip.DataPropertyName = "ip"
+        Me.colagv_ip.HeaderText = "IP地址"
+        Me.colagv_ip.MinimumWidth = 8
+        Me.colagv_ip.Name = "colagv_ip"
+        Me.colagv_ip.ReadOnly = True
+        Me.colagv_ip.Width = 99
         '
-        'DataGridViewTextBoxColumn3
+        'colagv_port
         '
-        Me.DataGridViewTextBoxColumn3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells
-        Me.DataGridViewTextBoxColumn3.DataPropertyName = "port"
-        Me.DataGridViewTextBoxColumn3.HeaderText = "端口"
-        Me.DataGridViewTextBoxColumn3.MinimumWidth = 8
-        Me.DataGridViewTextBoxColumn3.Name = "DataGridViewTextBoxColumn3"
-        Me.DataGridViewTextBoxColumn3.ReadOnly = True
-        Me.DataGridViewTextBoxColumn3.Width = 82
+        Me.colagv_port.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells
+        Me.colagv_port.DataPropertyName = "port"
+        Me.colagv_port.HeaderText = "端口"
+        Me.colagv_port.MinimumWidth = 8
+        Me.colagv_port.Name = "colagv_port"
+        Me.colagv_port.ReadOnly = True
+        Me.colagv_port.Width = 82
         '
-        'DataGridViewTextBoxColumn4
+        'colagv_status_name
         '
-        Me.DataGridViewTextBoxColumn4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells
-        Me.DataGridViewTextBoxColumn4.DataPropertyName = "status_name"
-        Me.DataGridViewTextBoxColumn4.HeaderText = "状态"
-        Me.DataGridViewTextBoxColumn4.MinimumWidth = 8
-        Me.DataGridViewTextBoxColumn4.Name = "DataGridViewTextBoxColumn4"
-        Me.DataGridViewTextBoxColumn4.ReadOnly = True
-        Me.DataGridViewTextBoxColumn4.Width = 82
+        Me.colagv_status_name.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells
+        Me.colagv_status_name.DataPropertyName = "status_name"
+        Me.colagv_status_name.HeaderText = "状态"
+        Me.colagv_status_name.MinimumWidth = 8
+        Me.colagv_status_name.Name = "colagv_status_name"
+        Me.colagv_status_name.ReadOnly = True
+        Me.colagv_status_name.Width = 82
         '
-        'DataGridViewCheckBoxColumn1
+        'colagv_deleted
         '
-        Me.DataGridViewCheckBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader
-        Me.DataGridViewCheckBoxColumn1.DataPropertyName = "deleted"
-        Me.DataGridViewCheckBoxColumn1.FalseValue = "0"
-        Me.DataGridViewCheckBoxColumn1.HeaderText = "报废"
-        Me.DataGridViewCheckBoxColumn1.MinimumWidth = 8
-        Me.DataGridViewCheckBoxColumn1.Name = "DataGridViewCheckBoxColumn1"
-        Me.DataGridViewCheckBoxColumn1.ReadOnly = True
-        Me.DataGridViewCheckBoxColumn1.TrueValue = "1"
-        Me.DataGridViewCheckBoxColumn1.Width = 52
-        '
-        'DataGridViewTextBoxColumn5
-        '
-        Me.DataGridViewTextBoxColumn5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells
-        Me.DataGridViewTextBoxColumn5.DataPropertyName = "production_no"
-        Me.DataGridViewTextBoxColumn5.HeaderText = "模具"
-        Me.DataGridViewTextBoxColumn5.MinimumWidth = 8
-        Me.DataGridViewTextBoxColumn5.Name = "DataGridViewTextBoxColumn5"
-        Me.DataGridViewTextBoxColumn5.ReadOnly = True
-        Me.DataGridViewTextBoxColumn5.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridViewTextBoxColumn5.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
-        Me.DataGridViewTextBoxColumn5.Visible = False
-        Me.DataGridViewTextBoxColumn5.Width = 150
+        Me.colagv_deleted.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader
+        Me.colagv_deleted.DataPropertyName = "deleted"
+        Me.colagv_deleted.FalseValue = "0"
+        Me.colagv_deleted.HeaderText = "报废"
+        Me.colagv_deleted.MinimumWidth = 8
+        Me.colagv_deleted.Name = "colagv_deleted"
+        Me.colagv_deleted.ReadOnly = True
+        Me.colagv_deleted.TrueValue = "1"
+        Me.colagv_deleted.Width = 52
         '
         'DataGridViewTextBoxColumn6
         '
@@ -982,6 +1149,15 @@ Partial Class frmHWParamSetting
         Me.DataGridViewTextBoxColumn6.ReadOnly = True
         Me.DataGridViewTextBoxColumn6.Visible = False
         Me.DataGridViewTextBoxColumn6.Width = 150
+        '
+        'colagv_type_name
+        '
+        Me.colagv_type_name.DataPropertyName = "type_name"
+        Me.colagv_type_name.HeaderText = "type_name"
+        Me.colagv_type_name.MinimumWidth = 8
+        Me.colagv_type_name.Name = "colagv_type_name"
+        Me.colagv_type_name.Visible = False
+        Me.colagv_type_name.Width = 150
         '
         'DataGridViewTextBoxColumn7
         '
@@ -1033,90 +1209,99 @@ Partial Class frmHWParamSetting
         '
         'PanelControl3
         '
-        Me.PanelControl3.Controls.Add(Me.CheckEdit1)
-        Me.PanelControl3.Controls.Add(Me.ComboBoxEdit1)
-        Me.PanelControl3.Controls.Add(Me.TextEdit3)
-        Me.PanelControl3.Controls.Add(Me.TextEdit4)
-        Me.PanelControl3.Controls.Add(Me.SimpleButton1)
-        Me.PanelControl3.Controls.Add(Me.SimpleButton2)
-        Me.PanelControl3.Controls.Add(Me.SimpleButton3)
+        Me.PanelControl3.Controls.Add(Me.btnClear_AGV)
+        Me.PanelControl3.Controls.Add(Me.agv_deleted)
+        Me.PanelControl3.Controls.Add(Me.agv_status)
+        Me.PanelControl3.Controls.Add(Me.agv_ip)
+        Me.PanelControl3.Controls.Add(Me.agv_port)
+        Me.PanelControl3.Controls.Add(Me.btnDelete_AGV)
+        Me.PanelControl3.Controls.Add(Me.btnUpdate_AGV)
+        Me.PanelControl3.Controls.Add(Me.btnAdd_AGV)
         Me.PanelControl3.Controls.Add(Me.LabelControl27)
         Me.PanelControl3.Controls.Add(Me.LabelControl28)
-        Me.PanelControl3.Controls.Add(Me.TextEdit5)
+        Me.PanelControl3.Controls.Add(Me.agv_id)
         Me.PanelControl3.Controls.Add(Me.LabelControl29)
         Me.PanelControl3.Controls.Add(Me.LabelControl30)
         Me.PanelControl3.Dock = System.Windows.Forms.DockStyle.Top
         Me.PanelControl3.Location = New System.Drawing.Point(0, 0)
         Me.PanelControl3.Name = "PanelControl3"
         Me.PanelControl3.Size = New System.Drawing.Size(1075, 101)
-        Me.PanelControl3.TabIndex = 3
+        Me.PanelControl3.TabIndex = 0
         '
-        'CheckEdit1
+        'btnClear_AGV
         '
-        Me.CheckEdit1.Location = New System.Drawing.Point(718, 13)
-        Me.CheckEdit1.Name = "CheckEdit1"
-        Me.CheckEdit1.Properties.Caption = "报废"
-        Me.CheckEdit1.Size = New System.Drawing.Size(82, 28)
-        Me.CheckEdit1.TabIndex = 22
+        Me.btnClear_AGV.Location = New System.Drawing.Point(537, 58)
+        Me.btnClear_AGV.Name = "btnClear_AGV"
+        Me.btnClear_AGV.Size = New System.Drawing.Size(112, 30)
+        Me.btnClear_AGV.TabIndex = 5
+        Me.btnClear_AGV.Text = "清空"
         '
-        'ComboBoxEdit1
+        'agv_deleted
         '
-        Me.ComboBoxEdit1.Location = New System.Drawing.Point(593, 12)
-        Me.ComboBoxEdit1.Name = "ComboBoxEdit1"
-        Me.ComboBoxEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.ComboBoxEdit1.Properties.Items.AddRange(New Object() {"闲", "忙", "维修中"})
-        Me.ComboBoxEdit1.Size = New System.Drawing.Size(97, 30)
-        Me.ComboBoxEdit1.TabIndex = 21
-        Me.ComboBoxEdit1.Tag = "状态"
+        Me.agv_deleted.Location = New System.Drawing.Point(718, 13)
+        Me.agv_deleted.Name = "agv_deleted"
+        Me.agv_deleted.Properties.Caption = "报废"
+        Me.agv_deleted.Size = New System.Drawing.Size(82, 28)
+        Me.agv_deleted.TabIndex = 4
         '
-        'TextEdit3
+        'agv_status
         '
-        Me.TextEdit3.ImeMode = System.Windows.Forms.ImeMode.Disable
-        Me.TextEdit3.Location = New System.Drawing.Point(230, 12)
-        Me.TextEdit3.Name = "TextEdit3"
-        Me.TextEdit3.Properties.Mask.BeepOnError = True
-        Me.TextEdit3.Properties.Mask.EditMask = "999.999.999.999"
-        Me.TextEdit3.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Simple
-        Me.TextEdit3.Properties.XlsxFormatString = "000.000.000.000"
-        Me.TextEdit3.Size = New System.Drawing.Size(150, 30)
-        Me.TextEdit3.TabIndex = 19
-        Me.TextEdit3.Tag = "IP地址"
+        Me.agv_status.Location = New System.Drawing.Point(593, 12)
+        Me.agv_status.Name = "agv_status"
+        Me.agv_status.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.agv_status.Properties.Items.AddRange(New Object() {"闲", "忙", "维修中"})
+        Me.agv_status.Size = New System.Drawing.Size(97, 30)
+        Me.agv_status.TabIndex = 3
+        Me.agv_status.Tag = "状态"
         '
-        'TextEdit4
+        'agv_ip
         '
-        Me.TextEdit4.ImeMode = System.Windows.Forms.ImeMode.Disable
-        Me.TextEdit4.Location = New System.Drawing.Point(451, 12)
-        Me.TextEdit4.Name = "TextEdit4"
-        Me.TextEdit4.Properties.Mask.EditMask = "d"
-        Me.TextEdit4.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric
-        Me.TextEdit4.Properties.MaxLength = 5
-        Me.TextEdit4.Size = New System.Drawing.Size(71, 30)
-        Me.TextEdit4.TabIndex = 20
-        Me.TextEdit4.Tag = "端口"
+        Me.agv_ip.ImeMode = System.Windows.Forms.ImeMode.Disable
+        Me.agv_ip.Location = New System.Drawing.Point(230, 12)
+        Me.agv_ip.Name = "agv_ip"
+        Me.agv_ip.Properties.Mask.BeepOnError = True
+        Me.agv_ip.Properties.Mask.EditMask = "999.999.999.999"
+        Me.agv_ip.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Simple
+        Me.agv_ip.Properties.XlsxFormatString = "000.000.000.000"
+        Me.agv_ip.Size = New System.Drawing.Size(150, 30)
+        Me.agv_ip.TabIndex = 1
+        Me.agv_ip.Tag = "IP地址"
         '
-        'SimpleButton1
+        'agv_port
         '
-        Me.SimpleButton1.Location = New System.Drawing.Point(933, 58)
-        Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(112, 30)
-        Me.SimpleButton1.TabIndex = 26
-        Me.SimpleButton1.Text = "删除"
+        Me.agv_port.ImeMode = System.Windows.Forms.ImeMode.Disable
+        Me.agv_port.Location = New System.Drawing.Point(451, 12)
+        Me.agv_port.Name = "agv_port"
+        Me.agv_port.Properties.Mask.EditMask = "d"
+        Me.agv_port.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric
+        Me.agv_port.Properties.MaxLength = 5
+        Me.agv_port.Size = New System.Drawing.Size(71, 30)
+        Me.agv_port.TabIndex = 2
+        Me.agv_port.Tag = "端口"
         '
-        'SimpleButton2
+        'btnDelete_AGV
         '
-        Me.SimpleButton2.Location = New System.Drawing.Point(803, 58)
-        Me.SimpleButton2.Name = "SimpleButton2"
-        Me.SimpleButton2.Size = New System.Drawing.Size(112, 30)
-        Me.SimpleButton2.TabIndex = 25
-        Me.SimpleButton2.Text = "修改"
+        Me.btnDelete_AGV.Location = New System.Drawing.Point(933, 58)
+        Me.btnDelete_AGV.Name = "btnDelete_AGV"
+        Me.btnDelete_AGV.Size = New System.Drawing.Size(112, 30)
+        Me.btnDelete_AGV.TabIndex = 8
+        Me.btnDelete_AGV.Text = "删除"
         '
-        'SimpleButton3
+        'btnUpdate_AGV
         '
-        Me.SimpleButton3.Location = New System.Drawing.Point(673, 58)
-        Me.SimpleButton3.Name = "SimpleButton3"
-        Me.SimpleButton3.Size = New System.Drawing.Size(112, 30)
-        Me.SimpleButton3.TabIndex = 24
-        Me.SimpleButton3.Text = "新建"
+        Me.btnUpdate_AGV.Location = New System.Drawing.Point(803, 58)
+        Me.btnUpdate_AGV.Name = "btnUpdate_AGV"
+        Me.btnUpdate_AGV.Size = New System.Drawing.Size(112, 30)
+        Me.btnUpdate_AGV.TabIndex = 7
+        Me.btnUpdate_AGV.Text = "修改"
+        '
+        'btnAdd_AGV
+        '
+        Me.btnAdd_AGV.Location = New System.Drawing.Point(673, 58)
+        Me.btnAdd_AGV.Name = "btnAdd_AGV"
+        Me.btnAdd_AGV.Size = New System.Drawing.Size(112, 30)
+        Me.btnAdd_AGV.TabIndex = 6
+        Me.btnAdd_AGV.Text = "新建"
         '
         'LabelControl27
         '
@@ -1134,14 +1319,14 @@ Partial Class frmHWParamSetting
         Me.LabelControl28.TabIndex = 15
         Me.LabelControl28.Text = "IP地址"
         '
-        'TextEdit5
+        'agv_id
         '
-        Me.TextEdit5.ImeMode = System.Windows.Forms.ImeMode.Disable
-        Me.TextEdit5.Location = New System.Drawing.Point(45, 12)
-        Me.TextEdit5.Name = "TextEdit5"
-        Me.TextEdit5.Size = New System.Drawing.Size(102, 30)
-        Me.TextEdit5.TabIndex = 18
-        Me.TextEdit5.Tag = "ID"
+        Me.agv_id.ImeMode = System.Windows.Forms.ImeMode.Disable
+        Me.agv_id.Location = New System.Drawing.Point(45, 12)
+        Me.agv_id.Name = "agv_id"
+        Me.agv_id.Size = New System.Drawing.Size(102, 30)
+        Me.agv_id.TabIndex = 0
+        Me.agv_id.Tag = "ID"
         '
         'LabelControl29
         '
@@ -1168,6 +1353,14 @@ Partial Class frmHWParamSetting
         Me.collh_id.Name = "collh_id"
         Me.collh_id.ReadOnly = True
         Me.collh_id.Width = 65
+        '
+        'collh_type_name
+        '
+        Me.collh_type_name.DataPropertyName = "type_name"
+        Me.collh_type_name.HeaderText = "型号"
+        Me.collh_type_name.MinimumWidth = 8
+        Me.collh_type_name.Name = "collh_type_name"
+        Me.collh_type_name.Width = 150
         '
         'collh_ip
         '
@@ -1211,19 +1404,6 @@ Partial Class frmHWParamSetting
         Me.collh_deleted.TrueValue = "1"
         Me.collh_deleted.Width = 52
         '
-        'collh_scbh
-        '
-        Me.collh_scbh.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells
-        Me.collh_scbh.DataPropertyName = "production_no"
-        Me.collh_scbh.HeaderText = "模具"
-        Me.collh_scbh.MinimumWidth = 8
-        Me.collh_scbh.Name = "collh_scbh"
-        Me.collh_scbh.ReadOnly = True
-        Me.collh_scbh.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.collh_scbh.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
-        Me.collh_scbh.Visible = False
-        Me.collh_scbh.Width = 52
-        '
         'collh_factoryid
         '
         Me.collh_factoryid.DataPropertyName = "factory_id"
@@ -1244,15 +1424,24 @@ Partial Class frmHWParamSetting
         Me.collh_workshop_id.Visible = False
         Me.collh_workshop_id.Width = 150
         '
-        'colequip_type_id
+        'collh_equip_type_id
         '
-        Me.colequip_type_id.DataPropertyName = "equip_type_id"
-        Me.colequip_type_id.HeaderText = "equip_type_id"
-        Me.colequip_type_id.MinimumWidth = 8
-        Me.colequip_type_id.Name = "colequip_type_id"
-        Me.colequip_type_id.ReadOnly = True
-        Me.colequip_type_id.Visible = False
-        Me.colequip_type_id.Width = 150
+        Me.collh_equip_type_id.DataPropertyName = "equip_type_id"
+        Me.collh_equip_type_id.HeaderText = "equip_type_id"
+        Me.collh_equip_type_id.MinimumWidth = 8
+        Me.collh_equip_type_id.Name = "collh_equip_type_id"
+        Me.collh_equip_type_id.ReadOnly = True
+        Me.collh_equip_type_id.Visible = False
+        Me.collh_equip_type_id.Width = 150
+        '
+        'collh_production_no
+        '
+        Me.collh_production_no.DataPropertyName = "production_no"
+        Me.collh_production_no.HeaderText = "production_no"
+        Me.collh_production_no.MinimumWidth = 8
+        Me.collh_production_no.Name = "collh_production_no"
+        Me.collh_production_no.Visible = False
+        Me.collh_production_no.Width = 150
         '
         'collh_com
         '
@@ -1293,37 +1482,7 @@ Partial Class frmHWParamSetting
         Me.Text = "硬件参数设定"
         CType(Me.tabWorkshop, System.ComponentModel.ISupportInitialize).EndInit()
         Me.tabWorkshop.ResumeLayout(False)
-        Me.tp_jp.ResumeLayout(False)
-        CType(Me.GroupControl7, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupControl7.ResumeLayout(False)
-        Me.GroupControl7.PerformLayout()
-        CType(Me.jp_bhjdzc_id.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.GroupControl10, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupControl10.ResumeLayout(False)
-        Me.GroupControl10.PerformLayout()
-        CType(Me.jp_dpdzc_id.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.GroupControl6, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupControl6.ResumeLayout(False)
-        Me.GroupControl6.PerformLayout()
-        CType(Me.GroupControl4, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupControl4.ResumeLayout(False)
-        Me.GroupControl4.PerformLayout()
-        CType(Me.jp_smq_com.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.jp_ybb_ip.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.GroupControl5, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupControl5.ResumeLayout(False)
-        Me.GroupControl5.PerformLayout()
-        CType(Me.jp_dzc_id.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.jp_yjb_id.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.jp_ybb_id.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.jp_ybb_port.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.jp_yjb_port.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.jp_yjb_ip.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.tp_gjb.ResumeLayout(False)
-        CType(Me.GroupControl11, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupControl11.ResumeLayout(False)
-        Me.GroupControl11.PerformLayout()
-        CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.GroupControl3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupControl3.ResumeLayout(False)
         Me.GroupControl3.PerformLayout()
@@ -1332,13 +1491,41 @@ Partial Class frmHWParamSetting
         CType(Me.GroupControl2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupControl2.ResumeLayout(False)
         Me.GroupControl2.PerformLayout()
+        CType(Me.gjb_dzc_port.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.gjb_dzc_id.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.gjb_dzc_ip.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.GroupControl1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupControl1.ResumeLayout(False)
         Me.GroupControl1.PerformLayout()
         CType(Me.gjb_jxb_port.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.gjb_jxb_ip.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.gjb_jxb_ID.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.tp_jp.ResumeLayout(False)
+        CType(Me.GroupControl7, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupControl7.ResumeLayout(False)
+        Me.GroupControl7.PerformLayout()
+        CType(Me.jp_bhjdzc_id.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.jp_bhjdzc_port.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.jp_bhjdzc_ip.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.GroupControl10, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupControl10.ResumeLayout(False)
+        Me.GroupControl10.PerformLayout()
+        CType(Me.jp_dpdzc_id.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.jp_dpdzc_ip.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.jp_dpdzc_port.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.GroupControl6, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupControl6.ResumeLayout(False)
+        Me.GroupControl6.PerformLayout()
+        CType(Me.jp_dzc_id.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.jp_dzc_ip.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.jp_dzc_port.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.jp_smq_com.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.jp_ybb_ip.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.jp_yjb_id.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.jp_ybb_id.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.jp_ybb_port.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.jp_yjb_port.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.jp_yjb_ip.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.tp_lh.ResumeLayout(False)
         Me.tp_lh.PerformLayout()
         CType(Me.PanelControl2, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1348,6 +1535,7 @@ Partial Class frmHWParamSetting
         CType(Me.lhj_Status.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.lhj_ip.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.lhj_port.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.lhj_type_name.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.lhj_ID.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PanelControl1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PanelControl1.ResumeLayout(False)
@@ -1356,25 +1544,21 @@ Partial Class frmHWParamSetting
         Me.tp_agv.ResumeLayout(False)
         CType(Me.PanelControl4, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PanelControl4.ResumeLayout(False)
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.dgvList_AGV, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PanelControl3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PanelControl3.ResumeLayout(False)
         Me.PanelControl3.PerformLayout()
-        CType(Me.CheckEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ComboBoxEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit3.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit4.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit5.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.agv_deleted.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.agv_status.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.agv_ip.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.agv_port.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.agv_id.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
     Friend WithEvents tabWorkshop As DevExpress.XtraTab.XtraTabControl
     Friend WithEvents tp_jp As DevExpress.XtraTab.XtraTabPage
-    Friend WithEvents GroupControl4 As DevExpress.XtraEditors.GroupControl
     Friend WithEvents LabelControl1 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents GroupControl5 As DevExpress.XtraEditors.GroupControl
-    Friend WithEvents LabelControl9 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents jp_dzc_id As DevExpress.XtraEditors.TextEdit
     Friend WithEvents GroupControl6 As DevExpress.XtraEditors.GroupControl
     Friend WithEvents jp_yjb_port As DevExpress.XtraEditors.TextEdit
     Friend WithEvents LabelControl15 As DevExpress.XtraEditors.LabelControl
@@ -1419,9 +1603,6 @@ Partial Class frmHWParamSetting
     Friend WithEvents GroupControl7 As DevExpress.XtraEditors.GroupControl
     Friend WithEvents LabelControl8 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents jp_bhjdzc_id As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents GroupControl11 As DevExpress.XtraEditors.GroupControl
-    Friend WithEvents LabelControl25 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents TextEdit1 As DevExpress.XtraEditors.TextEdit
     Friend WithEvents tp_agv As DevExpress.XtraTab.XtraTabPage
     Friend WithEvents PanelControl1 As DevExpress.XtraEditors.PanelControl
     Friend WithEvents dgvList_lhj As DataGridView
@@ -1440,41 +1621,64 @@ Partial Class frmHWParamSetting
     Friend WithEvents LabelControl19 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents LabelControl18 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents PanelControl3 As DevExpress.XtraEditors.PanelControl
-    Friend WithEvents CheckEdit1 As DevExpress.XtraEditors.CheckEdit
-    Friend WithEvents ComboBoxEdit1 As DevExpress.XtraEditors.ComboBoxEdit
-    Friend WithEvents TextEdit3 As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents TextEdit4 As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents SimpleButton1 As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents SimpleButton2 As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents SimpleButton3 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents agv_deleted As DevExpress.XtraEditors.CheckEdit
+    Friend WithEvents agv_status As DevExpress.XtraEditors.ComboBoxEdit
+    Friend WithEvents agv_ip As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents agv_port As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents btnDelete_AGV As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents btnUpdate_AGV As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents btnAdd_AGV As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents LabelControl27 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents LabelControl28 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents TextEdit5 As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents agv_id As DevExpress.XtraEditors.TextEdit
     Friend WithEvents LabelControl29 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents LabelControl30 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents PanelControl4 As DevExpress.XtraEditors.PanelControl
-    Friend WithEvents DataGridView1 As DataGridView
-    Friend WithEvents DataGridViewTextBoxColumn1 As DataGridViewTextBoxColumn
-    Friend WithEvents DataGridViewTextBoxColumn2 As DataGridViewTextBoxColumn
-    Friend WithEvents DataGridViewTextBoxColumn3 As DataGridViewTextBoxColumn
-    Friend WithEvents DataGridViewTextBoxColumn4 As DataGridViewTextBoxColumn
-    Friend WithEvents DataGridViewCheckBoxColumn1 As DataGridViewCheckBoxColumn
-    Friend WithEvents DataGridViewTextBoxColumn5 As DataGridViewTextBoxColumn
+    Friend WithEvents dgvList_AGV As DataGridView
+    Friend WithEvents LabelControl21 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents lhj_type_name As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents LabelControl37 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents LabelControl36 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents jp_bhjdzc_port As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents jp_bhjdzc_ip As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents LabelControl32 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents LabelControl31 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents jp_dpdzc_ip As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents jp_dpdzc_port As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents LabelControl9 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents jp_dzc_id As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents jp_dzc_ip As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents LabelControl34 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents LabelControl33 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents jp_dzc_port As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents LabelControl35 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents gjb_dzc_port As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents LabelControl26 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents gjb_dzc_ip As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents LabelControl25 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents btnClear_AGV As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents colagv_id As DataGridViewTextBoxColumn
+    Friend WithEvents colagv_ip As DataGridViewTextBoxColumn
+    Friend WithEvents colagv_port As DataGridViewTextBoxColumn
+    Friend WithEvents colagv_status_name As DataGridViewTextBoxColumn
+    Friend WithEvents colagv_deleted As DataGridViewCheckBoxColumn
     Friend WithEvents DataGridViewTextBoxColumn6 As DataGridViewTextBoxColumn
+    Friend WithEvents colagv_type_name As DataGridViewTextBoxColumn
     Friend WithEvents DataGridViewTextBoxColumn7 As DataGridViewTextBoxColumn
     Friend WithEvents DataGridViewTextBoxColumn8 As DataGridViewTextBoxColumn
     Friend WithEvents DataGridViewTextBoxColumn9 As DataGridViewTextBoxColumn
     Friend WithEvents DataGridViewTextBoxColumn10 As DataGridViewTextBoxColumn
     Friend WithEvents DataGridViewTextBoxColumn11 As DataGridViewTextBoxColumn
     Friend WithEvents collh_id As DataGridViewTextBoxColumn
+    Friend WithEvents collh_type_name As DataGridViewTextBoxColumn
     Friend WithEvents collh_ip As DataGridViewTextBoxColumn
     Friend WithEvents collh_port As DataGridViewTextBoxColumn
     Friend WithEvents collh_status_name As DataGridViewTextBoxColumn
     Friend WithEvents collh_deleted As DataGridViewCheckBoxColumn
-    Friend WithEvents collh_scbh As DataGridViewTextBoxColumn
     Friend WithEvents collh_factoryid As DataGridViewTextBoxColumn
     Friend WithEvents collh_workshop_id As DataGridViewTextBoxColumn
-    Friend WithEvents colequip_type_id As DataGridViewTextBoxColumn
+    Friend WithEvents collh_equip_type_id As DataGridViewTextBoxColumn
+    Friend WithEvents collh_production_no As DataGridViewTextBoxColumn
     Friend WithEvents collh_com As DataGridViewTextBoxColumn
     Friend WithEvents collh_status As DataGridViewTextBoxColumn
     Friend WithEvents collh_update_time As DataGridViewTextBoxColumn

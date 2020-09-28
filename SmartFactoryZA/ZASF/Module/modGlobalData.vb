@@ -28,6 +28,7 @@
     Public g_ws_jp As String = "JP"   '胶片
     Public g_ws_lh As String = "LH"   '硫化
 
+
     '设备类型
     Public g_equipType_jxb As String = "JXB"  '机械臂
     Public g_equipType_yjb As String = "YJB"  '运胶臂
@@ -37,6 +38,7 @@
     Public g_equipType_dpdzc As String = "DPDZC" '端片电子秤
     Public g_equipType_bhjdzc As String = "BHJDZC" '保护胶电子秤
     Public g_equiptype_LHJ As String = "LHJ" '硫化机
+    Public g_equiptype_AGV As String = "AGV" 'AGV
 
     '保存MESSAGE
     Public htMsgMst As New Hashtable

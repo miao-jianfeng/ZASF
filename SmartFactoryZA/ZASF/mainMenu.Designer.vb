@@ -227,7 +227,7 @@ Partial Class mainMenu
         '
         'SimpleButton4
         '
-        Me.SimpleButton4.Location = New System.Drawing.Point(829, 63)
+        Me.SimpleButton4.Location = New System.Drawing.Point(803, 63)
         Me.SimpleButton4.Name = "SimpleButton4"
         Me.SimpleButton4.Size = New System.Drawing.Size(143, 34)
         Me.SimpleButton4.TabIndex = 3
@@ -235,7 +235,7 @@ Partial Class mainMenu
         '
         'SimpleButton2
         '
-        Me.SimpleButton2.Location = New System.Drawing.Point(628, 63)
+        Me.SimpleButton2.Location = New System.Drawing.Point(612, 63)
         Me.SimpleButton2.Name = "SimpleButton2"
         Me.SimpleButton2.Size = New System.Drawing.Size(169, 34)
         Me.SimpleButton2.TabIndex = 2
@@ -270,7 +270,7 @@ Partial Class mainMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 22.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1105, 611)
+        Me.ClientSize = New System.Drawing.Size(1081, 602)
         Me.Controls.Add(Me.GroupControl3)
         Me.Controls.Add(Me.GroupControl2)
         Me.Controls.Add(Me.胶片车间)
