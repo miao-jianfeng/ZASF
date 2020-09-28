@@ -141,7 +141,6 @@ Partial Class frmHWParamSetting
         Me.collh_factoryid = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.collh_workshop_id = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.collh_equip_type_id = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.collh_production_no = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.collh_com = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.collh_status = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.collh_update_time = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -1030,7 +1029,7 @@ Partial Class frmHWParamSetting
         Me.dgvList_lhj.AllowUserToDeleteRows = False
         Me.dgvList_lhj.AllowUserToOrderColumns = True
         Me.dgvList_lhj.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvList_lhj.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.collh_id, Me.collh_type_name, Me.collh_ip, Me.collh_port, Me.collh_status_name, Me.collh_deleted, Me.collh_factoryid, Me.collh_workshop_id, Me.collh_equip_type_id, Me.collh_production_no, Me.collh_com, Me.collh_status, Me.collh_update_time})
+        Me.dgvList_lhj.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.collh_id, Me.collh_type_name, Me.collh_ip, Me.collh_port, Me.collh_status_name, Me.collh_deleted, Me.collh_factoryid, Me.collh_workshop_id, Me.collh_equip_type_id, Me.collh_com, Me.collh_status, Me.collh_update_time})
         Me.dgvList_lhj.Dock = System.Windows.Forms.DockStyle.Fill
         Me.dgvList_lhj.Location = New System.Drawing.Point(2, 2)
         Me.dgvList_lhj.Name = "dgvList_lhj"
@@ -1434,15 +1433,6 @@ Partial Class frmHWParamSetting
         Me.collh_equip_type_id.Visible = False
         Me.collh_equip_type_id.Width = 150
         '
-        'collh_production_no
-        '
-        Me.collh_production_no.DataPropertyName = "production_no"
-        Me.collh_production_no.HeaderText = "production_no"
-        Me.collh_production_no.MinimumWidth = 8
-        Me.collh_production_no.Name = "collh_production_no"
-        Me.collh_production_no.Visible = False
-        Me.collh_production_no.Width = 150
-        '
         'collh_com
         '
         Me.collh_com.DataPropertyName = "com"
@@ -1678,7 +1668,6 @@ Partial Class frmHWParamSetting
     Friend WithEvents collh_factoryid As DataGridViewTextBoxColumn
     Friend WithEvents collh_workshop_id As DataGridViewTextBoxColumn
     Friend WithEvents collh_equip_type_id As DataGridViewTextBoxColumn
-    Friend WithEvents collh_production_no As DataGridViewTextBoxColumn
     Friend WithEvents collh_com As DataGridViewTextBoxColumn
     Friend WithEvents collh_status As DataGridViewTextBoxColumn
     Friend WithEvents collh_update_time As DataGridViewTextBoxColumn

@@ -204,8 +204,8 @@
                 szSql &= "insert into sf.t_hw_setting(factory_id,workshop_id,equip_type_id,type_name,"
                 szSql &= "equip_id,ip,port,com,status,deleted,update_time) "
                 szSql &= " values (?,?,?,?,?,?,?,?,?,?,?)"
-                rtn = DBacs.ExecuteUpdateSql(szSql, -1， g_factory_id, g_ws_lh, type,
-                                                 newlh.id_text, newlh.type_name_text, newlh.ip_text， newlh.port_text,
+                rtn = DBacs.ExecuteUpdateSql(szSql, -1， g_factory_id, g_ws_lh, type, newlh.type_name_text,
+                                                 newlh.id_text, newlh.ip_text， newlh.port_text,
                                                  DBNull.Value, newlh.status_text, newlh.deleted_text, Now())
 
 

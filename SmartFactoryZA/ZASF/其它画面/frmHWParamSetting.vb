@@ -353,7 +353,7 @@
             .id_text = agv_id.Text
             .ip_text = agv_ip.Text
             .port_text = agv_port.Text
-            '.scbh_text = agv_scbh.Text
+            .type_name_text = ""
             .status_text = getStatusNoByText(agv_status.Text)
             .deleted_text = agv_deleted.Checked
         End With
