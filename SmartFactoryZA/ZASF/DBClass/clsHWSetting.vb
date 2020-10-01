@@ -79,8 +79,8 @@
             DBacs.BeginTransaction()
             Try
                 szSql &= "insert into sf.t_hw_setting(factory_id,workshop_id,equip_type_id,"
-                szSql &= "equip_id,ip,port,com,status,deleted,production_no,update_time) "
-                szSql &= " values (?,?,?,?,?,?,?,'0',False,null,?)"
+                szSql &= "equip_id,ip,port,com,status,deleted,update_time) "
+                szSql &= " values (?,?,?,?,?,?,?,'0',False,?)"
                 '机械臂
                 rtn = DBacs.ExecuteUpdateSql(szSql, -1， g_factory_id, g_ws_gjb, g_equipType_jxb, newgjb.jxb_ID_text, newgjb.jxb_ip_text， newgjb.jxb_port_text, DBNull.Value, Now())
                 '电子秤
@@ -137,8 +137,8 @@
             DBacs.BeginTransaction()
             Try
                 szSql &= "insert into sf.t_hw_setting(factory_id,workshop_id,equip_type_id,"
-                szSql &= "equip_id,ip,port,com,status,deleted,production_no,update_time) "
-                szSql &= " values (?,?,?,?,?,?,?,'0',False,null,?)"
+                szSql &= "equip_id,ip,port,com,status,deleted,update_time) "
+                szSql &= " values (?,?,?,?,?,?,?,'0',False,?)"
                 '运胶臂
                 rtn = DBacs.ExecuteUpdateSql(szSql, -1， g_factory_id, g_ws_jp, g_equipType_yjb, newjp.yjb_id_text, newjp.yjb_ip_text， newjp.yjb_port_text, DBNull.Value, Now())
                 '运板臂
